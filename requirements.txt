@@ -1,0 +1,36 @@
+# ─────────────────────────────────────────────────────────────
+#  AI Sales Analytics — Requirements
+#  Install all: pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────
+
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Dashboard (interactive HTML charts — replaces Power BI)
+plotly>=5.18.0
+
+# PDF report generation
+reportlab>=4.0.0
+
+# Folder watching (auto-trigger on CSV drop)
+watchdog>=4.0.0
+
+# Email
+yagmail>=0.15.0           # optional — OR use built-in smtplib (already used)
+
+# MCP Server (Model Context Protocol)
+mcp>=1.0.0
+
+# AI Providers (all OpenAI-compatible)
+openai>=1.30.0            # used for NVIDIA NIM + DeepSeek (same library, different base_url)
+groq>=0.9.0               # Groq client
+
+# Utilities
+python-dotenv>=1.0.0      # Load .env file for keys (optional but recommended)
+requests>=2.31.0          # HTTP requests
+
+# ─────────────────────────────────────────────────────────────
+#  INSTALL COMMAND:
+#  pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────

@@ -1,0 +1,1201 @@
+Order_ID,Order_Date,Customer_Name,Product_Name,Category,Region,City,Quantity,Sales,Discount,Profit,Payment_Mode,Ship_Mode
+ORD-10001,2024-04-24,Kavya Nair,Laptop Pro X,Technology,East,Bhubaneswar,2,89020.01,0.15,22945.82,Net Banking,Standard
+ORD-10002,2025-03-08,Rahul Joshi,Wireless Mouse,Technology,North,Delhi,2,2307.5,0.0,495.42,Net Banking,Economy
+ORD-10003,2024-08-13,Rajesh Kumar,Water Bottle,Sports,Central,Raipur,2,1498.14,0.0,219.76,UPI,Same Day
+ORD-10004,2024-04-14,Anita Das,Mechanical Keyboard,Technology,West,Mumbai,3,8897.88,0.2,804.62,Debit Card,Standard
+ORD-10005,2025-01-22,Manoj Rao,Mechanical Keyboard,Technology,Central,Raipur,3,13047.29,0.15,1261.58,UPI,Same Day
+ORD-10006,2024-03-22,Deepak Yadav,Microwave Oven,Appliances,South,Bangalore,3,20929.11,0.2,3506.88,Cash,Same Day
+ORD-10007,2024-08-02,Manoj Rao,Python Programming,Books,East,Kolkata,2,1180.73,0.0,140.76,Debit Card,Same Day
+ORD-10008,2024-08-12,Kavya Nair,Python Programming,Books,East,Kolkata,1,676.66,0.05,97.61,UPI,Same Day
+ORD-10009,2024-08-05,Kiran Bose,Novel - Bestseller,Books,West,Surat,2,611.9,0.0,158.36,Net Banking,Same Day
+ORD-10010,2025-03-14,Kavya Nair,Formal Shirt,Clothing,West,Ahmedabad,2,4528.58,0.0,1183.72,Credit Card,Express
+ORD-10011,2024-06-12,Amit Sharma,Air Fryer,Appliances,West,Nagpur,4,22175.54,0.05,4590.06,Net Banking,Standard
+ORD-10012,2024-04-27,Suresh Menon,Python Programming,Books,Central,Raipur,1,482.08,0.0,91.06,Cash,Express
+ORD-10013,2025-06-03,Manoj Rao,USB-C Hub,Technology,East,Ranchi,2,2164.54,0.2,257.09,Net Banking,Standard
+ORD-10014,2024-11-27,Anita Das,Dumbbell Set,Sports,North,Delhi,3,18219.95,0.0,5296.95,Credit Card,Standard
+ORD-10015,2025-05-12,Vikram Gupta,Coffee Maker,Appliances,North,Lucknow,2,8246.39,0.1,986.52,Net Banking,Economy
+ORD-10016,2024-08-04,Deepak Yadav,Jeans,Clothing,South,Hyderabad,3,4777.73,0.1,899.92,UPI,Express
+ORD-10017,2024-03-06,Sanjay Tiwari,Whiteboard,Office Supplies,North,Lucknow,2,7353.76,0.0,713.6,Credit Card,Express
+ORD-10018,2024-03-10,Anjali Pillai,Wireless Mouse,Technology,East,Kolkata,2,1890.37,0.05,248.43,UPI,Economy
+ORD-10019,2024-09-05,Rahul Joshi,Air Fryer,Appliances,West,Surat,1,4597.29,0.05,758.7,Debit Card,Economy
+ORD-10020,2024-02-25,Deepak Yadav,Python Programming,Books,North,Delhi,3,2130.8,0.0,297.62,UPI,Economy
+ORD-10021,2024-05-23,Kiran Bose,Yoga Mat,Sports,South,Hyderabad,2,3348.97,0.0,624.09,Net Banking,Standard
+ORD-10022,2024-02-21,Amit Sharma,Novel - Bestseller,Books,Central,Bhopal,2,506.4,0.05,99.01,Debit Card,Standard
+ORD-10023,2024-06-17,Arjun Reddy,Running Shoes,Sports,North,Jaipur,4,10924.62,0.15,3383.97,Net Banking,Economy
+ORD-10024,2024-06-07,Priya Singh,Standing Desk,Furniture,East,Bhubaneswar,5,96786.86,0.0,25117.56,Credit Card,Standard
+ORD-10025,2025-05-03,Priya Singh,T-Shirt,Clothing,Central,Indore,5,2200.28,0.0,212.21,Credit Card,Express
+ORD-10026,2025-02-17,Divya Pandey,USB-C Hub,Technology,Central,Indore,5,6198.71,0.0,1119.57,Net Banking,Same Day
+ORD-10027,2024-09-24,Arjun Reddy,Standing Desk,Furniture,East,Bhubaneswar,4,45249.86,0.15,6877.95,Cash,Standard
+ORD-10028,2024-01-10,Sunita Patel,Water Bottle,Sports,Central,Gwalior,1,842.71,0.1,121.05,Cash,Standard
+ORD-10029,2024-09-07,Kiran Bose,Stapler,Office Supplies,East,Bhubaneswar,5,2616.37,0.1,827.1,Net Banking,Standard
+ORD-10030,2024-11-02,Arjun Reddy,Python Programming,Books,North,Chandigarh,1,892.94,0.15,189.99,Cash,Same Day
+ORD-10031,2024-08-03,Arjun Reddy,Self Help Book,Books,East,Bhubaneswar,5,1586.24,0.2,146.24,Debit Card,Same Day
+ORD-10032,2024-02-15,Arjun Reddy,Laptop Pro X,Technology,East,Bhubaneswar,2,94342.16,0.1,23525.18,Net Banking,Standard
+ORD-10033,2024-04-24,Priya Singh,Mechanical Keyboard,Technology,South,Coimbatore,3,10995.06,0.0,2013.73,Credit Card,Same Day
+ORD-10034,2025-01-08,Rahul Joshi,Air Fryer,Appliances,North,Amritsar,2,19135.95,0.0,5113.66,Debit Card,Express
+ORD-10035,2024-08-30,Pooja Mishra,Microwave Oven,Appliances,South,Chennai,1,7076.16,0.0,1894.8,Debit Card,Express
+ORD-10036,2024-09-30,Priya Singh,Office Chair,Furniture,North,Jaipur,4,30582.52,0.2,9187.86,Cash,Same Day
+ORD-10037,2024-08-21,Deepak Yadav,Bookshelf,Furniture,North,Chandigarh,3,15343.24,0.0,4787.91,Cash,Same Day
+ORD-10038,2025-06-05,Rajesh Kumar,Running Shoes,Sports,Central,Raipur,1,4692.6,0.0,576.52,Cash,Standard
+ORD-10039,2024-04-21,Suresh Menon,Winter Jacket,Clothing,West,Ahmedabad,4,18438.23,0.1,1986.81,Net Banking,Express
+ORD-10040,2024-09-17,Anjali Pillai,Wireless Mouse,Technology,West,Mumbai,5,5443.4,0.15,1398.35,UPI,Same Day
+ORD-10041,2025-03-17,Suresh Menon,Mechanical Keyboard,Technology,East,Ranchi,1,3939.51,0.0,794.64,Debit Card,Same Day
+ORD-10042,2025-02-16,Vikram Gupta,Self Help Book,Books,East,Ranchi,2,714.65,0.05,173.34,UPI,Same Day
+ORD-10043,2025-02-19,Meera Iyer,Jeans,Clothing,North,Amritsar,2,3165.94,0.1,714.23,Cash,Economy
+ORD-10044,2025-03-28,Rohit Shah,Water Bottle,Sports,South,Coimbatore,2,1458.85,0.0,297.18,Net Banking,Same Day
+ORD-10045,2024-04-05,Kavya Nair,Coffee Maker,Appliances,South,Hyderabad,2,6395.71,0.0,887.48,Debit Card,Standard
+ORD-10046,2025-04-11,Deepak Yadav,Yoga Mat,Sports,Central,Indore,4,4798.61,0.0,1139.45,Credit Card,Standard
+ORD-10047,2025-03-11,Kiran Bose,Bookshelf,Furniture,South,Coimbatore,1,4983.7,0.2,543.85,UPI,Economy
+ORD-10048,2024-11-20,Anjali Pillai,Blender,Appliances,West,Nagpur,4,28105.17,0.1,5256.21,UPI,Economy
+ORD-10049,2025-04-05,Anjali Pillai,Notebook A4,Office Supplies,South,Hyderabad,4,1226.75,0.0,227.65,Cash,Express
+ORD-10050,2024-10-05,Amit Sharma,Whiteboard,Office Supplies,East,Ranchi,2,7452.42,0.05,1837.38,UPI,Standard
+ORD-10051,2025-02-28,Kiran Bose,Yoga Mat,Sports,East,Ranchi,4,2759.25,0.2,498.97,Net Banking,Standard
+ORD-10052,2025-01-24,Meera Iyer,Dumbbell Set,Sports,North,Amritsar,4,29062.06,0.2,5247.59,Net Banking,Express
+ORD-10053,2025-05-14,Rohit Shah,Bookshelf,Furniture,East,Guwahati,1,4722.11,0.15,1147.44,Debit Card,Express
+ORD-10054,2025-04-23,Rajesh Kumar,Monitor 27inch,Technology,Central,Gwalior,4,75287.05,0.15,6512.67,Debit Card,Express
+ORD-10055,2025-04-17,Deepak Yadav,Office Chair,Furniture,North,Amritsar,3,28444.87,0.0,4579.63,Debit Card,Same Day
+ORD-10056,2025-03-07,Rajesh Kumar,Notebook A4,Office Supplies,North,Jaipur,5,815.11,0.0,109.07,Credit Card,Standard
+ORD-10057,2024-02-01,Manoj Rao,Bookshelf,Furniture,South,Bangalore,2,9412.94,0.05,2265.41,Net Banking,Express
+ORD-10058,2025-04-21,Neha Verma,Self Help Book,Books,East,Patna,5,1836.74,0.15,463.6,UPI,Same Day
+ORD-10059,2024-04-20,Divya Pandey,Formal Shirt,Clothing,North,Amritsar,4,7122.94,0.15,908.88,Net Banking,Express
+ORD-10060,2024-04-14,Sunita Patel,Self Help Book,Books,East,Ranchi,5,2423.95,0.0,503.84,Cash,Standard
+ORD-10061,2025-06-02,Pooja Mishra,Novel - Bestseller,Books,East,Kolkata,4,968.86,0.0,225.3,Debit Card,Express
+ORD-10062,2025-03-21,Manoj Rao,Office Chair,Furniture,Central,Raipur,5,63756.83,0.05,11765.55,Net Banking,Same Day
+ORD-10063,2024-11-26,Arjun Reddy,Microwave Oven,Appliances,South,Bangalore,4,39704.12,0.05,8606.42,Debit Card,Same Day
+ORD-10064,2024-01-30,Rohit Shah,Dumbbell Set,Sports,East,Bhubaneswar,2,13277.28,0.0,2146.69,Net Banking,Same Day
+ORD-10065,2024-01-11,Kavya Nair,T-Shirt,Clothing,South,Bangalore,4,2886.41,0.2,397.39,Debit Card,Economy
+ORD-10066,2025-04-03,Meera Iyer,Air Fryer,Appliances,North,Delhi,2,11830.81,0.0,1815.9,Net Banking,Same Day
+ORD-10067,2025-04-29,Pooja Mishra,Jeans,Clothing,Central,Raipur,5,6927.62,0.15,1308.62,Cash,Same Day
+ORD-10068,2024-08-24,Sunita Patel,USB-C Hub,Technology,South,Hyderabad,5,9141.23,0.15,1137.5,UPI,Economy
+ORD-10069,2024-10-10,Manoj Rao,Cookbook,Books,Central,Gwalior,3,2325.81,0.2,294.42,UPI,Same Day
+ORD-10070,2024-07-02,Vikram Gupta,Ballpoint Pen Set,Office Supplies,North,Lucknow,3,256.39,0.0,54.56,UPI,Economy
+ORD-10071,2024-04-15,Meera Iyer,Microwave Oven,Appliances,North,Lucknow,4,35489.14,0.0,4409.43,Credit Card,Same Day
+ORD-10072,2025-05-04,Rohit Shah,USB-C Hub,Technology,North,Jaipur,1,1510.47,0.15,140.27,UPI,Same Day
+ORD-10073,2024-03-28,Pooja Mishra,Bookshelf,Furniture,North,Lucknow,5,28730.28,0.1,3854.6,Net Banking,Economy
+ORD-10074,2025-04-06,Pooja Mishra,Water Bottle,Sports,East,Ranchi,3,2052.94,0.0,464.6,Credit Card,Express
+ORD-10075,2024-08-04,Kavya Nair,Notebook A4,Office Supplies,North,Chandigarh,2,576.0,0.0,46.45,Debit Card,Economy
+ORD-10076,2024-10-25,Meera Iyer,Wireless Mouse,Technology,South,Hyderabad,4,4759.02,0.0,1435.98,Net Banking,Express
+ORD-10077,2025-03-11,Vikram Gupta,USB-C Hub,Technology,Central,Indore,3,6079.89,0.0,573.41,Cash,Same Day
+ORD-10078,2025-03-25,Deepak Yadav,USB-C Hub,Technology,West,Ahmedabad,3,4846.35,0.05,896.88,Net Banking,Standard
+ORD-10079,2025-03-18,Arjun Reddy,Cookbook,Books,East,Ranchi,1,286.05,0.15,80.27,Net Banking,Standard
+ORD-10080,2024-10-02,Rohit Shah,Formal Shirt,Clothing,North,Chandigarh,5,17340.85,0.0,2142.59,Net Banking,Economy
+ORD-10081,2025-05-18,Pooja Mishra,Mechanical Keyboard,Technology,West,Ahmedabad,3,9426.35,0.0,2694.58,Cash,Economy
+ORD-10082,2025-05-22,Priya Singh,Ballpoint Pen Set,Office Supplies,West,Nagpur,4,362.27,0.0,57.09,Debit Card,Standard
+ORD-10083,2025-04-18,Anjali Pillai,Yoga Mat,Sports,North,Chandigarh,3,4054.51,0.05,932.94,Credit Card,Express
+ORD-10084,2024-09-30,Kiran Bose,Jeans,Clothing,South,Hyderabad,4,4616.7,0.15,1043.97,UPI,Express
+ORD-10085,2024-11-14,Pooja Mishra,Jeans,Clothing,North,Lucknow,1,1671.16,0.2,499.85,Debit Card,Standard
+ORD-10086,2024-06-06,Arjun Reddy,Dumbbell Set,Sports,East,Ranchi,4,24401.83,0.05,3379.54,Net Banking,Express
+ORD-10087,2025-01-27,Vikram Gupta,Standing Desk,Furniture,Central,Gwalior,1,16533.97,0.2,4713.16,Cash,Same Day
+ORD-10088,2024-01-03,Divya Pandey,Ballpoint Pen Set,Office Supplies,East,Ranchi,4,977.98,0.05,204.65,Cash,Same Day
+ORD-10089,2025-01-21,Kavya Nair,Water Bottle,Sports,East,Bhubaneswar,5,3312.32,0.2,881.51,Credit Card,Same Day
+ORD-10090,2025-04-29,Vikram Gupta,Self Help Book,Books,West,Surat,4,2157.79,0.0,432.74,Net Banking,Same Day
+ORD-10091,2024-04-12,Anjali Pillai,Microwave Oven,Appliances,West,Mumbai,4,24368.34,0.0,4347.19,UPI,Standard
+ORD-10092,2025-04-25,Manoj Rao,Air Fryer,Appliances,East,Patna,4,21678.17,0.2,3443.7,Net Banking,Economy
+ORD-10093,2024-11-20,Priya Singh,Novel - Bestseller,Books,West,Nagpur,5,1352.84,0.15,330.44,Cash,Express
+ORD-10094,2024-04-02,Kiran Bose,Yoga Mat,Sports,North,Delhi,2,2988.0,0.0,272.02,Credit Card,Same Day
+ORD-10095,2025-01-02,Kavya Nair,Stapler,Office Supplies,West,Pune,5,2765.68,0.15,747.3,UPI,Express
+ORD-10096,2024-03-21,Kavya Nair,Winter Jacket,Clothing,West,Nagpur,4,24779.61,0.0,3363.22,Cash,Economy
+ORD-10097,2024-09-18,Meera Iyer,Python Programming,Books,North,Jaipur,5,2000.17,0.05,613.77,Net Banking,Same Day
+ORD-10098,2025-03-10,Meera Iyer,Self Help Book,Books,East,Guwahati,2,879.7,0.2,172.39,UPI,Economy
+ORD-10099,2025-01-02,Rajesh Kumar,Formal Shirt,Clothing,East,Patna,4,9635.07,0.1,2771.2,Credit Card,Economy
+ORD-10100,2024-10-20,Anita Das,Blender,Appliances,South,Coimbatore,2,12830.69,0.1,1798.23,UPI,Standard
+ORD-10101,2024-02-10,Divya Pandey,Ballpoint Pen Set,Office Supplies,West,Mumbai,3,503.65,0.0,150.24,Cash,Economy
+ORD-10102,2024-06-28,Anita Das,Standing Desk,Furniture,South,Coimbatore,5,85089.74,0.0,23766.71,Cash,Economy
+ORD-10103,2024-10-29,Kiran Bose,Cookbook,Books,East,Kolkata,1,498.82,0.0,142.88,Debit Card,Same Day
+ORD-10104,2024-04-02,Arjun Reddy,Air Fryer,Appliances,West,Mumbai,5,24662.8,0.0,5955.54,Cash,Economy
+ORD-10105,2025-01-15,Rajesh Kumar,USB-C Hub,Technology,South,Kochi,5,13130.68,0.1,2084.12,Net Banking,Express
+ORD-10106,2024-03-05,Pooja Mishra,Novel - Bestseller,Books,West,Ahmedabad,1,255.91,0.0,39.17,Debit Card,Standard
+ORD-10107,2024-04-09,Deepak Yadav,Bookshelf,Furniture,Central,Indore,4,18645.76,0.15,4608.41,Net Banking,Economy
+ORD-10108,2024-06-07,Manoj Rao,Yoga Mat,Sports,North,Jaipur,4,6956.21,0.0,611.12,Cash,Express
+ORD-10109,2025-03-30,Sunita Patel,Water Bottle,Sports,South,Hyderabad,3,1714.19,0.15,284.7,Debit Card,Same Day
+ORD-10110,2024-07-13,Rahul Joshi,USB-C Hub,Technology,West,Mumbai,5,10855.47,0.0,2918.28,UPI,Express
+ORD-10111,2024-07-29,Divya Pandey,Mechanical Keyboard,Technology,Central,Indore,2,8252.21,0.0,1310.9,UPI,Standard
+ORD-10112,2024-10-10,Sanjay Tiwari,Microwave Oven,Appliances,South,Chennai,3,45322.55,0.0,10816.4,Credit Card,Express
+ORD-10113,2024-01-16,Suresh Menon,Stapler,Office Supplies,South,Coimbatore,1,517.58,0.0,57.15,Debit Card,Standard
+ORD-10114,2024-03-06,Anjali Pillai,Dumbbell Set,Sports,West,Ahmedabad,5,17467.6,0.1,2326.19,Net Banking,Standard
+ORD-10115,2025-06-17,Priya Singh,Ballpoint Pen Set,Office Supplies,West,Mumbai,4,690.37,0.05,168.91,Debit Card,Economy
+ORD-10116,2024-03-16,Vikram Gupta,Mechanical Keyboard,Technology,East,Ranchi,1,2477.14,0.1,574.54,Net Banking,Same Day
+ORD-10117,2025-01-25,Kiran Bose,Winter Jacket,Clothing,Central,Raipur,5,35832.96,0.0,9687.19,Credit Card,Express
+ORD-10118,2025-03-16,Suresh Menon,Water Bottle,Sports,South,Kochi,4,2037.84,0.15,209.53,Debit Card,Same Day
+ORD-10119,2024-09-18,Amit Sharma,Stapler,Office Supplies,South,Kochi,1,632.71,0.0,116.2,Cash,Express
+ORD-10120,2024-03-02,Suresh Menon,Formal Shirt,Clothing,Central,Gwalior,1,1692.97,0.2,405.77,Debit Card,Standard
+ORD-10121,2024-10-21,Sunita Patel,Winter Jacket,Clothing,East,Patna,5,33431.61,0.0,7943.91,UPI,Standard
+ORD-10122,2024-12-24,Sunita Patel,Microwave Oven,Appliances,Central,Raipur,3,31733.86,0.2,5806.88,Net Banking,Standard
+ORD-10123,2024-09-30,Meera Iyer,Laptop Pro X,Technology,South,Hyderabad,3,145530.7,0.0,42024.47,Net Banking,Economy
+ORD-10124,2024-03-12,Anjali Pillai,Monitor 27inch,Technology,North,Delhi,2,39203.39,0.05,6343.7,Cash,Same Day
+ORD-10125,2024-11-28,Amit Sharma,Blender,Appliances,Central,Gwalior,1,4355.62,0.2,994.31,Credit Card,Same Day
+ORD-10126,2025-03-29,Manoj Rao,Python Programming,Books,West,Surat,4,2145.53,0.0,560.38,Credit Card,Same Day
+ORD-10127,2025-03-16,Rohit Shah,USB-C Hub,Technology,East,Ranchi,5,9335.66,0.0,1240.94,Net Banking,Standard
+ORD-10128,2024-01-08,Vikram Gupta,Standing Desk,Furniture,East,Bhubaneswar,3,62556.78,0.0,5120.6,Debit Card,Express
+ORD-10129,2024-05-12,Anjali Pillai,Running Shoes,Sports,Central,Indore,5,18333.54,0.2,3025.04,Debit Card,Standard
+ORD-10130,2025-03-22,Suresh Menon,Laptop Pro X,Technology,West,Mumbai,5,234141.0,0.05,58600.75,Debit Card,Same Day
+ORD-10131,2024-04-27,Neha Verma,Running Shoes,Sports,North,Amritsar,5,15513.53,0.15,4665.61,Credit Card,Economy
+ORD-10132,2024-04-18,Deepak Yadav,Bookshelf,Furniture,West,Nagpur,5,17258.35,0.2,2665.83,Cash,Express
+ORD-10133,2024-12-07,Anjali Pillai,Blender,Appliances,South,Bangalore,1,6757.12,0.0,2009.71,Cash,Same Day
+ORD-10134,2024-05-31,Arjun Reddy,Bookshelf,Furniture,North,Chandigarh,2,9387.99,0.0,2463.89,Credit Card,Express
+ORD-10135,2025-05-20,Kiran Bose,Water Bottle,Sports,Central,Gwalior,5,3246.73,0.1,511.59,Cash,Express
+ORD-10136,2025-03-26,Meera Iyer,Mechanical Keyboard,Technology,West,Surat,3,11048.52,0.0,2229.16,Cash,Economy
+ORD-10137,2025-04-07,Meera Iyer,Wireless Mouse,Technology,North,Amritsar,1,1001.01,0.2,101.77,Net Banking,Economy
+ORD-10138,2025-04-18,Kiran Bose,Formal Shirt,Clothing,Central,Bhopal,5,12388.78,0.0,2789.97,Net Banking,Express
+ORD-10139,2024-03-04,Amit Sharma,Water Bottle,Sports,North,Amritsar,5,3615.32,0.0,504.19,Debit Card,Economy
+ORD-10140,2025-06-20,Anita Das,T-Shirt,Clothing,Central,Indore,3,2448.06,0.05,436.01,Cash,Standard
+ORD-10141,2024-12-08,Sanjay Tiwari,Mechanical Keyboard,Technology,East,Kolkata,4,14605.08,0.15,4153.33,Net Banking,Express
+ORD-10142,2024-12-07,Anita Das,Mechanical Keyboard,Technology,Central,Indore,3,15834.35,0.15,3783.02,UPI,Standard
+ORD-10143,2024-11-13,Vikram Gupta,Jeans,Clothing,West,Ahmedabad,5,7862.86,0.15,1428.03,Cash,Standard
+ORD-10144,2025-01-06,Suresh Menon,Ballpoint Pen Set,Office Supplies,South,Chennai,4,577.03,0.0,67.62,Cash,Standard
+ORD-10145,2025-06-03,Priya Singh,Blender,Appliances,Central,Gwalior,3,15365.65,0.1,1712.53,Debit Card,Express
+ORD-10146,2024-06-15,Kiran Bose,Office Chair,Furniture,Central,Indore,1,9244.61,0.15,2336.12,Debit Card,Same Day
+ORD-10147,2025-04-04,Meera Iyer,Bookshelf,Furniture,Central,Indore,4,30463.59,0.0,5126.47,Net Banking,Economy
+ORD-10148,2025-04-17,Anjali Pillai,Blender,Appliances,East,Guwahati,5,22733.26,0.0,6275.61,Net Banking,Express
+ORD-10149,2024-09-13,Sanjay Tiwari,Wireless Mouse,Technology,West,Ahmedabad,1,1168.18,0.1,332.09,Cash,Standard
+ORD-10150,2024-06-13,Vikram Gupta,Notebook A4,Office Supplies,West,Nagpur,4,691.71,0.0,190.92,Cash,Standard
+ORD-10151,2025-02-28,Anita Das,Wireless Mouse,Technology,West,Nagpur,2,2140.63,0.0,363.86,Credit Card,Same Day
+ORD-10152,2024-04-11,Vikram Gupta,Coffee Maker,Appliances,East,Bhubaneswar,1,2859.66,0.2,553.03,UPI,Economy
+ORD-10153,2025-04-04,Rajesh Kumar,Winter Jacket,Clothing,North,Delhi,3,11264.37,0.0,2384.81,Net Banking,Economy
+ORD-10154,2024-04-23,Meera Iyer,Blender,Appliances,East,Bhubaneswar,1,3438.4,0.05,802.35,Net Banking,Economy
+ORD-10155,2024-03-05,Sanjay Tiwari,USB-C Hub,Technology,West,Nagpur,1,1648.76,0.1,227.64,UPI,Same Day
+ORD-10156,2025-03-15,Kavya Nair,Laptop Pro X,Technology,Central,Raipur,5,208954.12,0.15,50226.63,Net Banking,Same Day
+ORD-10157,2024-03-10,Anjali Pillai,T-Shirt,Clothing,Central,Gwalior,5,1640.67,0.2,316.37,Debit Card,Same Day
+ORD-10158,2024-09-16,Amit Sharma,Cookbook,Books,North,Amritsar,3,1010.95,0.15,233.31,Net Banking,Same Day
+ORD-10159,2024-05-16,Suresh Menon,Wireless Mouse,Technology,East,Ranchi,2,2348.16,0.15,449.69,Debit Card,Express
+ORD-10160,2024-05-18,Meera Iyer,Mechanical Keyboard,Technology,West,Mumbai,2,5175.23,0.0,1514.22,Cash,Same Day
+ORD-10161,2025-06-11,Arjun Reddy,Running Shoes,Sports,Central,Jabalpur,1,4383.23,0.0,651.64,Credit Card,Same Day
+ORD-10162,2024-10-06,Deepak Yadav,USB-C Hub,Technology,East,Guwahati,4,11143.47,0.05,1798.21,UPI,Economy
+ORD-10163,2025-05-24,Amit Sharma,Stapler,Office Supplies,Central,Raipur,4,1193.65,0.1,380.56,UPI,Same Day
+ORD-10164,2024-11-24,Meera Iyer,USB-C Hub,Technology,North,Amritsar,3,5875.92,0.15,1070.99,Debit Card,Same Day
+ORD-10165,2025-04-02,Pooja Mishra,Wireless Mouse,Technology,East,Ranchi,3,2994.31,0.2,920.74,Credit Card,Economy
+ORD-10166,2025-01-07,Vikram Gupta,T-Shirt,Clothing,South,Bangalore,5,4914.65,0.05,434.22,Credit Card,Express
+ORD-10167,2025-01-10,Priya Singh,Stapler,Office Supplies,West,Nagpur,5,2403.15,0.05,739.49,Cash,Economy
+ORD-10168,2024-03-19,Anita Das,Formal Shirt,Clothing,South,Coimbatore,4,7886.31,0.0,1103.35,Credit Card,Standard
+ORD-10169,2024-07-09,Sanjay Tiwari,Dumbbell Set,Sports,Central,Jabalpur,1,4416.22,0.0,1099.5,UPI,Same Day
+ORD-10170,2025-05-17,Amit Sharma,Standing Desk,Furniture,North,Chandigarh,4,46670.32,0.15,8719.26,Credit Card,Same Day
+ORD-10171,2024-12-21,Sanjay Tiwari,Self Help Book,Books,North,Lucknow,3,1738.46,0.2,204.79,UPI,Same Day
+ORD-10172,2025-06-04,Vikram Gupta,Bookshelf,Furniture,North,Chandigarh,2,14322.98,0.0,2386.43,Net Banking,Same Day
+ORD-10173,2025-04-23,Manoj Rao,Air Fryer,Appliances,Central,Indore,1,4493.61,0.05,1437.52,Debit Card,Economy
+ORD-10174,2025-02-23,Vikram Gupta,Coffee Maker,Appliances,Central,Bhopal,3,12922.8,0.05,2478.59,Net Banking,Same Day
+ORD-10175,2024-05-11,Neha Verma,Coffee Maker,Appliances,Central,Gwalior,2,6348.91,0.2,592.35,Credit Card,Express
+ORD-10176,2024-11-07,Kavya Nair,Office Chair,Furniture,South,Hyderabad,3,55310.4,0.1,16304.52,Credit Card,Same Day
+ORD-10177,2024-07-20,Vikram Gupta,Novel - Bestseller,Books,Central,Raipur,3,1337.31,0.0,268.29,UPI,Express
+ORD-10178,2024-06-24,Suresh Menon,Python Programming,Books,Central,Gwalior,5,1474.15,0.2,127.97,Credit Card,Same Day
+ORD-10179,2024-08-03,Manoj Rao,Blender,Appliances,Central,Jabalpur,1,4033.33,0.15,850.78,Cash,Economy
+ORD-10180,2024-09-07,Kiran Bose,Air Fryer,Appliances,West,Ahmedabad,1,6910.15,0.0,1281.87,Debit Card,Economy
+ORD-10181,2024-07-27,Suresh Menon,Whiteboard,Office Supplies,Central,Indore,3,9524.16,0.2,1551.38,Debit Card,Express
+ORD-10182,2025-01-14,Suresh Menon,T-Shirt,Clothing,Central,Bhopal,2,1773.06,0.0,333.16,UPI,Standard
+ORD-10183,2024-02-21,Pooja Mishra,Ballpoint Pen Set,Office Supplies,West,Nagpur,2,391.04,0.0,107.63,Net Banking,Same Day
+ORD-10184,2024-07-13,Anjali Pillai,Blender,Appliances,South,Kochi,4,18987.6,0.0,3785.54,Credit Card,Economy
+ORD-10185,2025-06-01,Divya Pandey,Water Bottle,Sports,South,Chennai,3,1272.99,0.0,253.04,Debit Card,Same Day
+ORD-10186,2024-01-09,Vikram Gupta,Microwave Oven,Appliances,North,Jaipur,3,34826.56,0.2,6156.67,Credit Card,Economy
+ORD-10187,2024-02-22,Anita Das,Formal Shirt,Clothing,Central,Indore,5,9181.29,0.05,1845.64,Net Banking,Same Day
+ORD-10188,2024-05-01,Anita Das,Monitor 27inch,Technology,North,Jaipur,3,65714.47,0.0,17164.07,UPI,Economy
+ORD-10189,2025-05-27,Vikram Gupta,Wireless Mouse,Technology,North,Delhi,3,3679.5,0.1,697.92,Net Banking,Express
+ORD-10190,2024-12-01,Deepak Yadav,Winter Jacket,Clothing,East,Bhubaneswar,5,39113.32,0.0,8702.48,Net Banking,Economy
+ORD-10191,2024-11-02,Suresh Menon,Dumbbell Set,Sports,North,Amritsar,1,8731.35,0.1,1343.25,Credit Card,Economy
+ORD-10192,2024-09-28,Kavya Nair,Novel - Bestseller,Books,Central,Gwalior,1,433.41,0.0,89.2,Net Banking,Economy
+ORD-10193,2024-05-31,Divya Pandey,Coffee Maker,Appliances,South,Bangalore,1,3149.36,0.05,489.05,UPI,Economy
+ORD-10194,2024-07-27,Rohit Shah,Yoga Mat,Sports,Central,Gwalior,1,1355.2,0.1,175.85,Cash,Economy
+ORD-10195,2025-06-22,Kiran Bose,Running Shoes,Sports,East,Bhubaneswar,5,16779.09,0.0,4064.04,Cash,Economy
+ORD-10196,2024-07-15,Meera Iyer,Bookshelf,Furniture,East,Ranchi,2,15531.88,0.0,4117.22,UPI,Economy
+ORD-10197,2024-11-20,Arjun Reddy,Dumbbell Set,Sports,East,Ranchi,3,14017.82,0.15,2948.87,Debit Card,Same Day
+ORD-10198,2024-05-29,Amit Sharma,Ballpoint Pen Set,Office Supplies,North,Amritsar,3,486.75,0.15,68.9,Debit Card,Express
+ORD-10199,2024-07-25,Sanjay Tiwari,Coffee Maker,Appliances,Central,Raipur,3,8560.72,0.1,2207.07,UPI,Express
+ORD-10200,2024-02-21,Kavya Nair,Python Programming,Books,Central,Indore,1,395.09,0.0,99.63,Credit Card,Express
+ORD-10201,2024-01-06,Rohit Shah,Jeans,Clothing,South,Kochi,4,9164.74,0.2,2853.34,Cash,Same Day
+ORD-10202,2024-03-01,Kavya Nair,Blender,Appliances,North,Lucknow,5,21386.87,0.2,6518.73,UPI,Economy
+ORD-10203,2024-06-29,Neha Verma,Wireless Mouse,Technology,West,Surat,3,4241.16,0.0,643.02,Net Banking,Standard
+ORD-10204,2024-12-09,Anjali Pillai,Ballpoint Pen Set,Office Supplies,West,Nagpur,4,1045.58,0.0,297.21,Debit Card,Same Day
+ORD-10205,2024-07-16,Neha Verma,Air Fryer,Appliances,North,Amritsar,4,23014.6,0.15,2869.64,Cash,Same Day
+ORD-10206,2024-07-16,Pooja Mishra,Office Chair,Furniture,Central,Jabalpur,5,48903.56,0.05,11767.24,UPI,Express
+ORD-10207,2025-05-03,Arjun Reddy,Whiteboard,Office Supplies,South,Bangalore,4,9507.34,0.2,1369.8,Cash,Same Day
+ORD-10208,2024-01-12,Priya Singh,Notebook A4,Office Supplies,East,Bhubaneswar,1,372.89,0.0,66.11,Net Banking,Same Day
+ORD-10209,2024-04-30,Manoj Rao,Novel - Bestseller,Books,East,Patna,2,575.3,0.0,112.05,Debit Card,Same Day
+ORD-10210,2025-03-01,Sanjay Tiwari,Self Help Book,Books,Central,Jabalpur,2,813.55,0.15,212.45,Credit Card,Economy
+ORD-10211,2025-06-24,Divya Pandey,Self Help Book,Books,East,Kolkata,1,241.67,0.1,71.7,UPI,Express
+ORD-10212,2024-06-17,Sunita Patel,Whiteboard,Office Supplies,Central,Jabalpur,2,7474.29,0.05,761.08,Net Banking,Economy
+ORD-10213,2024-02-26,Pooja Mishra,Water Bottle,Sports,South,Coimbatore,4,2455.04,0.1,468.84,Cash,Standard
+ORD-10214,2025-02-09,Divya Pandey,Notebook A4,Office Supplies,North,Chandigarh,1,161.32,0.0,40.02,Net Banking,Standard
+ORD-10215,2024-03-11,Pooja Mishra,Dumbbell Set,Sports,North,Amritsar,2,9906.24,0.2,2317.72,Debit Card,Same Day
+ORD-10216,2025-01-26,Amit Sharma,Water Bottle,Sports,West,Surat,5,2612.37,0.2,427.03,UPI,Economy
+ORD-10217,2024-05-10,Rajesh Kumar,Cookbook,Books,South,Bangalore,3,1237.26,0.15,260.65,Net Banking,Economy
+ORD-10218,2024-08-23,Vikram Gupta,Bookshelf,Furniture,West,Ahmedabad,3,12122.5,0.15,3196.92,Credit Card,Economy
+ORD-10219,2024-01-17,Sunita Patel,Bookshelf,Furniture,South,Bangalore,5,26046.12,0.1,6284.56,Credit Card,Express
+ORD-10220,2024-02-15,Sanjay Tiwari,Running Shoes,Sports,West,Pune,2,7017.54,0.2,656.47,Net Banking,Same Day
+ORD-10221,2024-08-27,Divya Pandey,Coffee Maker,Appliances,Central,Raipur,5,19543.41,0.2,3067.53,Cash,Express
+ORD-10222,2025-06-17,Arjun Reddy,Bookshelf,Furniture,West,Ahmedabad,1,5604.19,0.1,1631.56,UPI,Economy
+ORD-10223,2025-05-22,Anjali Pillai,Wireless Mouse,Technology,East,Guwahati,3,3669.14,0.05,424.93,Debit Card,Express
+ORD-10224,2025-04-29,Vikram Gupta,Bookshelf,Furniture,South,Hyderabad,4,27572.27,0.1,4936.61,Debit Card,Express
+ORD-10225,2025-02-01,Suresh Menon,Bookshelf,Furniture,East,Bhubaneswar,1,6151.12,0.2,1039.9,Net Banking,Express
+ORD-10226,2024-02-22,Manoj Rao,Notebook A4,Office Supplies,West,Nagpur,1,368.41,0.0,100.62,Net Banking,Express
+ORD-10227,2025-05-05,Rajesh Kumar,Standing Desk,Furniture,East,Patna,2,36331.72,0.15,3929.49,Debit Card,Express
+ORD-10228,2024-07-28,Suresh Menon,Running Shoes,Sports,South,Coimbatore,3,9319.47,0.1,2196.53,Cash,Same Day
+ORD-10229,2025-01-03,Sunita Patel,T-Shirt,Clothing,West,Surat,4,4372.56,0.0,1309.32,Cash,Same Day
+ORD-10230,2025-02-27,Vikram Gupta,Wireless Mouse,Technology,Central,Indore,1,884.29,0.1,193.65,Debit Card,Same Day
+ORD-10231,2024-06-05,Deepak Yadav,Standing Desk,Furniture,East,Bhubaneswar,5,96584.73,0.05,20490.86,Cash,Same Day
+ORD-10232,2025-05-15,Neha Verma,Cookbook,Books,West,Surat,3,937.65,0.15,198.0,UPI,Standard
+ORD-10233,2025-06-20,Rajesh Kumar,Wireless Mouse,Technology,North,Delhi,4,3047.23,0.15,413.03,UPI,Standard
+ORD-10234,2024-08-11,Priya Singh,T-Shirt,Clothing,West,Ahmedabad,5,3234.89,0.1,967.43,Debit Card,Standard
+ORD-10235,2024-01-07,Rajesh Kumar,Jeans,Clothing,Central,Jabalpur,1,2643.54,0.0,551.38,Cash,Standard
+ORD-10236,2025-05-29,Sunita Patel,Coffee Maker,Appliances,West,Pune,1,4215.84,0.0,531.46,Net Banking,Same Day
+ORD-10237,2024-12-28,Anita Das,Notebook A4,Office Supplies,West,Mumbai,4,1482.6,0.0,470.96,UPI,Same Day
+ORD-10238,2024-03-23,Deepak Yadav,Novel - Bestseller,Books,North,Delhi,4,1333.3,0.05,124.62,Credit Card,Express
+ORD-10239,2024-03-25,Divya Pandey,Dumbbell Set,Sports,West,Ahmedabad,1,6631.77,0.0,896.24,Net Banking,Economy
+ORD-10240,2024-10-04,Sanjay Tiwari,Wireless Mouse,Technology,North,Amritsar,5,8824.74,0.0,2673.05,Cash,Standard
+ORD-10241,2024-07-31,Amit Sharma,Formal Shirt,Clothing,South,Kochi,3,5231.03,0.0,1129.94,Debit Card,Same Day
+ORD-10242,2025-01-28,Anjali Pillai,Blender,Appliances,South,Bangalore,3,14500.62,0.05,1967.95,Credit Card,Same Day
+ORD-10243,2025-02-10,Arjun Reddy,Blender,Appliances,East,Kolkata,4,18906.03,0.0,4021.86,Debit Card,Economy
+ORD-10244,2024-07-09,Amit Sharma,Python Programming,Books,Central,Jabalpur,5,2414.6,0.0,606.42,Credit Card,Same Day
+ORD-10245,2024-06-06,Suresh Menon,Running Shoes,Sports,South,Kochi,3,8299.13,0.0,2542.11,Debit Card,Same Day
+ORD-10246,2024-10-03,Neha Verma,USB-C Hub,Technology,South,Bangalore,4,8310.17,0.1,1686.85,Credit Card,Standard
+ORD-10247,2024-04-01,Manoj Rao,Stapler,Office Supplies,Central,Bhopal,5,2455.1,0.2,423.4,Cash,Economy
+ORD-10248,2025-02-01,Kavya Nair,Blender,Appliances,North,Lucknow,5,20411.74,0.15,3498.08,UPI,Same Day
+ORD-10249,2024-11-04,Amit Sharma,Notebook A4,Office Supplies,West,Pune,2,688.06,0.05,104.54,Credit Card,Same Day
+ORD-10250,2024-09-14,Manoj Rao,Bookshelf,Furniture,West,Nagpur,2,11662.89,0.0,1785.8,Debit Card,Same Day
+ORD-10251,2025-01-24,Suresh Menon,Air Fryer,Appliances,East,Guwahati,4,32946.66,0.2,7783.61,Net Banking,Express
+ORD-10252,2024-11-03,Rohit Shah,Whiteboard,Office Supplies,Central,Indore,3,11392.55,0.05,3560.1,Cash,Economy
+ORD-10253,2024-09-05,Deepak Yadav,Whiteboard,Office Supplies,West,Ahmedabad,3,7364.99,0.1,942.37,Net Banking,Express
+ORD-10254,2024-01-28,Kiran Bose,Cookbook,Books,West,Pune,3,2656.55,0.0,734.67,Debit Card,Economy
+ORD-10255,2024-05-22,Arjun Reddy,Novel - Bestseller,Books,East,Bhubaneswar,2,777.75,0.2,132.59,Debit Card,Economy
+ORD-10256,2025-02-14,Sanjay Tiwari,Jeans,Clothing,Central,Jabalpur,1,2227.94,0.0,553.4,Net Banking,Standard
+ORD-10257,2024-04-21,Neha Verma,Blender,Appliances,South,Hyderabad,5,15345.65,0.15,3722.75,Debit Card,Same Day
+ORD-10258,2025-03-16,Arjun Reddy,USB-C Hub,Technology,North,Delhi,2,3079.22,0.1,658.7,Net Banking,Express
+ORD-10259,2025-04-01,Divya Pandey,Stapler,Office Supplies,West,Surat,5,1801.49,0.0,352.85,Cash,Economy
+ORD-10260,2024-03-28,Meera Iyer,USB-C Hub,Technology,South,Hyderabad,3,4966.0,0.0,1018.37,Cash,Economy
+ORD-10261,2024-04-09,Amit Sharma,Water Bottle,Sports,West,Ahmedabad,3,1076.97,0.15,115.9,Cash,Standard
+ORD-10262,2024-06-17,Neha Verma,Cookbook,Books,South,Coimbatore,5,1638.24,0.1,298.7,Debit Card,Express
+ORD-10263,2025-02-18,Pooja Mishra,Novel - Bestseller,Books,South,Chennai,4,762.04,0.1,222.47,Debit Card,Economy
+ORD-10264,2025-02-02,Arjun Reddy,Laptop Pro X,Technology,South,Chennai,1,40618.78,0.2,11750.0,UPI,Same Day
+ORD-10265,2024-11-29,Arjun Reddy,Standing Desk,Furniture,West,Mumbai,4,82239.23,0.15,12764.93,Debit Card,Economy
+ORD-10266,2024-04-26,Manoj Rao,Stapler,Office Supplies,East,Guwahati,2,1063.34,0.15,289.39,Net Banking,Standard
+ORD-10267,2024-05-17,Meera Iyer,Whiteboard,Office Supplies,North,Chandigarh,1,2436.18,0.15,277.54,Debit Card,Economy
+ORD-10268,2024-05-21,Neha Verma,Formal Shirt,Clothing,West,Surat,4,8341.06,0.15,2507.31,UPI,Express
+ORD-10269,2025-05-16,Suresh Menon,Ballpoint Pen Set,Office Supplies,South,Chennai,4,493.85,0.2,82.06,Credit Card,Economy
+ORD-10270,2024-05-19,Anjali Pillai,Standing Desk,Furniture,West,Nagpur,4,61147.11,0.05,10991.27,Debit Card,Economy
+ORD-10271,2024-06-20,Kavya Nair,Mechanical Keyboard,Technology,Central,Bhopal,3,7696.17,0.0,1608.7,UPI,Economy
+ORD-10272,2025-05-22,Divya Pandey,Jeans,Clothing,Central,Bhopal,1,1393.43,0.1,386.8,Cash,Standard
+ORD-10273,2025-03-27,Sunita Patel,Jeans,Clothing,South,Kochi,2,3174.04,0.0,596.52,Cash,Standard
+ORD-10274,2025-03-25,Rahul Joshi,Microwave Oven,Appliances,North,Chandigarh,5,40539.21,0.2,10158.35,Debit Card,Express
+ORD-10275,2024-05-22,Priya Singh,Air Fryer,Appliances,South,Chennai,5,28639.27,0.0,6393.6,UPI,Same Day
+ORD-10276,2024-10-26,Anjali Pillai,Ballpoint Pen Set,Office Supplies,Central,Raipur,1,107.82,0.2,28.96,Credit Card,Same Day
+ORD-10277,2024-05-09,Vikram Gupta,Self Help Book,Books,South,Chennai,3,1196.51,0.2,337.96,Debit Card,Economy
+ORD-10278,2024-05-25,Deepak Yadav,Formal Shirt,Clothing,East,Guwahati,4,5162.48,0.2,1503.47,Credit Card,Economy
+ORD-10279,2025-06-11,Kiran Bose,Cookbook,Books,East,Patna,4,1723.66,0.0,497.34,Credit Card,Economy
+ORD-10280,2025-01-01,Deepak Yadav,Microwave Oven,Appliances,North,Lucknow,2,26451.65,0.2,3461.05,Cash,Same Day
+ORD-10281,2024-10-17,Vikram Gupta,Whiteboard,Office Supplies,Central,Gwalior,5,23547.13,0.2,3826.35,Credit Card,Standard
+ORD-10282,2024-04-11,Sunita Patel,Novel - Bestseller,Books,West,Mumbai,2,753.03,0.0,239.49,Debit Card,Express
+ORD-10283,2024-05-15,Arjun Reddy,Novel - Bestseller,Books,East,Bhubaneswar,1,461.84,0.0,46.08,UPI,Standard
+ORD-10284,2025-02-09,Pooja Mishra,Novel - Bestseller,Books,East,Bhubaneswar,1,481.48,0.0,63.18,Credit Card,Express
+ORD-10285,2024-08-19,Rajesh Kumar,T-Shirt,Clothing,West,Mumbai,3,1940.53,0.2,351.93,UPI,Economy
+ORD-10286,2024-03-13,Sunita Patel,Bookshelf,Furniture,West,Mumbai,1,5253.41,0.0,593.17,UPI,Express
+ORD-10287,2024-03-11,Manoj Rao,T-Shirt,Clothing,Central,Bhopal,2,1054.08,0.15,138.22,UPI,Economy
+ORD-10288,2025-03-29,Sunita Patel,Microwave Oven,Appliances,South,Bangalore,2,18926.41,0.1,4830.06,Cash,Economy
+ORD-10289,2024-11-18,Arjun Reddy,Air Fryer,Appliances,South,Chennai,1,6764.42,0.1,1515.24,Net Banking,Same Day
+ORD-10290,2024-01-28,Anjali Pillai,Microwave Oven,Appliances,East,Bhubaneswar,5,53889.96,0.15,9377.94,Credit Card,Express
+ORD-10291,2025-05-21,Rohit Shah,Running Shoes,Sports,North,Chandigarh,5,13387.65,0.0,4241.9,Cash,Express
+ORD-10292,2025-01-31,Anita Das,Microwave Oven,Appliances,Central,Jabalpur,5,56546.85,0.2,10916.0,Credit Card,Standard
+ORD-10293,2024-03-10,Priya Singh,Laptop Pro X,Technology,East,Bhubaneswar,1,51762.46,0.05,10434.62,Net Banking,Economy
+ORD-10294,2025-03-09,Sanjay Tiwari,Self Help Book,Books,West,Mumbai,5,2174.07,0.0,217.54,Credit Card,Express
+ORD-10295,2024-06-08,Divya Pandey,Jeans,Clothing,East,Guwahati,1,1523.06,0.05,388.67,UPI,Standard
+ORD-10296,2024-09-07,Kiran Bose,Mechanical Keyboard,Technology,West,Mumbai,5,18588.32,0.0,4458.58,UPI,Standard
+ORD-10297,2024-01-13,Neha Verma,Self Help Book,Books,South,Bangalore,4,2700.96,0.1,551.36,Cash,Express
+ORD-10298,2025-01-15,Rajesh Kumar,Monitor 27inch,Technology,East,Kolkata,3,99328.97,0.0,20434.45,Cash,Standard
+ORD-10299,2025-05-23,Priya Singh,Water Bottle,Sports,Central,Raipur,4,3318.72,0.0,558.36,Cash,Standard
+ORD-10300,2024-04-28,Priya Singh,Bookshelf,Furniture,Central,Bhopal,1,4729.3,0.05,791.47,UPI,Express
+ORD-10301,2024-02-06,Suresh Menon,Jeans,Clothing,West,Pune,2,2959.93,0.15,464.07,Credit Card,Same Day
+ORD-10302,2024-05-02,Kavya Nair,T-Shirt,Clothing,North,Chandigarh,5,4230.86,0.05,408.46,Debit Card,Same Day
+ORD-10303,2024-11-14,Kiran Bose,Whiteboard,Office Supplies,North,Lucknow,1,4532.97,0.0,976.01,Cash,Express
+ORD-10304,2025-04-20,Rahul Joshi,Stapler,Office Supplies,Central,Jabalpur,5,3020.96,0.0,350.84,Debit Card,Standard
+ORD-10305,2024-08-26,Suresh Menon,Jeans,Clothing,East,Kolkata,1,2077.28,0.05,589.45,Cash,Standard
+ORD-10306,2024-07-29,Rohit Shah,T-Shirt,Clothing,South,Kochi,1,886.28,0.0,222.28,Credit Card,Standard
+ORD-10307,2024-08-25,Anita Das,Microwave Oven,Appliances,Central,Jabalpur,4,47389.31,0.0,10396.5,Net Banking,Express
+ORD-10308,2025-02-07,Priya Singh,Mechanical Keyboard,Technology,Central,Gwalior,4,15299.55,0.0,2093.36,Cash,Same Day
+ORD-10309,2025-02-06,Kiran Bose,Self Help Book,Books,East,Patna,3,960.25,0.0,108.19,Net Banking,Standard
+ORD-10310,2024-06-08,Kiran Bose,USB-C Hub,Technology,South,Kochi,3,4337.58,0.1,719.99,UPI,Economy
+ORD-10311,2024-11-11,Amit Sharma,Water Bottle,Sports,East,Kolkata,2,2250.64,0.0,626.43,Net Banking,Standard
+ORD-10312,2024-08-08,Amit Sharma,Coffee Maker,Appliances,East,Bhubaneswar,2,10287.89,0.05,2090.81,Cash,Same Day
+ORD-10313,2024-06-27,Sanjay Tiwari,Laptop Pro X,Technology,West,Surat,5,225618.0,0.05,23567.55,UPI,Standard
+ORD-10314,2024-01-13,Rahul Joshi,Wireless Mouse,Technology,South,Chennai,4,5048.3,0.15,1539.82,Credit Card,Same Day
+ORD-10315,2024-03-17,Kiran Bose,Laptop Pro X,Technology,North,Chandigarh,2,73471.66,0.2,20501.93,Cash,Standard
+ORD-10316,2024-02-13,Divya Pandey,Water Bottle,Sports,North,Chandigarh,4,3081.2,0.05,613.38,Debit Card,Economy
+ORD-10317,2024-06-25,Arjun Reddy,Stapler,Office Supplies,South,Chennai,3,1435.21,0.0,126.75,Net Banking,Express
+ORD-10318,2024-10-29,Rohit Shah,Dumbbell Set,Sports,West,Nagpur,1,5063.34,0.05,571.84,UPI,Express
+ORD-10319,2024-01-20,Sanjay Tiwari,Running Shoes,Sports,East,Guwahati,4,16934.83,0.1,3396.69,Debit Card,Same Day
+ORD-10320,2024-07-03,Kavya Nair,Laptop Pro X,Technology,East,Ranchi,1,43166.12,0.2,6363.72,Debit Card,Same Day
+ORD-10321,2024-08-26,Kavya Nair,Office Chair,Furniture,North,Chandigarh,3,28165.98,0.2,8453.8,Credit Card,Express
+ORD-10322,2025-02-01,Kavya Nair,Stapler,Office Supplies,South,Chennai,5,1815.61,0.15,449.24,Net Banking,Standard
+ORD-10323,2024-12-26,Divya Pandey,Formal Shirt,Clothing,Central,Indore,2,6171.3,0.2,1799.49,Debit Card,Same Day
+ORD-10324,2024-06-28,Priya Singh,Dumbbell Set,Sports,North,Delhi,2,11211.64,0.0,2313.5,Credit Card,Same Day
+ORD-10325,2024-07-25,Neha Verma,Air Fryer,Appliances,South,Hyderabad,3,14125.34,0.0,3118.68,UPI,Standard
+ORD-10326,2025-06-22,Anita Das,Microwave Oven,Appliances,East,Kolkata,4,38064.4,0.0,5801.91,UPI,Express
+ORD-10327,2025-03-23,Neha Verma,Air Fryer,Appliances,West,Ahmedabad,5,31173.58,0.1,8381.89,UPI,Express
+ORD-10328,2025-01-22,Neha Verma,Ballpoint Pen Set,Office Supplies,East,Bhubaneswar,1,244.26,0.1,42.5,Net Banking,Standard
+ORD-10329,2024-07-05,Kavya Nair,Winter Jacket,Clothing,East,Ranchi,5,15980.83,0.05,1817.89,Credit Card,Express
+ORD-10330,2024-12-21,Suresh Menon,Whiteboard,Office Supplies,South,Bangalore,4,14127.63,0.0,1976.31,Credit Card,Same Day
+ORD-10331,2024-09-19,Priya Singh,Air Fryer,Appliances,North,Delhi,4,22928.33,0.05,7167.04,Debit Card,Economy
+ORD-10332,2025-01-22,Sunita Patel,Stapler,Office Supplies,Central,Jabalpur,4,3102.08,0.1,732.81,UPI,Express
+ORD-10333,2025-04-07,Rajesh Kumar,Mechanical Keyboard,Technology,North,Amritsar,3,9066.77,0.0,886.8,UPI,Economy
+ORD-10334,2024-06-13,Amit Sharma,Cookbook,Books,North,Lucknow,3,1451.55,0.1,427.3,Credit Card,Economy
+ORD-10335,2024-06-17,Priya Singh,Winter Jacket,Clothing,West,Pune,1,4158.83,0.0,741.22,Net Banking,Same Day
+ORD-10336,2024-10-15,Priya Singh,Ballpoint Pen Set,Office Supplies,South,Bangalore,4,665.78,0.2,131.71,Credit Card,Same Day
+ORD-10337,2024-01-04,Manoj Rao,Yoga Mat,Sports,North,Amritsar,4,5598.18,0.0,725.91,Cash,Standard
+ORD-10338,2025-04-29,Deepak Yadav,Microwave Oven,Appliances,North,Amritsar,4,30377.57,0.15,4362.25,Net Banking,Economy
+ORD-10339,2024-07-08,Neha Verma,Stapler,Office Supplies,West,Ahmedabad,4,1207.82,0.05,231.44,UPI,Same Day
+ORD-10340,2024-03-04,Anita Das,Monitor 27inch,Technology,North,Delhi,5,83591.63,0.2,18518.42,Net Banking,Standard
+ORD-10341,2025-01-31,Sanjay Tiwari,Coffee Maker,Appliances,Central,Jabalpur,4,24339.44,0.0,4729.22,Credit Card,Economy
+ORD-10342,2024-02-05,Divya Pandey,T-Shirt,Clothing,Central,Gwalior,5,1894.9,0.2,355.8,UPI,Express
+ORD-10343,2024-07-16,Amit Sharma,Monitor 27inch,Technology,North,Jaipur,4,62122.99,0.2,14321.48,Net Banking,Same Day
+ORD-10344,2024-11-23,Deepak Yadav,Cookbook,Books,North,Delhi,5,3212.59,0.0,917.48,Net Banking,Economy
+ORD-10345,2024-01-13,Anjali Pillai,Air Fryer,Appliances,Central,Gwalior,4,27405.37,0.0,3167.18,Net Banking,Standard
+ORD-10346,2024-04-18,Sanjay Tiwari,Formal Shirt,Clothing,North,Amritsar,3,8450.52,0.0,1452.9,Debit Card,Economy
+ORD-10347,2024-02-08,Vikram Gupta,Office Chair,Furniture,East,Guwahati,5,52107.49,0.15,9192.43,Debit Card,Same Day
+ORD-10348,2024-08-31,Anita Das,Wireless Mouse,Technology,West,Ahmedabad,1,829.21,0.2,126.65,Cash,Economy
+ORD-10349,2024-04-10,Meera Iyer,Microwave Oven,Appliances,South,Chennai,4,42576.74,0.0,6159.19,Debit Card,Standard
+ORD-10350,2024-07-11,Rohit Shah,Water Bottle,Sports,South,Kochi,5,3334.38,0.2,311.73,UPI,Standard
+ORD-10351,2024-11-14,Vikram Gupta,Self Help Book,Books,Central,Jabalpur,5,3596.6,0.0,437.7,UPI,Standard
+ORD-10352,2024-09-12,Anita Das,Wireless Mouse,Technology,West,Mumbai,2,1586.85,0.2,303.74,Debit Card,Standard
+ORD-10353,2024-02-01,Manoj Rao,Bookshelf,Furniture,East,Guwahati,4,15073.07,0.2,2922.66,Net Banking,Same Day
+ORD-10354,2024-12-18,Meera Iyer,Office Chair,Furniture,East,Kolkata,1,14988.34,0.0,4270.43,UPI,Express
+ORD-10355,2024-08-18,Pooja Mishra,Python Programming,Books,South,Hyderabad,5,1436.09,0.2,448.22,Credit Card,Economy
+ORD-10356,2024-05-15,Rajesh Kumar,Novel - Bestseller,Books,South,Coimbatore,2,481.53,0.2,147.5,Cash,Economy
+ORD-10357,2025-01-20,Arjun Reddy,Microwave Oven,Appliances,East,Guwahati,2,20944.45,0.15,4292.63,Net Banking,Economy
+ORD-10358,2024-04-14,Sanjay Tiwari,Laptop Pro X,Technology,Central,Raipur,5,255452.51,0.0,62396.61,Debit Card,Standard
+ORD-10359,2024-12-10,Arjun Reddy,Notebook A4,Office Supplies,East,Patna,3,745.0,0.1,196.47,Credit Card,Economy
+ORD-10360,2024-11-23,Rohit Shah,Python Programming,Books,South,Bangalore,3,1862.3,0.05,329.82,Credit Card,Express
+ORD-10361,2024-12-17,Rohit Shah,Cookbook,Books,South,Coimbatore,3,1689.83,0.2,204.13,Net Banking,Express
+ORD-10362,2024-10-27,Arjun Reddy,USB-C Hub,Technology,West,Pune,5,13740.43,0.0,4221.91,Cash,Standard
+ORD-10363,2024-08-15,Pooja Mishra,Stapler,Office Supplies,South,Hyderabad,3,1211.42,0.1,182.41,Credit Card,Economy
+ORD-10364,2024-02-24,Manoj Rao,Microwave Oven,Appliances,Central,Gwalior,1,8833.32,0.0,1767.68,Debit Card,Same Day
+ORD-10365,2025-02-27,Rahul Joshi,Wireless Mouse,Technology,South,Chennai,3,2933.37,0.1,863.24,Debit Card,Express
+ORD-10366,2024-11-19,Rohit Shah,Microwave Oven,Appliances,South,Bangalore,3,41102.03,0.0,6379.83,Credit Card,Standard
+ORD-10367,2025-04-07,Divya Pandey,Notebook A4,Office Supplies,South,Chennai,2,435.83,0.2,116.43,UPI,Economy
+ORD-10368,2025-03-15,Deepak Yadav,Running Shoes,Sports,West,Surat,1,2594.31,0.0,662.48,Credit Card,Same Day
+ORD-10369,2024-07-14,Kavya Nair,Laptop Pro X,Technology,North,Chandigarh,3,144362.77,0.0,24837.92,Net Banking,Same Day
+ORD-10370,2024-06-20,Meera Iyer,Mechanical Keyboard,Technology,North,Amritsar,4,14240.39,0.1,2930.5,Debit Card,Express
+ORD-10371,2024-12-16,Neha Verma,Dumbbell Set,Sports,East,Bhubaneswar,4,19974.84,0.0,5084.01,UPI,Express
+ORD-10372,2024-01-23,Sunita Patel,Formal Shirt,Clothing,Central,Indore,3,8623.99,0.2,767.25,Cash,Standard
+ORD-10373,2024-02-19,Priya Singh,Python Programming,Books,North,Delhi,1,510.67,0.05,56.0,Cash,Economy
+ORD-10374,2024-06-05,Pooja Mishra,Standing Desk,Furniture,North,Amritsar,1,18624.83,0.0,4273.87,UPI,Economy
+ORD-10375,2024-04-17,Meera Iyer,T-Shirt,Clothing,Central,Bhopal,1,752.76,0.05,96.11,UPI,Same Day
+ORD-10376,2025-06-19,Meera Iyer,Standing Desk,Furniture,East,Guwahati,2,23548.71,0.05,7028.95,Debit Card,Same Day
+ORD-10377,2024-08-28,Sunita Patel,Laptop Pro X,Technology,North,Delhi,5,258451.1,0.0,79568.58,Net Banking,Standard
+ORD-10378,2024-04-13,Meera Iyer,Notebook A4,Office Supplies,South,Kochi,3,798.21,0.0,219.64,Credit Card,Same Day
+ORD-10379,2025-01-03,Sunita Patel,Air Fryer,Appliances,East,Guwahati,1,10471.1,0.0,862.0,UPI,Express
+ORD-10380,2024-12-02,Arjun Reddy,Stapler,Office Supplies,West,Nagpur,1,628.67,0.0,77.89,Debit Card,Economy
+ORD-10381,2025-04-12,Pooja Mishra,Notebook A4,Office Supplies,West,Surat,2,303.05,0.15,77.08,UPI,Standard
+ORD-10382,2025-03-02,Kiran Bose,Formal Shirt,Clothing,West,Nagpur,2,3867.18,0.2,642.2,Credit Card,Express
+ORD-10383,2025-05-09,Kiran Bose,Dumbbell Set,Sports,North,Jaipur,1,3163.42,0.15,491.65,Net Banking,Express
+ORD-10384,2024-12-12,Sunita Patel,T-Shirt,Clothing,Central,Gwalior,4,4092.8,0.0,800.81,Debit Card,Express
+ORD-10385,2024-02-25,Rohit Shah,Laptop Pro X,Technology,South,Coimbatore,4,214776.63,0.0,55915.64,Cash,Express
+ORD-10386,2024-12-04,Kavya Nair,Notebook A4,Office Supplies,North,Lucknow,5,2067.02,0.05,570.71,Credit Card,Economy
+ORD-10387,2025-03-30,Amit Sharma,Air Fryer,Appliances,Central,Jabalpur,4,24258.95,0.0,7650.33,Credit Card,Standard
+ORD-10388,2025-02-17,Sanjay Tiwari,Yoga Mat,Sports,North,Lucknow,1,1300.73,0.2,292.68,Net Banking,Same Day
+ORD-10389,2025-06-04,Suresh Menon,Jeans,Clothing,South,Kochi,3,5454.97,0.2,728.24,Debit Card,Same Day
+ORD-10390,2025-04-29,Sunita Patel,Self Help Book,Books,East,Guwahati,1,477.8,0.0,38.48,Cash,Same Day
+ORD-10391,2025-06-18,Neha Verma,Stapler,Office Supplies,North,Delhi,4,1211.01,0.15,312.69,Debit Card,Standard
+ORD-10392,2024-09-17,Sunita Patel,Winter Jacket,Clothing,South,Chennai,4,12014.6,0.2,3214.4,Cash,Standard
+ORD-10393,2025-02-28,Kiran Bose,Wireless Mouse,Technology,Central,Bhopal,4,4539.31,0.1,509.82,Debit Card,Standard
+ORD-10394,2024-02-19,Rohit Shah,Jeans,Clothing,West,Nagpur,5,11077.03,0.0,2725.35,UPI,Express
+ORD-10395,2024-04-16,Suresh Menon,Running Shoes,Sports,Central,Gwalior,5,22341.51,0.05,7039.37,UPI,Same Day
+ORD-10396,2025-02-11,Vikram Gupta,Whiteboard,Office Supplies,East,Guwahati,2,5653.33,0.15,1654.98,Net Banking,Same Day
+ORD-10397,2024-11-17,Rahul Joshi,Self Help Book,Books,Central,Indore,2,1224.3,0.0,299.69,UPI,Express
+ORD-10398,2025-05-30,Anita Das,Jeans,Clothing,East,Kolkata,5,8210.16,0.1,2514.29,Debit Card,Same Day
+ORD-10399,2025-03-08,Sunita Patel,Air Fryer,Appliances,North,Lucknow,1,5833.05,0.0,1404.95,UPI,Same Day
+ORD-10400,2024-06-13,Priya Singh,Ballpoint Pen Set,Office Supplies,East,Bhubaneswar,3,282.1,0.1,24.76,Debit Card,Standard
+ORD-10401,2024-08-17,Kavya Nair,Cookbook,Books,Central,Jabalpur,5,2454.89,0.2,606.53,Credit Card,Economy
+ORD-10402,2025-01-31,Priya Singh,Yoga Mat,Sports,East,Ranchi,1,2161.14,0.0,494.76,Debit Card,Express
+ORD-10403,2025-01-11,Manoj Rao,Blender,Appliances,Central,Gwalior,2,15233.03,0.0,2294.13,UPI,Standard
+ORD-10404,2024-07-10,Deepak Yadav,Office Chair,Furniture,Central,Bhopal,1,9899.6,0.1,1419.78,UPI,Same Day
+ORD-10405,2024-01-06,Priya Singh,Whiteboard,Office Supplies,West,Pune,2,10980.29,0.1,1012.44,Net Banking,Same Day
+ORD-10406,2025-05-17,Anita Das,Air Fryer,Appliances,Central,Gwalior,1,7244.11,0.0,1492.97,UPI,Standard
+ORD-10407,2025-06-01,Sanjay Tiwari,Office Chair,Furniture,West,Nagpur,4,34574.48,0.0,10096.27,Cash,Same Day
+ORD-10408,2025-01-04,Anjali Pillai,Ballpoint Pen Set,Office Supplies,South,Coimbatore,4,894.19,0.2,232.95,Credit Card,Standard
+ORD-10409,2024-12-20,Manoj Rao,Water Bottle,Sports,South,Coimbatore,2,2093.09,0.15,612.35,Debit Card,Standard
+ORD-10410,2025-01-30,Rajesh Kumar,Notebook A4,Office Supplies,Central,Raipur,5,2488.69,0.0,506.28,Net Banking,Economy
+ORD-10411,2025-05-13,Suresh Menon,Wireless Mouse,Technology,East,Bhubaneswar,5,4288.21,0.0,515.33,Net Banking,Standard
+ORD-10412,2024-03-08,Sunita Patel,Standing Desk,Furniture,South,Kochi,2,29541.82,0.15,8592.92,Debit Card,Standard
+ORD-10413,2024-06-06,Priya Singh,Laptop Pro X,Technology,West,Ahmedabad,1,45732.48,0.0,12375.74,Net Banking,Standard
+ORD-10414,2024-08-21,Kiran Bose,Notebook A4,Office Supplies,West,Surat,4,1033.03,0.0,179.21,Credit Card,Standard
+ORD-10415,2024-03-05,Amit Sharma,Blender,Appliances,Central,Bhopal,3,17460.36,0.0,2611.39,Cash,Standard
+ORD-10416,2024-10-15,Deepak Yadav,Blender,Appliances,West,Surat,1,5903.06,0.1,783.74,Debit Card,Same Day
+ORD-10417,2024-05-27,Sanjay Tiwari,Ballpoint Pen Set,Office Supplies,East,Kolkata,5,484.82,0.0,39.37,Net Banking,Economy
+ORD-10418,2024-03-28,Rahul Joshi,Ballpoint Pen Set,Office Supplies,South,Hyderabad,4,603.76,0.2,122.57,UPI,Express
+ORD-10419,2024-08-14,Sunita Patel,Winter Jacket,Clothing,East,Bhubaneswar,2,9627.16,0.1,2739.31,Net Banking,Economy
+ORD-10420,2024-03-15,Sunita Patel,Ballpoint Pen Set,Office Supplies,North,Amritsar,2,317.43,0.05,97.89,Cash,Express
+ORD-10421,2024-08-28,Amit Sharma,USB-C Hub,Technology,East,Ranchi,2,2883.79,0.05,457.95,Cash,Express
+ORD-10422,2025-01-08,Neha Verma,Air Fryer,Appliances,East,Guwahati,1,6267.8,0.2,834.66,Debit Card,Same Day
+ORD-10423,2025-01-03,Kiran Bose,Monitor 27inch,Technology,East,Guwahati,4,114862.67,0.0,22613.37,Credit Card,Express
+ORD-10424,2024-03-24,Sanjay Tiwari,Coffee Maker,Appliances,East,Bhubaneswar,2,5968.25,0.15,586.98,Credit Card,Standard
+ORD-10425,2025-06-03,Divya Pandey,Novel - Bestseller,Books,North,Lucknow,4,2030.72,0.0,604.17,Net Banking,Same Day
+ORD-10426,2025-04-28,Deepak Yadav,Novel - Bestseller,Books,South,Hyderabad,2,1001.84,0.1,256.45,Cash,Express
+ORD-10427,2025-04-20,Deepak Yadav,T-Shirt,Clothing,Central,Bhopal,3,1660.26,0.15,228.01,Net Banking,Express
+ORD-10428,2025-06-10,Neha Verma,Monitor 27inch,Technology,West,Pune,5,104724.18,0.15,30299.52,UPI,Economy
+ORD-10429,2025-01-02,Kavya Nair,Wireless Mouse,Technology,South,Kochi,1,1379.07,0.0,124.49,UPI,Same Day
+ORD-10430,2025-02-01,Priya Singh,Dumbbell Set,Sports,West,Mumbai,3,10425.48,0.1,2419.3,Cash,Same Day
+ORD-10431,2024-06-27,Divya Pandey,Running Shoes,Sports,West,Ahmedabad,1,3602.07,0.05,1129.04,UPI,Economy
+ORD-10432,2024-12-27,Rohit Shah,Coffee Maker,Appliances,East,Guwahati,5,19724.7,0.0,3660.42,UPI,Standard
+ORD-10433,2025-06-10,Vikram Gupta,Novel - Bestseller,Books,East,Bhubaneswar,2,473.3,0.1,119.34,Credit Card,Express
+ORD-10434,2025-02-28,Rohit Shah,Air Fryer,Appliances,East,Kolkata,4,22235.67,0.1,2639.35,Debit Card,Standard
+ORD-10435,2024-09-06,Divya Pandey,Wireless Mouse,Technology,South,Coimbatore,2,1609.75,0.1,143.92,Net Banking,Express
+ORD-10436,2024-02-27,Anjali Pillai,Office Chair,Furniture,East,Bhubaneswar,4,43903.81,0.1,10230.88,Cash,Standard
+ORD-10437,2024-08-09,Rohit Shah,Water Bottle,Sports,Central,Jabalpur,2,968.4,0.05,217.12,Net Banking,Express
+ORD-10438,2025-06-07,Kiran Bose,Notebook A4,Office Supplies,South,Hyderabad,5,1488.24,0.0,254.15,UPI,Standard
+ORD-10439,2024-01-17,Pooja Mishra,Standing Desk,Furniture,Central,Gwalior,2,50554.31,0.0,9818.08,Net Banking,Standard
+ORD-10440,2025-05-30,Rohit Shah,Blender,Appliances,North,Delhi,2,10358.93,0.1,2886.05,Debit Card,Economy
+ORD-10441,2025-01-14,Pooja Mishra,Microwave Oven,Appliances,North,Lucknow,2,30937.21,0.05,8337.37,Debit Card,Same Day
+ORD-10442,2024-04-10,Rohit Shah,Yoga Mat,Sports,South,Hyderabad,2,3420.17,0.0,506.13,Net Banking,Economy
+ORD-10443,2024-09-20,Divya Pandey,Standing Desk,Furniture,North,Delhi,5,65891.43,0.0,11202.02,UPI,Same Day
+ORD-10444,2025-02-22,Pooja Mishra,Stapler,Office Supplies,North,Chandigarh,5,1605.81,0.2,335.08,Net Banking,Same Day
+ORD-10445,2024-10-09,Pooja Mishra,Python Programming,Books,West,Pune,5,4672.99,0.05,574.28,Net Banking,Economy
+ORD-10446,2024-09-16,Deepak Yadav,Ballpoint Pen Set,Office Supplies,Central,Raipur,2,310.42,0.15,33.71,UPI,Economy
+ORD-10447,2024-06-14,Deepak Yadav,USB-C Hub,Technology,South,Coimbatore,3,5402.31,0.1,1335.96,Credit Card,Express
+ORD-10448,2025-02-02,Vikram Gupta,Novel - Bestseller,Books,North,Delhi,4,2167.31,0.05,219.23,Cash,Express
+ORD-10449,2025-01-14,Deepak Yadav,Mechanical Keyboard,Technology,Central,Bhopal,4,18788.77,0.1,2794.88,Net Banking,Standard
+ORD-10450,2024-06-28,Rajesh Kumar,Novel - Bestseller,Books,West,Surat,2,864.36,0.2,176.64,UPI,Standard
+ORD-10451,2025-06-06,Neha Verma,T-Shirt,Clothing,South,Coimbatore,1,492.89,0.15,39.47,UPI,Standard
+ORD-10452,2024-10-09,Deepak Yadav,Blender,Appliances,West,Ahmedabad,4,25024.61,0.1,2094.26,Credit Card,Standard
+ORD-10453,2024-10-18,Anita Das,Cookbook,Books,Central,Gwalior,3,2878.32,0.0,386.59,UPI,Economy
+ORD-10454,2025-02-17,Neha Verma,Formal Shirt,Clothing,North,Amritsar,4,8133.69,0.1,792.0,Cash,Same Day
+ORD-10455,2024-04-29,Sanjay Tiwari,Air Fryer,Appliances,Central,Raipur,5,25533.6,0.05,7962.74,Net Banking,Economy
+ORD-10456,2024-09-06,Kiran Bose,Blender,Appliances,East,Guwahati,5,26861.53,0.05,2898.48,Credit Card,Economy
+ORD-10457,2024-08-13,Pooja Mishra,Python Programming,Books,South,Hyderabad,3,1747.28,0.0,433.67,Cash,Express
+ORD-10458,2024-10-21,Amit Sharma,Mechanical Keyboard,Technology,West,Ahmedabad,5,29012.57,0.05,4506.51,UPI,Same Day
+ORD-10459,2024-07-06,Rahul Joshi,Cookbook,Books,South,Kochi,2,950.67,0.2,136.61,UPI,Express
+ORD-10460,2024-09-12,Vikram Gupta,Coffee Maker,Appliances,Central,Raipur,1,3123.67,0.0,756.54,Debit Card,Standard
+ORD-10461,2024-02-13,Manoj Rao,Microwave Oven,Appliances,West,Ahmedabad,3,24175.91,0.1,6974.86,Debit Card,Express
+ORD-10462,2025-06-07,Divya Pandey,Notebook A4,Office Supplies,West,Pune,2,261.66,0.2,47.51,Net Banking,Standard
+ORD-10463,2025-05-29,Kiran Bose,Stapler,Office Supplies,West,Pune,1,550.33,0.05,85.72,Credit Card,Standard
+ORD-10464,2024-08-03,Suresh Menon,Running Shoes,Sports,Central,Bhopal,3,12095.84,0.0,1510.97,Cash,Express
+ORD-10465,2024-10-02,Anita Das,Dumbbell Set,Sports,Central,Raipur,2,14687.95,0.0,2652.38,Cash,Same Day
+ORD-10466,2025-02-14,Divya Pandey,Notebook A4,Office Supplies,West,Pune,2,671.19,0.15,90.51,Credit Card,Same Day
+ORD-10467,2024-08-29,Rahul Joshi,Jeans,Clothing,West,Surat,2,3808.08,0.15,441.32,Credit Card,Express
+ORD-10468,2025-03-07,Sanjay Tiwari,Dumbbell Set,Sports,South,Coimbatore,3,18746.0,0.0,2628.82,Net Banking,Standard
+ORD-10469,2025-02-11,Rahul Joshi,USB-C Hub,Technology,South,Bangalore,3,4275.18,0.15,440.82,Cash,Same Day
+ORD-10470,2025-01-04,Arjun Reddy,Stapler,Office Supplies,Central,Gwalior,3,1293.32,0.0,212.44,Net Banking,Express
+ORD-10471,2024-06-27,Suresh Menon,Blender,Appliances,East,Patna,5,20054.62,0.15,3755.49,Credit Card,Economy
+ORD-10472,2024-10-20,Suresh Menon,Water Bottle,Sports,South,Chennai,4,3606.81,0.1,638.93,Credit Card,Standard
+ORD-10473,2024-06-14,Suresh Menon,Whiteboard,Office Supplies,South,Hyderabad,3,10586.34,0.1,2484.77,Cash,Economy
+ORD-10474,2025-01-06,Kiran Bose,Cookbook,Books,Central,Gwalior,4,1643.83,0.2,140.62,UPI,Same Day
+ORD-10475,2024-03-22,Sunita Patel,Standing Desk,Furniture,South,Kochi,1,12006.03,0.05,2540.77,Credit Card,Economy
+ORD-10476,2025-06-20,Arjun Reddy,Blender,Appliances,North,Delhi,5,16524.79,0.15,5016.62,Debit Card,Same Day
+ORD-10477,2024-08-22,Vikram Gupta,Bookshelf,Furniture,East,Guwahati,2,12213.94,0.0,1060.87,Cash,Same Day
+ORD-10478,2025-05-02,Sanjay Tiwari,Water Bottle,Sports,Central,Raipur,4,1589.7,0.15,332.93,Net Banking,Economy
+ORD-10479,2025-03-21,Anita Das,T-Shirt,Clothing,Central,Raipur,4,2143.47,0.2,217.55,Cash,Same Day
+ORD-10480,2025-02-26,Rajesh Kumar,Notebook A4,Office Supplies,South,Hyderabad,1,224.66,0.2,63.69,Cash,Same Day
+ORD-10481,2025-04-25,Rohit Shah,Jeans,Clothing,North,Jaipur,3,3453.84,0.05,937.76,Net Banking,Express
+ORD-10482,2024-01-08,Pooja Mishra,Jeans,Clothing,East,Bhubaneswar,5,12377.67,0.0,1475.23,Debit Card,Economy
+ORD-10483,2024-08-13,Kavya Nair,Notebook A4,Office Supplies,North,Jaipur,5,1535.11,0.1,420.34,Cash,Same Day
+ORD-10484,2024-10-02,Neha Verma,Yoga Mat,Sports,South,Bangalore,2,2593.24,0.15,490.85,Debit Card,Same Day
+ORD-10485,2025-05-18,Vikram Gupta,Standing Desk,Furniture,East,Kolkata,1,21697.16,0.0,2704.01,Credit Card,Same Day
+ORD-10486,2024-10-02,Kavya Nair,Monitor 27inch,Technology,West,Mumbai,1,25342.87,0.05,3348.43,Debit Card,Same Day
+ORD-10487,2025-05-25,Suresh Menon,Stapler,Office Supplies,West,Mumbai,1,637.42,0.0,59.57,Debit Card,Standard
+ORD-10488,2025-04-26,Deepak Yadav,Office Chair,Furniture,South,Hyderabad,1,7082.98,0.2,1781.54,Debit Card,Economy
+ORD-10489,2024-09-10,Kiran Bose,Cookbook,Books,North,Chandigarh,1,508.46,0.0,98.38,Cash,Same Day
+ORD-10490,2024-06-11,Anjali Pillai,Novel - Bestseller,Books,North,Lucknow,1,256.13,0.15,38.86,Cash,Standard
+ORD-10491,2024-08-11,Suresh Menon,USB-C Hub,Technology,South,Kochi,1,1367.36,0.0,301.27,Debit Card,Express
+ORD-10492,2024-01-10,Manoj Rao,Wireless Mouse,Technology,Central,Jabalpur,2,2967.94,0.0,414.6,Debit Card,Standard
+ORD-10493,2024-12-12,Anita Das,Blender,Appliances,North,Delhi,2,11767.44,0.2,1244.69,Debit Card,Express
+ORD-10494,2024-11-20,Rahul Joshi,Jeans,Clothing,East,Guwahati,1,2934.43,0.0,744.92,Cash,Standard
+ORD-10495,2025-05-11,Meera Iyer,Self Help Book,Books,West,Nagpur,5,2295.56,0.0,495.86,Net Banking,Same Day
+ORD-10496,2024-11-27,Manoj Rao,Cookbook,Books,West,Ahmedabad,5,2294.07,0.1,268.88,Cash,Same Day
+ORD-10497,2025-01-10,Deepak Yadav,Water Bottle,Sports,North,Lucknow,2,2120.49,0.1,605.69,Net Banking,Express
+ORD-10498,2024-11-24,Deepak Yadav,Cookbook,Books,North,Lucknow,2,1355.61,0.05,357.58,UPI,Same Day
+ORD-10499,2024-11-26,Sunita Patel,Yoga Mat,Sports,East,Kolkata,5,10212.24,0.0,2863.99,UPI,Express
+ORD-10500,2024-02-02,Rahul Joshi,Standing Desk,Furniture,North,Jaipur,1,10470.45,0.15,2939.18,Debit Card,Same Day
+ORD-10501,2024-02-20,Amit Sharma,Stapler,Office Supplies,South,Coimbatore,1,672.08,0.0,159.54,Credit Card,Economy
+ORD-10502,2024-03-03,Anita Das,Stapler,Office Supplies,Central,Jabalpur,1,629.46,0.0,130.28,Credit Card,Same Day
+ORD-10503,2024-03-20,Sunita Patel,Standing Desk,Furniture,Central,Bhopal,2,34633.22,0.0,4375.86,UPI,Express
+ORD-10504,2025-03-01,Anita Das,Cookbook,Books,North,Lucknow,4,2207.88,0.05,644.43,UPI,Express
+ORD-10505,2025-02-15,Sanjay Tiwari,T-Shirt,Clothing,East,Bhubaneswar,5,3107.53,0.0,921.68,Net Banking,Same Day
+ORD-10506,2025-01-15,Manoj Rao,Yoga Mat,Sports,West,Ahmedabad,2,3816.81,0.0,648.92,Net Banking,Same Day
+ORD-10507,2025-01-03,Rajesh Kumar,Water Bottle,Sports,West,Surat,1,1123.26,0.1,94.26,UPI,Same Day
+ORD-10508,2024-01-07,Suresh Menon,Ballpoint Pen Set,Office Supplies,South,Chennai,1,205.37,0.15,56.96,Net Banking,Express
+ORD-10509,2024-04-06,Vikram Gupta,Wireless Mouse,Technology,West,Ahmedabad,2,1773.89,0.1,248.28,Cash,Same Day
+ORD-10510,2024-04-04,Rahul Joshi,Formal Shirt,Clothing,West,Nagpur,1,2068.3,0.2,404.99,Debit Card,Standard
+ORD-10511,2024-11-03,Amit Sharma,Wireless Mouse,Technology,Central,Jabalpur,1,2023.43,0.0,330.84,Debit Card,Economy
+ORD-10512,2024-05-03,Rajesh Kumar,Microwave Oven,Appliances,South,Coimbatore,4,22769.16,0.1,2046.58,Net Banking,Express
+ORD-10513,2024-11-30,Priya Singh,T-Shirt,Clothing,South,Chennai,4,3967.13,0.2,884.0,Net Banking,Standard
+ORD-10514,2024-08-15,Vikram Gupta,Yoga Mat,Sports,East,Guwahati,2,2158.72,0.05,468.76,Credit Card,Economy
+ORD-10515,2024-09-25,Pooja Mishra,Mechanical Keyboard,Technology,West,Nagpur,2,7645.73,0.05,1637.95,Debit Card,Economy
+ORD-10516,2024-07-19,Kavya Nair,Jeans,Clothing,Central,Gwalior,2,2069.02,0.2,379.08,Net Banking,Standard
+ORD-10517,2024-04-25,Anita Das,Python Programming,Books,West,Surat,3,1307.16,0.0,290.88,Credit Card,Same Day
+ORD-10518,2024-06-22,Manoj Rao,Stapler,Office Supplies,Central,Jabalpur,2,761.9,0.2,103.65,Cash,Express
+ORD-10519,2024-03-28,Manoj Rao,USB-C Hub,Technology,North,Chandigarh,2,3310.0,0.2,493.34,Cash,Standard
+ORD-10520,2024-11-08,Suresh Menon,Water Bottle,Sports,West,Mumbai,2,2156.02,0.0,277.94,Net Banking,Same Day
+ORD-10521,2025-05-09,Deepak Yadav,Winter Jacket,Clothing,South,Bangalore,5,27770.13,0.1,2511.41,UPI,Standard
+ORD-10522,2024-10-17,Priya Singh,Standing Desk,Furniture,Central,Raipur,4,103866.44,0.0,9969.46,Cash,Same Day
+ORD-10523,2024-04-20,Kavya Nair,Laptop Pro X,Technology,East,Guwahati,4,170290.37,0.15,17694.0,Cash,Economy
+ORD-10524,2024-03-31,Kiran Bose,Office Chair,Furniture,South,Coimbatore,5,72422.25,0.0,6484.73,Net Banking,Same Day
+ORD-10525,2024-12-07,Rajesh Kumar,Dumbbell Set,Sports,West,Pune,3,24759.38,0.0,5696.03,UPI,Same Day
+ORD-10526,2024-03-04,Rajesh Kumar,Novel - Bestseller,Books,East,Guwahati,5,2898.23,0.0,337.38,Debit Card,Express
+ORD-10527,2024-03-30,Manoj Rao,Cookbook,Books,West,Nagpur,2,840.48,0.1,98.05,Cash,Same Day
+ORD-10528,2025-04-04,Vikram Gupta,Jeans,Clothing,South,Chennai,5,7615.04,0.2,978.95,UPI,Same Day
+ORD-10529,2025-06-20,Divya Pandey,Monitor 27inch,Technology,West,Pune,2,36400.45,0.1,7568.05,Credit Card,Express
+ORD-10530,2024-11-21,Suresh Menon,Coffee Maker,Appliances,South,Bangalore,4,30213.29,0.0,5629.37,Cash,Express
+ORD-10531,2024-07-11,Rajesh Kumar,USB-C Hub,Technology,South,Chennai,5,8176.26,0.1,1766.81,UPI,Express
+ORD-10532,2024-08-24,Amit Sharma,Python Programming,Books,North,Amritsar,4,1313.08,0.2,295.61,Cash,Express
+ORD-10533,2025-01-31,Neha Verma,Dumbbell Set,Sports,West,Pune,2,11416.6,0.05,3008.15,Credit Card,Same Day
+ORD-10534,2025-02-26,Amit Sharma,Bookshelf,Furniture,South,Chennai,2,14645.98,0.05,4219.67,Debit Card,Same Day
+ORD-10535,2025-04-13,Priya Singh,Bookshelf,Furniture,West,Surat,5,32971.3,0.05,8336.73,Debit Card,Standard
+ORD-10536,2025-06-17,Priya Singh,USB-C Hub,Technology,West,Surat,2,3265.54,0.05,1032.3,Credit Card,Economy
+ORD-10537,2025-06-12,Meera Iyer,Blender,Appliances,North,Chandigarh,4,17980.4,0.0,4777.08,Cash,Economy
+ORD-10538,2024-06-19,Priya Singh,Yoga Mat,Sports,East,Ranchi,5,8092.46,0.05,2259.21,Debit Card,Standard
+ORD-10539,2025-05-27,Sanjay Tiwari,USB-C Hub,Technology,South,Coimbatore,2,3186.13,0.0,599.67,UPI,Economy
+ORD-10540,2024-07-25,Suresh Menon,Water Bottle,Sports,North,Amritsar,2,1518.37,0.0,154.7,Debit Card,Same Day
+ORD-10541,2024-03-28,Manoj Rao,T-Shirt,Clothing,West,Nagpur,2,1119.74,0.05,101.38,UPI,Same Day
+ORD-10542,2024-06-02,Priya Singh,Office Chair,Furniture,South,Chennai,4,34531.88,0.15,9132.69,Debit Card,Same Day
+ORD-10543,2024-07-04,Rajesh Kumar,USB-C Hub,Technology,South,Chennai,5,9826.98,0.0,1867.86,Debit Card,Standard
+ORD-10544,2025-05-20,Rohit Shah,Bookshelf,Furniture,South,Coimbatore,4,22562.42,0.0,5060.57,Credit Card,Express
+ORD-10545,2024-10-11,Priya Singh,Winter Jacket,Clothing,Central,Indore,2,8374.97,0.15,1371.52,UPI,Standard
+ORD-10546,2024-11-01,Sunita Patel,Whiteboard,Office Supplies,North,Delhi,4,25129.83,0.0,6063.87,Net Banking,Express
+ORD-10547,2025-04-11,Priya Singh,Cookbook,Books,Central,Raipur,1,607.4,0.0,102.32,Debit Card,Standard
+ORD-10548,2025-03-13,Meera Iyer,Coffee Maker,Appliances,Central,Bhopal,4,10755.13,0.15,3078.74,Cash,Economy
+ORD-10549,2025-06-21,Priya Singh,Standing Desk,Furniture,South,Coimbatore,1,15056.62,0.15,3115.93,Credit Card,Economy
+ORD-10550,2024-10-21,Arjun Reddy,Yoga Mat,Sports,Central,Raipur,5,8663.4,0.1,1428.81,UPI,Economy
+ORD-10551,2025-06-16,Neha Verma,Cookbook,Books,West,Surat,5,1965.44,0.0,619.16,Credit Card,Standard
+ORD-10552,2024-01-25,Manoj Rao,Water Bottle,Sports,North,Chandigarh,4,3399.32,0.0,557.2,UPI,Standard
+ORD-10553,2024-07-25,Amit Sharma,Self Help Book,Books,East,Patna,3,918.23,0.1,144.84,Credit Card,Standard
+ORD-10554,2024-12-07,Manoj Rao,Whiteboard,Office Supplies,West,Nagpur,1,5829.72,0.0,928.81,Cash,Economy
+ORD-10555,2025-04-30,Rohit Shah,Air Fryer,Appliances,North,Chandigarh,2,10712.32,0.2,2237.51,Cash,Economy
+ORD-10556,2025-02-27,Meera Iyer,Cookbook,Books,North,Lucknow,5,2949.93,0.0,629.05,Credit Card,Express
+ORD-10557,2024-12-05,Vikram Gupta,Air Fryer,Appliances,East,Kolkata,3,31258.87,0.0,9879.94,Net Banking,Express
+ORD-10558,2025-02-02,Meera Iyer,Office Chair,Furniture,Central,Bhopal,3,38906.64,0.0,6977.08,Debit Card,Express
+ORD-10559,2025-01-15,Anjali Pillai,Water Bottle,Sports,East,Bhubaneswar,3,2047.53,0.0,549.53,UPI,Standard
+ORD-10560,2025-03-30,Anjali Pillai,T-Shirt,Clothing,North,Jaipur,2,940.7,0.05,240.62,Net Banking,Same Day
+ORD-10561,2024-12-01,Vikram Gupta,Monitor 27inch,Technology,North,Lucknow,2,61371.51,0.05,10618.57,Net Banking,Standard
+ORD-10562,2024-01-05,Amit Sharma,Ballpoint Pen Set,Office Supplies,North,Lucknow,3,571.31,0.0,59.84,Cash,Standard
+ORD-10563,2024-11-15,Rahul Joshi,Novel - Bestseller,Books,South,Hyderabad,2,792.86,0.1,124.16,Debit Card,Standard
+ORD-10564,2024-10-06,Sunita Patel,Monitor 27inch,Technology,South,Hyderabad,1,31132.19,0.1,6331.5,UPI,Same Day
+ORD-10565,2024-11-22,Divya Pandey,Notebook A4,Office Supplies,South,Hyderabad,2,539.89,0.0,122.65,Cash,Economy
+ORD-10566,2024-02-21,Priya Singh,Monitor 27inch,Technology,North,Jaipur,1,20685.2,0.0,3771.98,UPI,Economy
+ORD-10567,2024-12-30,Sanjay Tiwari,Ballpoint Pen Set,Office Supplies,East,Bhubaneswar,1,220.46,0.2,58.08,Net Banking,Express
+ORD-10568,2024-04-05,Kiran Bose,Coffee Maker,Appliances,West,Mumbai,3,11852.63,0.15,3128.6,Debit Card,Express
+ORD-10569,2024-08-17,Anita Das,Monitor 27inch,Technology,Central,Raipur,4,65563.8,0.15,10442.92,Cash,Economy
+ORD-10570,2025-05-14,Sunita Patel,Laptop Pro X,Technology,North,Jaipur,3,119487.65,0.2,14457.09,Cash,Express
+ORD-10571,2025-06-04,Suresh Menon,USB-C Hub,Technology,West,Mumbai,5,7397.81,0.2,1128.23,Debit Card,Economy
+ORD-10572,2025-02-27,Sanjay Tiwari,Bookshelf,Furniture,Central,Indore,2,15001.58,0.05,1437.97,UPI,Economy
+ORD-10573,2025-03-21,Kavya Nair,Formal Shirt,Clothing,East,Ranchi,2,4987.84,0.0,1284.11,Net Banking,Economy
+ORD-10574,2024-04-27,Suresh Menon,Formal Shirt,Clothing,Central,Jabalpur,5,7820.78,0.05,956.34,Debit Card,Standard
+ORD-10575,2024-04-21,Suresh Menon,Python Programming,Books,Central,Jabalpur,4,2560.98,0.0,260.52,UPI,Standard
+ORD-10576,2024-05-30,Sanjay Tiwari,Python Programming,Books,South,Kochi,3,1418.83,0.1,265.77,UPI,Same Day
+ORD-10577,2024-11-02,Anita Das,Formal Shirt,Clothing,East,Guwahati,1,2991.35,0.1,947.48,Debit Card,Express
+ORD-10578,2024-10-28,Priya Singh,Wireless Mouse,Technology,East,Ranchi,1,1447.43,0.2,455.78,Credit Card,Same Day
+ORD-10579,2024-02-01,Deepak Yadav,Bookshelf,Furniture,West,Nagpur,3,19514.22,0.05,3348.16,Net Banking,Express
+ORD-10580,2024-06-26,Sanjay Tiwari,Dumbbell Set,Sports,South,Chennai,4,25806.59,0.0,7266.9,UPI,Same Day
+ORD-10581,2024-05-08,Rajesh Kumar,Monitor 27inch,Technology,North,Delhi,2,43793.81,0.05,10418.65,UPI,Standard
+ORD-10582,2024-05-20,Manoj Rao,Novel - Bestseller,Books,West,Surat,4,1707.34,0.05,345.33,Net Banking,Economy
+ORD-10583,2025-01-28,Pooja Mishra,Stapler,Office Supplies,South,Chennai,5,2014.76,0.05,570.65,UPI,Same Day
+ORD-10584,2025-02-24,Priya Singh,Jeans,Clothing,Central,Raipur,1,1647.81,0.15,277.59,Net Banking,Economy
+ORD-10585,2024-03-22,Kiran Bose,Monitor 27inch,Technology,Central,Raipur,5,83464.39,0.1,8448.86,Debit Card,Standard
+ORD-10586,2024-11-15,Sanjay Tiwari,Winter Jacket,Clothing,North,Amritsar,1,5847.71,0.1,1739.42,Net Banking,Same Day
+ORD-10587,2025-03-07,Neha Verma,Stapler,Office Supplies,East,Patna,1,520.22,0.1,135.19,Net Banking,Same Day
+ORD-10588,2024-03-03,Neha Verma,Novel - Bestseller,Books,West,Nagpur,5,1103.24,0.0,302.44,Net Banking,Standard
+ORD-10589,2024-10-20,Anjali Pillai,Dumbbell Set,Sports,North,Chandigarh,1,9072.08,0.0,1274.56,Net Banking,Same Day
+ORD-10590,2024-10-08,Sunita Patel,Microwave Oven,Appliances,East,Kolkata,5,44400.4,0.1,11426.54,Debit Card,Same Day
+ORD-10591,2024-06-28,Neha Verma,Notebook A4,Office Supplies,South,Kochi,5,1827.52,0.0,577.82,UPI,Express
+ORD-10592,2025-05-22,Kavya Nair,Blender,Appliances,West,Surat,4,21259.99,0.0,2776.67,Cash,Standard
+ORD-10593,2024-09-27,Neha Verma,Blender,Appliances,North,Delhi,4,17987.45,0.0,3495.03,Net Banking,Express
+ORD-10594,2025-01-23,Arjun Reddy,Python Programming,Books,West,Surat,2,1565.94,0.05,129.73,Debit Card,Economy
+ORD-10595,2024-11-19,Sanjay Tiwari,T-Shirt,Clothing,North,Delhi,3,3503.59,0.05,793.62,Cash,Same Day
+ORD-10596,2024-10-03,Divya Pandey,Notebook A4,Office Supplies,North,Amritsar,4,1262.72,0.15,328.03,Net Banking,Express
+ORD-10597,2025-06-16,Sanjay Tiwari,Whiteboard,Office Supplies,South,Hyderabad,1,3076.48,0.2,296.29,Debit Card,Standard
+ORD-10598,2025-06-21,Kavya Nair,USB-C Hub,Technology,West,Ahmedabad,3,4355.69,0.0,373.23,Credit Card,Standard
+ORD-10599,2024-08-10,Amit Sharma,Winter Jacket,Clothing,North,Delhi,5,14682.37,0.15,3866.25,Net Banking,Express
+ORD-10600,2024-04-23,Meera Iyer,Self Help Book,Books,South,Hyderabad,4,1792.57,0.0,418.22,Cash,Economy
+ORD-10601,2024-11-27,Arjun Reddy,Notebook A4,Office Supplies,South,Bangalore,1,343.98,0.0,109.74,Cash,Same Day
+ORD-10602,2024-07-01,Rahul Joshi,Water Bottle,Sports,North,Jaipur,5,2534.35,0.15,502.04,UPI,Economy
+ORD-10603,2024-08-11,Arjun Reddy,Winter Jacket,Clothing,North,Jaipur,1,3122.01,0.0,677.86,Cash,Economy
+ORD-10604,2024-01-20,Priya Singh,Dumbbell Set,Sports,South,Bangalore,4,21098.83,0.15,3358.08,Debit Card,Standard
+ORD-10605,2025-06-11,Pooja Mishra,Self Help Book,Books,West,Surat,4,1610.29,0.2,442.74,Credit Card,Express
+ORD-10606,2024-01-04,Divya Pandey,Running Shoes,Sports,West,Mumbai,5,33863.24,0.0,5418.98,Cash,Economy
+ORD-10607,2024-02-26,Sanjay Tiwari,Novel - Bestseller,Books,North,Amritsar,3,661.72,0.05,173.71,Cash,Express
+ORD-10608,2024-06-29,Rahul Joshi,Jeans,Clothing,North,Jaipur,3,6313.94,0.0,1460.72,Cash,Economy
+ORD-10609,2024-03-27,Vikram Gupta,Novel - Bestseller,Books,West,Pune,1,235.65,0.15,75.2,UPI,Economy
+ORD-10610,2025-02-02,Rohit Shah,Mechanical Keyboard,Technology,Central,Raipur,5,17719.63,0.2,3328.34,Credit Card,Standard
+ORD-10611,2024-12-13,Deepak Yadav,Wireless Mouse,Technology,East,Kolkata,1,1128.33,0.15,270.98,Debit Card,Express
+ORD-10612,2024-08-26,Rohit Shah,Mechanical Keyboard,Technology,North,Chandigarh,1,3098.2,0.1,281.91,UPI,Standard
+ORD-10613,2024-06-25,Sunita Patel,Novel - Bestseller,Books,North,Amritsar,4,1422.37,0.2,315.55,Credit Card,Standard
+ORD-10614,2025-05-24,Amit Sharma,Winter Jacket,Clothing,Central,Indore,2,7186.78,0.2,2016.72,Debit Card,Same Day
+ORD-10615,2024-05-03,Vikram Gupta,Python Programming,Books,Central,Gwalior,3,1743.34,0.2,228.68,Credit Card,Express
+ORD-10616,2024-12-09,Vikram Gupta,Mechanical Keyboard,Technology,North,Amritsar,4,15882.17,0.0,3380.01,Debit Card,Express
+ORD-10617,2024-02-11,Deepak Yadav,Monitor 27inch,Technology,North,Lucknow,2,34407.88,0.05,3419.23,Credit Card,Express
+ORD-10618,2024-04-01,Pooja Mishra,Self Help Book,Books,Central,Raipur,4,1830.83,0.0,209.34,Cash,Economy
+ORD-10619,2025-02-25,Priya Singh,Bookshelf,Furniture,South,Coimbatore,5,22420.01,0.05,5086.92,Credit Card,Same Day
+ORD-10620,2024-12-22,Kavya Nair,Yoga Mat,Sports,North,Lucknow,2,2312.12,0.1,727.0,Net Banking,Same Day
+ORD-10621,2025-06-03,Arjun Reddy,Bookshelf,Furniture,West,Pune,1,3819.9,0.2,442.39,Debit Card,Economy
+ORD-10622,2024-06-29,Anita Das,Office Chair,Furniture,North,Delhi,3,28401.38,0.0,4550.77,Debit Card,Standard
+ORD-10623,2024-04-16,Neha Verma,Cookbook,Books,North,Lucknow,2,1166.97,0.05,237.57,Credit Card,Express
+ORD-10624,2025-03-31,Pooja Mishra,Formal Shirt,Clothing,Central,Raipur,2,5241.26,0.0,708.7,Credit Card,Same Day
+ORD-10625,2024-08-21,Rahul Joshi,USB-C Hub,Technology,South,Kochi,4,8365.46,0.0,1614.85,Debit Card,Standard
+ORD-10626,2025-03-22,Kiran Bose,Monitor 27inch,Technology,South,Coimbatore,2,41422.62,0.0,7864.4,UPI,Same Day
+ORD-10627,2024-10-03,Priya Singh,Standing Desk,Furniture,East,Bhubaneswar,5,88175.62,0.0,9405.36,Debit Card,Economy
+ORD-10628,2025-03-04,Meera Iyer,Office Chair,Furniture,East,Bhubaneswar,5,36390.07,0.2,8483.25,Net Banking,Express
+ORD-10629,2024-08-23,Rohit Shah,Mechanical Keyboard,Technology,West,Nagpur,2,5893.06,0.2,1125.95,Credit Card,Economy
+ORD-10630,2024-09-09,Divya Pandey,Bookshelf,Furniture,East,Guwahati,2,13621.12,0.1,4183.05,Net Banking,Standard
+ORD-10631,2025-03-03,Anjali Pillai,Wireless Mouse,Technology,North,Jaipur,1,1043.09,0.05,203.43,Credit Card,Economy
+ORD-10632,2025-05-22,Rajesh Kumar,Bookshelf,Furniture,North,Lucknow,4,31198.94,0.0,5179.57,UPI,Standard
+ORD-10633,2024-01-17,Kiran Bose,Dumbbell Set,Sports,East,Bhubaneswar,5,42808.52,0.0,13456.47,Debit Card,Express
+ORD-10634,2025-02-19,Rajesh Kumar,Office Chair,Furniture,East,Guwahati,1,9090.03,0.15,1453.47,Credit Card,Same Day
+ORD-10635,2025-03-12,Sanjay Tiwari,Blender,Appliances,East,Ranchi,5,21944.79,0.2,5361.54,Net Banking,Same Day
+ORD-10636,2024-02-26,Sunita Patel,T-Shirt,Clothing,East,Kolkata,4,2098.06,0.1,188.43,Cash,Express
+ORD-10637,2024-03-09,Suresh Menon,Jeans,Clothing,South,Chennai,2,3232.59,0.15,629.83,Net Banking,Express
+ORD-10638,2024-08-18,Anjali Pillai,Whiteboard,Office Supplies,East,Patna,4,12217.16,0.0,2070.51,Debit Card,Economy
+ORD-10639,2025-05-28,Sanjay Tiwari,T-Shirt,Clothing,North,Jaipur,5,4036.2,0.05,924.4,Credit Card,Express
+ORD-10640,2025-04-13,Neha Verma,Mechanical Keyboard,Technology,North,Jaipur,3,13249.54,0.0,1407.73,Cash,Standard
+ORD-10641,2024-05-31,Anjali Pillai,Dumbbell Set,Sports,South,Chennai,1,3847.18,0.15,807.69,UPI,Economy
+ORD-10642,2024-12-21,Meera Iyer,Yoga Mat,Sports,West,Mumbai,2,1933.01,0.2,526.7,Net Banking,Same Day
+ORD-10643,2025-02-25,Rohit Shah,Formal Shirt,Clothing,East,Patna,5,11244.52,0.1,3171.61,Debit Card,Economy
+ORD-10644,2024-11-07,Neha Verma,Formal Shirt,Clothing,South,Hyderabad,3,7728.73,0.0,2418.89,Credit Card,Express
+ORD-10645,2024-12-27,Manoj Rao,Ballpoint Pen Set,Office Supplies,West,Pune,2,463.17,0.0,57.32,UPI,Express
+ORD-10646,2024-06-14,Suresh Menon,Bookshelf,Furniture,North,Delhi,5,22529.47,0.0,3801.2,UPI,Standard
+ORD-10647,2024-11-20,Kiran Bose,Stapler,Office Supplies,South,Hyderabad,5,4348.17,0.1,662.55,Credit Card,Economy
+ORD-10648,2025-05-26,Suresh Menon,Blender,Appliances,South,Kochi,2,5968.25,0.15,1259.75,Net Banking,Same Day
+ORD-10649,2024-10-29,Vikram Gupta,Dumbbell Set,Sports,East,Ranchi,5,40231.86,0.05,6488.77,Credit Card,Economy
+ORD-10650,2024-02-11,Meera Iyer,Monitor 27inch,Technology,Central,Bhopal,1,16649.13,0.2,2212.46,Cash,Standard
+ORD-10651,2024-11-30,Divya Pandey,Wireless Mouse,Technology,Central,Indore,5,5350.8,0.2,784.98,Credit Card,Standard
+ORD-10652,2025-04-01,Deepak Yadav,Python Programming,Books,North,Lucknow,2,1027.28,0.1,231.36,Credit Card,Same Day
+ORD-10653,2025-02-11,Deepak Yadav,Monitor 27inch,Technology,West,Ahmedabad,3,54256.01,0.0,8915.63,Debit Card,Standard
+ORD-10654,2024-08-08,Kiran Bose,Cookbook,Books,West,Surat,3,932.07,0.15,291.63,Debit Card,Economy
+ORD-10655,2024-05-22,Amit Sharma,Coffee Maker,Appliances,Central,Gwalior,2,6385.93,0.05,2025.69,Net Banking,Same Day
+ORD-10656,2024-03-08,Rajesh Kumar,Formal Shirt,Clothing,West,Mumbai,4,9832.84,0.0,1764.83,Net Banking,Economy
+ORD-10657,2024-05-20,Meera Iyer,Standing Desk,Furniture,South,Kochi,5,67623.42,0.2,18819.57,Net Banking,Same Day
+ORD-10658,2025-05-20,Rajesh Kumar,Jeans,Clothing,West,Pune,1,1400.23,0.0,433.3,Debit Card,Standard
+ORD-10659,2024-10-21,Kavya Nair,Yoga Mat,Sports,South,Kochi,1,1287.1,0.0,255.27,Credit Card,Same Day
+ORD-10660,2025-05-07,Rohit Shah,Formal Shirt,Clothing,West,Ahmedabad,1,1750.83,0.15,381.79,Cash,Express
+ORD-10661,2024-02-29,Vikram Gupta,Monitor 27inch,Technology,East,Guwahati,3,57429.49,0.0,9572.3,Cash,Standard
+ORD-10662,2024-10-23,Anjali Pillai,Ballpoint Pen Set,Office Supplies,Central,Bhopal,2,481.52,0.0,126.89,Net Banking,Express
+ORD-10663,2024-11-26,Arjun Reddy,Microwave Oven,Appliances,East,Patna,3,24853.5,0.1,4085.69,UPI,Standard
+ORD-10664,2024-05-20,Rohit Shah,T-Shirt,Clothing,East,Patna,4,2280.63,0.0,238.51,UPI,Express
+ORD-10665,2024-07-11,Anjali Pillai,Air Fryer,Appliances,Central,Gwalior,5,29724.14,0.15,7773.27,Credit Card,Economy
+ORD-10666,2025-04-16,Rajesh Kumar,Mechanical Keyboard,Technology,North,Chandigarh,4,10867.83,0.15,1815.11,Debit Card,Same Day
+ORD-10667,2024-06-25,Sunita Patel,Self Help Book,Books,East,Kolkata,2,490.64,0.15,56.01,UPI,Same Day
+ORD-10668,2024-05-08,Pooja Mishra,Standing Desk,Furniture,South,Bangalore,1,10221.88,0.2,2005.75,Debit Card,Standard
+ORD-10669,2024-07-20,Divya Pandey,USB-C Hub,Technology,North,Lucknow,1,1669.08,0.0,150.86,Cash,Standard
+ORD-10670,2024-04-08,Rahul Joshi,Air Fryer,Appliances,North,Lucknow,5,38270.56,0.0,9221.07,Credit Card,Standard
+ORD-10671,2024-05-29,Anita Das,Microwave Oven,Appliances,East,Ranchi,3,18801.03,0.1,5027.25,Net Banking,Express
+ORD-10672,2025-06-01,Divya Pandey,Formal Shirt,Clothing,North,Delhi,1,1949.27,0.15,245.55,Cash,Express
+ORD-10673,2024-01-05,Anjali Pillai,Cookbook,Books,North,Chandigarh,4,2250.79,0.1,280.07,Credit Card,Express
+ORD-10674,2024-12-29,Anjali Pillai,Running Shoes,Sports,West,Pune,2,7882.44,0.2,2493.27,Credit Card,Economy
+ORD-10675,2024-04-22,Anita Das,T-Shirt,Clothing,South,Kochi,3,2035.7,0.0,203.04,Debit Card,Standard
+ORD-10676,2025-01-29,Meera Iyer,Ballpoint Pen Set,Office Supplies,West,Nagpur,4,569.8,0.05,85.32,Debit Card,Express
+ORD-10677,2024-03-12,Neha Verma,Coffee Maker,Appliances,West,Ahmedabad,1,5221.73,0.05,1260.02,Debit Card,Economy
+ORD-10678,2025-06-19,Vikram Gupta,Python Programming,Books,North,Delhi,4,1909.01,0.1,600.61,UPI,Standard
+ORD-10679,2025-01-07,Manoj Rao,Standing Desk,Furniture,East,Bhubaneswar,4,59259.75,0.2,10781.07,Debit Card,Same Day
+ORD-10680,2024-10-06,Rohit Shah,Blender,Appliances,West,Ahmedabad,5,39071.06,0.05,7921.25,UPI,Economy
+ORD-10681,2024-04-20,Rohit Shah,USB-C Hub,Technology,East,Guwahati,2,3656.74,0.0,318.63,Credit Card,Standard
+ORD-10682,2025-05-25,Deepak Yadav,Python Programming,Books,North,Chandigarh,5,3278.21,0.0,500.45,Net Banking,Standard
+ORD-10683,2024-03-19,Kiran Bose,Python Programming,Books,Central,Jabalpur,2,916.0,0.05,181.06,Cash,Same Day
+ORD-10684,2024-01-19,Sunita Patel,Blender,Appliances,North,Jaipur,4,20721.29,0.2,3529.27,Debit Card,Standard
+ORD-10685,2024-02-03,Neha Verma,Office Chair,Furniture,Central,Raipur,4,44059.07,0.0,11092.91,Debit Card,Standard
+ORD-10686,2025-05-17,Divya Pandey,Python Programming,Books,Central,Gwalior,4,1805.31,0.2,212.15,Credit Card,Economy
+ORD-10687,2024-09-26,Manoj Rao,Dumbbell Set,Sports,Central,Jabalpur,3,18547.94,0.0,2910.47,Credit Card,Standard
+ORD-10688,2024-05-11,Divya Pandey,Coffee Maker,Appliances,East,Patna,1,4136.12,0.15,669.64,Credit Card,Economy
+ORD-10689,2024-12-19,Priya Singh,Stapler,Office Supplies,West,Ahmedabad,2,949.73,0.15,147.12,Credit Card,Standard
+ORD-10690,2024-11-08,Rajesh Kumar,USB-C Hub,Technology,East,Bhubaneswar,5,10148.68,0.05,2414.01,Debit Card,Economy
+ORD-10691,2024-09-30,Rajesh Kumar,Laptop Pro X,Technology,West,Nagpur,3,139015.52,0.05,21878.42,Credit Card,Economy
+ORD-10692,2024-04-12,Rohit Shah,Self Help Book,Books,South,Hyderabad,5,2097.11,0.15,338.66,Net Banking,Same Day
+ORD-10693,2025-01-07,Amit Sharma,Yoga Mat,Sports,South,Kochi,5,7098.56,0.0,648.86,Net Banking,Economy
+ORD-10694,2024-08-19,Sunita Patel,Winter Jacket,Clothing,North,Lucknow,5,20894.67,0.0,4512.05,Net Banking,Economy
+ORD-10695,2025-03-13,Meera Iyer,Standing Desk,Furniture,East,Kolkata,5,95196.02,0.05,22773.71,Cash,Express
+ORD-10696,2025-02-28,Anjali Pillai,Running Shoes,Sports,East,Ranchi,4,15044.04,0.1,1855.6,Credit Card,Express
+ORD-10697,2025-05-26,Sanjay Tiwari,Standing Desk,Furniture,West,Ahmedabad,5,97506.8,0.05,29672.55,Credit Card,Express
+ORD-10698,2025-01-08,Vikram Gupta,Water Bottle,Sports,South,Chennai,3,3280.02,0.05,513.25,Credit Card,Express
+ORD-10699,2025-02-26,Arjun Reddy,Notebook A4,Office Supplies,East,Bhubaneswar,5,1045.16,0.0,112.1,UPI,Standard
+ORD-10700,2024-09-08,Rohit Shah,Air Fryer,Appliances,East,Guwahati,5,37855.25,0.05,8905.88,Credit Card,Express
+ORD-10701,2024-06-12,Arjun Reddy,Notebook A4,Office Supplies,South,Bangalore,3,944.0,0.0,221.49,Credit Card,Economy
+ORD-10702,2024-01-21,Manoj Rao,Wireless Mouse,Technology,North,Amritsar,3,5614.01,0.05,1657.4,Credit Card,Economy
+ORD-10703,2024-05-23,Anjali Pillai,Bookshelf,Furniture,North,Lucknow,1,4870.26,0.2,1068.05,Net Banking,Same Day
+ORD-10704,2025-05-23,Sunita Patel,Mechanical Keyboard,Technology,South,Coimbatore,3,8528.14,0.1,2191.19,UPI,Economy
+ORD-10705,2024-08-11,Rahul Joshi,Monitor 27inch,Technology,North,Chandigarh,3,63228.98,0.0,18152.79,Credit Card,Economy
+ORD-10706,2025-01-18,Sanjay Tiwari,Self Help Book,Books,North,Amritsar,4,2197.75,0.0,683.93,UPI,Same Day
+ORD-10707,2025-05-01,Rajesh Kumar,Self Help Book,Books,East,Patna,5,1106.88,0.15,264.47,Credit Card,Express
+ORD-10708,2024-09-16,Anita Das,Jeans,Clothing,West,Ahmedabad,1,1895.38,0.0,541.77,Debit Card,Standard
+ORD-10709,2025-02-06,Kavya Nair,Notebook A4,Office Supplies,East,Kolkata,3,607.79,0.0,182.22,Cash,Economy
+ORD-10710,2024-02-04,Rohit Shah,Notebook A4,Office Supplies,North,Jaipur,4,1526.5,0.0,384.94,Credit Card,Express
+ORD-10711,2024-09-24,Pooja Mishra,T-Shirt,Clothing,North,Amritsar,5,3440.77,0.1,884.51,Debit Card,Standard
+ORD-10712,2024-02-23,Vikram Gupta,Novel - Bestseller,Books,South,Kochi,1,306.23,0.15,46.95,Net Banking,Standard
+ORD-10713,2024-04-23,Vikram Gupta,Office Chair,Furniture,South,Coimbatore,5,51201.09,0.2,15639.9,Debit Card,Economy
+ORD-10714,2024-05-16,Suresh Menon,Notebook A4,Office Supplies,South,Coimbatore,3,569.05,0.05,95.73,Debit Card,Economy
+ORD-10715,2024-08-17,Manoj Rao,Laptop Pro X,Technology,North,Lucknow,2,102730.05,0.05,13106.7,UPI,Standard
+ORD-10716,2025-02-14,Arjun Reddy,Winter Jacket,Clothing,West,Nagpur,2,6623.43,0.0,800.31,Net Banking,Standard
+ORD-10717,2024-01-15,Kiran Bose,Self Help Book,Books,Central,Jabalpur,4,1359.24,0.15,175.01,Cash,Same Day
+ORD-10718,2025-05-21,Rahul Joshi,Running Shoes,Sports,South,Kochi,5,12155.67,0.2,1797.97,UPI,Economy
+ORD-10719,2024-07-03,Meera Iyer,Yoga Mat,Sports,South,Bangalore,3,2951.13,0.05,878.72,Cash,Economy
+ORD-10720,2024-03-28,Suresh Menon,Laptop Pro X,Technology,West,Pune,4,176352.98,0.15,30339.57,Debit Card,Same Day
+ORD-10721,2024-03-15,Priya Singh,USB-C Hub,Technology,Central,Bhopal,3,6073.53,0.05,1809.76,Net Banking,Standard
+ORD-10722,2024-01-06,Deepak Yadav,Notebook A4,Office Supplies,Central,Gwalior,3,1407.94,0.15,237.96,Net Banking,Standard
+ORD-10723,2024-07-02,Rohit Shah,Notebook A4,Office Supplies,South,Coimbatore,3,1108.42,0.0,112.52,Net Banking,Economy
+ORD-10724,2024-05-25,Priya Singh,Notebook A4,Office Supplies,North,Amritsar,2,439.68,0.2,64.83,Cash,Economy
+ORD-10725,2024-10-16,Anjali Pillai,Notebook A4,Office Supplies,Central,Raipur,3,1087.56,0.0,169.37,Debit Card,Express
+ORD-10726,2025-03-26,Priya Singh,Wireless Mouse,Technology,South,Chennai,2,1763.58,0.05,251.23,Debit Card,Economy
+ORD-10727,2024-04-28,Anita Das,Dumbbell Set,Sports,North,Jaipur,5,24691.44,0.05,2641.93,UPI,Standard
+ORD-10728,2024-12-23,Neha Verma,Mechanical Keyboard,Technology,South,Hyderabad,2,8959.72,0.2,1303.37,Net Banking,Express
+ORD-10729,2024-01-05,Pooja Mishra,T-Shirt,Clothing,Central,Indore,1,695.69,0.05,168.68,Cash,Standard
+ORD-10730,2024-10-18,Anita Das,Python Programming,Books,North,Jaipur,5,5376.82,0.0,1510.21,UPI,Standard
+ORD-10731,2024-03-24,Arjun Reddy,Water Bottle,Sports,West,Surat,5,3645.02,0.0,1139.96,Net Banking,Economy
+ORD-10732,2024-11-28,Rahul Joshi,Cookbook,Books,Central,Indore,1,868.87,0.0,136.9,Credit Card,Standard
+ORD-10733,2025-01-25,Neha Verma,Mechanical Keyboard,Technology,West,Ahmedabad,2,9923.42,0.2,1743.94,Credit Card,Express
+ORD-10734,2024-06-15,Vikram Gupta,Running Shoes,Sports,West,Ahmedabad,1,2597.09,0.2,477.26,Cash,Express
+ORD-10735,2025-01-02,Anjali Pillai,Python Programming,Books,North,Amritsar,2,1517.08,0.05,294.84,Net Banking,Economy
+ORD-10736,2024-04-02,Manoj Rao,Blender,Appliances,West,Ahmedabad,2,8712.0,0.05,891.3,Net Banking,Same Day
+ORD-10737,2025-04-19,Rohit Shah,Python Programming,Books,South,Chennai,5,2849.86,0.1,285.42,Debit Card,Economy
+ORD-10738,2024-03-22,Vikram Gupta,Air Fryer,Appliances,West,Ahmedabad,2,13790.2,0.0,3888.41,Net Banking,Economy
+ORD-10739,2024-10-29,Amit Sharma,Formal Shirt,Clothing,North,Lucknow,1,2860.35,0.1,520.52,Credit Card,Economy
+ORD-10740,2024-09-16,Amit Sharma,Stapler,Office Supplies,East,Ranchi,5,1302.66,0.15,311.05,UPI,Express
+ORD-10741,2025-02-06,Meera Iyer,Wireless Mouse,Technology,North,Jaipur,3,3451.48,0.05,903.48,Debit Card,Same Day
+ORD-10742,2024-12-15,Neha Verma,Microwave Oven,Appliances,South,Chennai,1,13207.54,0.1,1878.59,Credit Card,Economy
+ORD-10743,2024-01-19,Rajesh Kumar,Laptop Pro X,Technology,West,Mumbai,2,137144.31,0.05,33742.09,Net Banking,Economy
+ORD-10744,2024-11-06,Deepak Yadav,Winter Jacket,Clothing,Central,Raipur,3,13888.24,0.0,1157.31,Credit Card,Standard
+ORD-10745,2024-07-11,Rohit Shah,Microwave Oven,Appliances,North,Chandigarh,2,18807.03,0.05,5305.49,Net Banking,Express
+ORD-10746,2024-03-29,Rohit Shah,Ballpoint Pen Set,Office Supplies,West,Pune,4,330.47,0.0,98.01,Debit Card,Economy
+ORD-10747,2025-04-27,Kavya Nair,Laptop Pro X,Technology,West,Nagpur,2,76717.3,0.2,21490.15,Credit Card,Same Day
+ORD-10748,2024-01-09,Rohit Shah,USB-C Hub,Technology,West,Surat,5,11313.79,0.1,3617.77,Credit Card,Economy
+ORD-10749,2025-02-13,Manoj Rao,Dumbbell Set,Sports,Central,Gwalior,4,17246.68,0.0,3566.51,Debit Card,Same Day
+ORD-10750,2024-03-06,Sunita Patel,Notebook A4,Office Supplies,West,Surat,4,1039.29,0.15,169.64,Debit Card,Standard
+ORD-10751,2024-06-14,Anita Das,Ballpoint Pen Set,Office Supplies,South,Kochi,4,431.41,0.0,95.36,Cash,Economy
+ORD-10752,2024-05-14,Anita Das,Ballpoint Pen Set,Office Supplies,West,Surat,4,563.11,0.2,66.95,UPI,Same Day
+ORD-10753,2024-03-29,Neha Verma,Python Programming,Books,West,Pune,2,798.65,0.05,83.23,Debit Card,Economy
+ORD-10754,2024-11-06,Priya Singh,Bookshelf,Furniture,South,Coimbatore,1,7609.21,0.0,1260.77,UPI,Express
+ORD-10755,2025-05-30,Pooja Mishra,Wireless Mouse,Technology,North,Amritsar,1,1232.29,0.0,264.79,Debit Card,Same Day
+ORD-10756,2024-12-14,Sanjay Tiwari,Air Fryer,Appliances,East,Kolkata,3,25660.7,0.2,6303.1,Net Banking,Standard
+ORD-10757,2024-02-21,Sunita Patel,Water Bottle,Sports,West,Mumbai,5,2819.31,0.2,866.58,Net Banking,Standard
+ORD-10758,2025-06-03,Rahul Joshi,USB-C Hub,Technology,South,Bangalore,3,4071.1,0.0,1017.61,Net Banking,Economy
+ORD-10759,2024-04-11,Vikram Gupta,Monitor 27inch,Technology,East,Patna,1,22743.16,0.05,7112.08,Credit Card,Express
+ORD-10760,2025-04-30,Neha Verma,Whiteboard,Office Supplies,East,Ranchi,1,2577.23,0.15,673.08,Cash,Express
+ORD-10761,2024-06-04,Kavya Nair,Blender,Appliances,Central,Jabalpur,2,10458.4,0.05,3140.92,Debit Card,Same Day
+ORD-10762,2024-01-31,Anjali Pillai,Water Bottle,Sports,South,Bangalore,1,619.34,0.0,109.25,UPI,Economy
+ORD-10763,2024-03-03,Divya Pandey,Running Shoes,Sports,North,Chandigarh,1,4202.68,0.15,1142.19,Net Banking,Same Day
+ORD-10764,2025-03-05,Suresh Menon,Running Shoes,Sports,Central,Raipur,3,7559.27,0.0,2237.92,Net Banking,Express
+ORD-10765,2025-02-17,Manoj Rao,Water Bottle,Sports,South,Coimbatore,5,3085.58,0.15,502.52,Debit Card,Express
+ORD-10766,2024-11-04,Suresh Menon,Mechanical Keyboard,Technology,North,Lucknow,4,18802.94,0.15,5474.85,Net Banking,Same Day
+ORD-10767,2024-08-06,Meera Iyer,Mechanical Keyboard,Technology,Central,Gwalior,5,13521.03,0.15,1600.98,Credit Card,Same Day
+ORD-10768,2024-09-04,Anjali Pillai,Coffee Maker,Appliances,East,Guwahati,1,3821.09,0.2,647.73,Net Banking,Same Day
+ORD-10769,2024-05-06,Meera Iyer,Wireless Mouse,Technology,North,Jaipur,5,6250.06,0.05,1008.48,UPI,Express
+ORD-10770,2024-12-24,Vikram Gupta,Ballpoint Pen Set,Office Supplies,East,Ranchi,4,797.22,0.0,83.91,Net Banking,Express
+ORD-10771,2025-01-04,Pooja Mishra,Water Bottle,Sports,North,Chandigarh,4,2469.45,0.0,449.37,UPI,Economy
+ORD-10772,2024-08-07,Anjali Pillai,Water Bottle,Sports,North,Amritsar,4,2498.83,0.1,666.98,Cash,Economy
+ORD-10773,2025-03-09,Neha Verma,Water Bottle,Sports,West,Surat,2,1240.5,0.05,310.96,UPI,Standard
+ORD-10774,2024-08-05,Neha Verma,Water Bottle,Sports,West,Mumbai,5,2923.33,0.0,655.95,Debit Card,Standard
+ORD-10775,2024-05-03,Priya Singh,Stapler,Office Supplies,Central,Raipur,5,1806.61,0.0,276.74,Cash,Same Day
+ORD-10776,2024-10-28,Vikram Gupta,Dumbbell Set,Sports,North,Chandigarh,5,34833.05,0.0,10219.1,UPI,Express
+ORD-10777,2025-05-15,Anita Das,Laptop Pro X,Technology,North,Lucknow,1,51019.05,0.05,9973.32,Cash,Economy
+ORD-10778,2024-12-11,Manoj Rao,Air Fryer,Appliances,West,Surat,2,18060.41,0.1,4203.57,Debit Card,Economy
+ORD-10779,2024-06-01,Manoj Rao,Microwave Oven,Appliances,East,Kolkata,5,42288.85,0.0,12519.98,Cash,Standard
+ORD-10780,2025-03-29,Neha Verma,Cookbook,Books,East,Kolkata,1,423.04,0.2,112.18,Cash,Standard
+ORD-10781,2024-03-28,Divya Pandey,Standing Desk,Furniture,Central,Gwalior,1,19415.64,0.1,2435.79,Debit Card,Standard
+ORD-10782,2024-05-03,Rajesh Kumar,Python Programming,Books,Central,Indore,3,2112.12,0.0,589.55,Net Banking,Economy
+ORD-10783,2024-03-27,Suresh Menon,Air Fryer,Appliances,Central,Gwalior,4,24932.28,0.05,7152.42,Credit Card,Same Day
+ORD-10784,2025-03-23,Anjali Pillai,Office Chair,Furniture,West,Mumbai,3,32022.23,0.0,3442.86,Credit Card,Express
+ORD-10785,2024-10-19,Amit Sharma,Monitor 27inch,Technology,South,Hyderabad,2,53592.51,0.05,13015.8,Credit Card,Same Day
+ORD-10786,2024-07-04,Deepak Yadav,Laptop Pro X,Technology,North,Amritsar,1,45790.39,0.05,13477.15,Cash,Economy
+ORD-10787,2024-05-03,Manoj Rao,Wireless Mouse,Technology,South,Chennai,5,4344.95,0.1,1132.18,Debit Card,Standard
+ORD-10788,2024-10-02,Sanjay Tiwari,Wireless Mouse,Technology,East,Guwahati,4,4736.6,0.0,842.16,UPI,Standard
+ORD-10789,2024-10-02,Kavya Nair,Jeans,Clothing,Central,Bhopal,5,14329.11,0.0,2193.89,Debit Card,Economy
+ORD-10790,2024-03-26,Vikram Gupta,Microwave Oven,Appliances,Central,Indore,3,27727.92,0.0,7422.37,Net Banking,Economy
+ORD-10791,2025-04-07,Manoj Rao,Wireless Mouse,Technology,North,Jaipur,3,3771.42,0.0,302.21,Debit Card,Same Day
+ORD-10792,2024-09-13,Rahul Joshi,Coffee Maker,Appliances,West,Ahmedabad,5,25349.24,0.0,2304.66,Net Banking,Standard
+ORD-10793,2024-11-03,Vikram Gupta,Mechanical Keyboard,Technology,West,Mumbai,5,29909.32,0.05,3906.28,Net Banking,Same Day
+ORD-10794,2024-12-16,Arjun Reddy,Novel - Bestseller,Books,East,Guwahati,2,1301.75,0.0,210.87,Debit Card,Same Day
+ORD-10795,2024-01-17,Manoj Rao,Self Help Book,Books,South,Bangalore,4,1407.19,0.0,339.77,Debit Card,Economy
+ORD-10796,2025-02-06,Sanjay Tiwari,Jeans,Clothing,North,Delhi,1,1888.28,0.2,455.43,Credit Card,Same Day
+ORD-10797,2025-01-20,Deepak Yadav,Coffee Maker,Appliances,Central,Raipur,2,11347.15,0.2,2806.01,Credit Card,Standard
+ORD-10798,2025-04-18,Rajesh Kumar,Stapler,Office Supplies,South,Kochi,2,955.61,0.2,140.93,Cash,Express
+ORD-10799,2024-04-02,Kavya Nair,Coffee Maker,Appliances,Central,Raipur,2,10892.64,0.0,967.6,Debit Card,Express
+ORD-10800,2024-01-08,Arjun Reddy,Standing Desk,Furniture,West,Mumbai,5,119022.79,0.0,25283.83,Net Banking,Express
+ORD-10801,2024-03-07,Vikram Gupta,Formal Shirt,Clothing,South,Bangalore,3,6960.83,0.2,937.7,Net Banking,Same Day
+ORD-10802,2024-07-15,Manoj Rao,Microwave Oven,Appliances,North,Lucknow,3,28739.63,0.05,2312.65,Debit Card,Standard
+ORD-10803,2024-11-26,Sunita Patel,Yoga Mat,Sports,West,Ahmedabad,5,8866.11,0.0,1809.94,Credit Card,Express
+ORD-10804,2024-02-18,Kiran Bose,Notebook A4,Office Supplies,West,Nagpur,3,453.87,0.0,72.77,Net Banking,Standard
+ORD-10805,2024-08-19,Kavya Nair,Self Help Book,Books,West,Mumbai,2,598.69,0.0,56.92,Credit Card,Standard
+ORD-10806,2025-05-06,Suresh Menon,Yoga Mat,Sports,North,Lucknow,3,2984.39,0.05,409.48,Cash,Standard
+ORD-10807,2024-12-07,Manoj Rao,T-Shirt,Clothing,South,Bangalore,5,4334.85,0.0,997.38,Net Banking,Standard
+ORD-10808,2024-03-28,Suresh Menon,Wireless Mouse,Technology,North,Jaipur,1,1347.85,0.0,405.15,Debit Card,Standard
+ORD-10809,2024-11-04,Sunita Patel,Winter Jacket,Clothing,West,Mumbai,1,6940.36,0.0,1970.94,Debit Card,Standard
+ORD-10810,2025-02-24,Rajesh Kumar,Bookshelf,Furniture,Central,Gwalior,4,17714.18,0.2,3237.18,Net Banking,Standard
+ORD-10811,2024-12-13,Anjali Pillai,Novel - Bestseller,Books,North,Jaipur,3,1827.53,0.0,191.24,Net Banking,Standard
+ORD-10812,2024-07-17,Arjun Reddy,Formal Shirt,Clothing,South,Coimbatore,3,5435.35,0.15,1244.72,UPI,Express
+ORD-10813,2024-05-20,Vikram Gupta,Air Fryer,Appliances,North,Delhi,3,17673.74,0.1,5484.83,Cash,Same Day
+ORD-10814,2024-05-29,Manoj Rao,Monitor 27inch,Technology,West,Ahmedabad,3,60112.34,0.0,12277.55,UPI,Standard
+ORD-10815,2024-08-31,Pooja Mishra,T-Shirt,Clothing,Central,Bhopal,3,1493.11,0.0,348.99,UPI,Standard
+ORD-10816,2024-12-15,Manoj Rao,Standing Desk,Furniture,West,Surat,3,77565.93,0.1,24133.52,Net Banking,Same Day
+ORD-10817,2025-03-04,Kiran Bose,Whiteboard,Office Supplies,South,Bangalore,1,3491.86,0.0,814.67,UPI,Economy
+ORD-10818,2024-08-06,Deepak Yadav,Bookshelf,Furniture,West,Ahmedabad,2,8962.0,0.2,2846.07,Cash,Standard
+ORD-10819,2024-03-16,Sunita Patel,Stapler,Office Supplies,North,Lucknow,2,832.46,0.0,192.73,Cash,Standard
+ORD-10820,2024-01-31,Neha Verma,Standing Desk,Furniture,South,Hyderabad,2,49632.1,0.15,6046.59,Net Banking,Express
+ORD-10821,2024-07-01,Arjun Reddy,Standing Desk,Furniture,North,Chandigarh,1,10378.45,0.15,1172.13,Credit Card,Same Day
+ORD-10822,2024-08-03,Anita Das,Ballpoint Pen Set,Office Supplies,West,Pune,3,430.13,0.1,135.28,Net Banking,Economy
+ORD-10823,2024-03-07,Rahul Joshi,USB-C Hub,Technology,South,Chennai,2,2945.34,0.15,500.18,Net Banking,Economy
+ORD-10824,2024-09-07,Rahul Joshi,Wireless Mouse,Technology,Central,Gwalior,5,5029.64,0.0,797.92,Credit Card,Same Day
+ORD-10825,2024-05-09,Rohit Shah,Microwave Oven,Appliances,Central,Gwalior,2,16582.07,0.2,3199.68,Net Banking,Standard
+ORD-10826,2024-06-20,Anita Das,T-Shirt,Clothing,West,Nagpur,4,2637.78,0.0,414.76,Cash,Economy
+ORD-10827,2025-05-21,Deepak Yadav,Dumbbell Set,Sports,East,Ranchi,5,28870.4,0.0,3830.71,UPI,Economy
+ORD-10828,2024-08-28,Pooja Mishra,Running Shoes,Sports,South,Hyderabad,4,12570.96,0.2,2134.37,Net Banking,Standard
+ORD-10829,2024-05-17,Kiran Bose,Blender,Appliances,North,Amritsar,5,19705.22,0.1,1770.99,Net Banking,Same Day
+ORD-10830,2025-03-12,Pooja Mishra,Water Bottle,Sports,West,Surat,3,2406.76,0.0,350.24,Credit Card,Express
+ORD-10831,2025-03-28,Anita Das,Bookshelf,Furniture,East,Kolkata,1,4660.26,0.1,946.36,Credit Card,Same Day
+ORD-10832,2024-08-21,Anita Das,USB-C Hub,Technology,North,Delhi,1,1746.03,0.0,222.09,Cash,Same Day
+ORD-10833,2024-11-05,Manoj Rao,Cookbook,Books,East,Bhubaneswar,2,1566.57,0.2,394.59,Net Banking,Same Day
+ORD-10834,2024-01-09,Anita Das,Blender,Appliances,East,Patna,4,26273.13,0.2,5758.78,Credit Card,Economy
+ORD-10835,2025-06-08,Kavya Nair,Blender,Appliances,South,Kochi,2,10616.68,0.0,2058.2,Net Banking,Economy
+ORD-10836,2025-04-17,Rahul Joshi,Whiteboard,Office Supplies,North,Amritsar,4,13736.89,0.15,2476.01,Debit Card,Economy
+ORD-10837,2024-01-31,Vikram Gupta,Stapler,Office Supplies,South,Coimbatore,3,2844.83,0.0,568.83,Cash,Same Day
+ORD-10838,2024-08-18,Sanjay Tiwari,Yoga Mat,Sports,West,Surat,3,3378.24,0.0,730.44,Credit Card,Express
+ORD-10839,2024-06-06,Manoj Rao,Whiteboard,Office Supplies,Central,Gwalior,5,20110.98,0.05,2594.5,Debit Card,Standard
+ORD-10840,2025-01-30,Suresh Menon,Standing Desk,Furniture,West,Mumbai,5,128635.32,0.15,37913.78,Credit Card,Express
+ORD-10841,2024-04-16,Priya Singh,Python Programming,Books,Central,Indore,5,2849.38,0.0,364.04,Debit Card,Same Day
+ORD-10842,2024-07-29,Amit Sharma,Bookshelf,Furniture,East,Ranchi,4,15227.33,0.1,1258.56,Cash,Economy
+ORD-10843,2025-02-04,Sanjay Tiwari,Office Chair,Furniture,North,Chandigarh,4,45391.03,0.0,7868.91,UPI,Express
+ORD-10844,2024-07-29,Neha Verma,Ballpoint Pen Set,Office Supplies,West,Surat,5,745.05,0.0,164.65,Net Banking,Economy
+ORD-10845,2024-10-09,Kiran Bose,Standing Desk,Furniture,North,Chandigarh,1,25509.74,0.1,6984.97,Net Banking,Same Day
+ORD-10846,2025-05-17,Priya Singh,Water Bottle,Sports,West,Nagpur,1,516.76,0.05,84.35,Cash,Economy
+ORD-10847,2024-06-28,Manoj Rao,Yoga Mat,Sports,South,Chennai,4,4276.62,0.15,530.41,Net Banking,Standard
+ORD-10848,2025-02-06,Neha Verma,Self Help Book,Books,North,Chandigarh,3,1389.87,0.1,208.55,Credit Card,Express
+ORD-10849,2025-05-20,Anita Das,Yoga Mat,Sports,Central,Bhopal,1,1399.86,0.1,369.52,Cash,Economy
+ORD-10850,2025-04-06,Anjali Pillai,Office Chair,Furniture,East,Bhubaneswar,1,11235.17,0.0,2621.48,Debit Card,Economy
+ORD-10851,2024-12-17,Deepak Yadav,Cookbook,Books,West,Pune,1,426.01,0.0,106.58,UPI,Same Day
+ORD-10852,2025-04-20,Amit Sharma,Dumbbell Set,Sports,West,Mumbai,5,24648.21,0.15,7591.76,UPI,Economy
+ORD-10853,2024-10-12,Rajesh Kumar,Coffee Maker,Appliances,South,Chennai,5,21499.74,0.0,2360.59,Debit Card,Express
+ORD-10854,2024-03-20,Vikram Gupta,Python Programming,Books,North,Amritsar,4,2044.56,0.0,514.12,Net Banking,Express
+ORD-10855,2025-03-28,Sunita Patel,Self Help Book,Books,North,Lucknow,4,1737.0,0.05,160.81,Credit Card,Standard
+ORD-10856,2025-01-21,Anita Das,Blender,Appliances,South,Chennai,2,11199.9,0.0,2029.47,Credit Card,Same Day
+ORD-10857,2024-07-15,Sunita Patel,Python Programming,Books,North,Chandigarh,2,1351.61,0.0,242.97,Credit Card,Same Day
+ORD-10858,2024-11-26,Rahul Joshi,Jeans,Clothing,South,Coimbatore,5,11395.33,0.05,1242.01,UPI,Standard
+ORD-10859,2024-12-31,Deepak Yadav,Whiteboard,Office Supplies,South,Bangalore,3,10600.64,0.0,2015.25,Credit Card,Same Day
+ORD-10860,2025-01-12,Pooja Mishra,Wireless Mouse,Technology,North,Chandigarh,3,5335.75,0.05,1685.8,Credit Card,Express
+ORD-10861,2024-09-14,Deepak Yadav,USB-C Hub,Technology,Central,Raipur,2,2604.48,0.15,684.49,Cash,Economy
+ORD-10862,2024-03-10,Divya Pandey,Whiteboard,Office Supplies,North,Lucknow,4,11100.13,0.15,2864.23,Net Banking,Standard
+ORD-10863,2024-08-26,Meera Iyer,Laptop Pro X,Technology,Central,Bhopal,2,83806.61,0.2,11603.11,Credit Card,Standard
+ORD-10864,2024-05-20,Rahul Joshi,Stapler,Office Supplies,West,Ahmedabad,2,765.51,0.15,68.21,Net Banking,Economy
+ORD-10865,2024-12-02,Priya Singh,Monitor 27inch,Technology,East,Patna,5,156557.35,0.05,36874.13,Cash,Standard
+ORD-10866,2024-08-22,Kavya Nair,Microwave Oven,Appliances,East,Patna,2,15700.98,0.15,4980.51,UPI,Economy
+ORD-10867,2025-06-17,Rajesh Kumar,Whiteboard,Office Supplies,South,Kochi,1,4239.73,0.0,1309.56,Credit Card,Express
+ORD-10868,2024-07-28,Divya Pandey,Monitor 27inch,Technology,North,Chandigarh,5,119092.73,0.0,16281.69,Credit Card,Economy
+ORD-10869,2025-04-23,Kavya Nair,Ballpoint Pen Set,Office Supplies,South,Chennai,4,404.69,0.0,61.81,Net Banking,Economy
+ORD-10870,2024-07-25,Anita Das,Notebook A4,Office Supplies,West,Mumbai,4,928.83,0.05,172.7,Net Banking,Economy
+ORD-10871,2024-06-08,Deepak Yadav,Coffee Maker,Appliances,West,Mumbai,4,16338.92,0.2,4861.64,Cash,Express
+ORD-10872,2024-06-28,Meera Iyer,Notebook A4,Office Supplies,West,Surat,4,794.9,0.1,179.21,Credit Card,Same Day
+ORD-10873,2024-05-19,Vikram Gupta,Self Help Book,Books,West,Pune,2,402.01,0.2,80.47,Cash,Economy
+ORD-10874,2025-02-18,Deepak Yadav,Yoga Mat,Sports,West,Ahmedabad,4,3988.12,0.1,387.23,Credit Card,Standard
+ORD-10875,2025-01-29,Pooja Mishra,Formal Shirt,Clothing,South,Chennai,3,8927.2,0.2,2261.61,Net Banking,Economy
+ORD-10876,2025-01-12,Pooja Mishra,Self Help Book,Books,North,Jaipur,2,903.58,0.0,272.12,Cash,Standard
+ORD-10877,2024-05-31,Vikram Gupta,Notebook A4,Office Supplies,Central,Jabalpur,3,572.0,0.1,176.42,UPI,Standard
+ORD-10878,2024-04-29,Deepak Yadav,Blender,Appliances,North,Jaipur,5,29676.82,0.0,6067.39,UPI,Economy
+ORD-10879,2024-06-18,Meera Iyer,Coffee Maker,Appliances,West,Ahmedabad,5,23004.17,0.15,6735.53,Net Banking,Same Day
+ORD-10880,2025-02-25,Divya Pandey,Blender,Appliances,North,Delhi,3,16606.71,0.0,4312.68,Debit Card,Same Day
+ORD-10881,2024-01-07,Sunita Patel,Office Chair,Furniture,West,Mumbai,1,17843.55,0.05,3675.61,Cash,Economy
+ORD-10882,2024-06-23,Vikram Gupta,Office Chair,Furniture,East,Bhubaneswar,2,20529.54,0.1,6315.63,Debit Card,Express
+ORD-10883,2024-07-09,Rahul Joshi,Standing Desk,Furniture,North,Chandigarh,3,52390.73,0.2,9331.32,Net Banking,Standard
+ORD-10884,2024-06-19,Deepak Yadav,Mechanical Keyboard,Technology,East,Kolkata,1,3053.52,0.0,266.02,UPI,Economy
+ORD-10885,2025-05-11,Priya Singh,Python Programming,Books,North,Delhi,3,2064.93,0.0,494.92,Credit Card,Standard
+ORD-10886,2024-08-04,Manoj Rao,T-Shirt,Clothing,North,Jaipur,5,3573.79,0.2,513.91,Debit Card,Economy
+ORD-10887,2024-12-11,Anita Das,Winter Jacket,Clothing,West,Ahmedabad,3,21833.47,0.2,3002.17,Cash,Economy
+ORD-10888,2025-01-22,Suresh Menon,Winter Jacket,Clothing,North,Amritsar,1,3372.09,0.2,834.91,UPI,Standard
+ORD-10889,2024-05-05,Kavya Nair,Microwave Oven,Appliances,Central,Raipur,3,22214.35,0.15,5289.91,Debit Card,Economy
+ORD-10890,2024-07-11,Anita Das,Laptop Pro X,Technology,East,Kolkata,1,46491.58,0.15,7351.53,Debit Card,Express
+ORD-10891,2025-05-11,Anita Das,Running Shoes,Sports,Central,Bhopal,4,18421.31,0.05,5836.78,Credit Card,Economy
+ORD-10892,2024-10-27,Anjali Pillai,Winter Jacket,Clothing,South,Chennai,5,34194.75,0.15,6877.0,UPI,Economy
+ORD-10893,2024-03-30,Neha Verma,Ballpoint Pen Set,Office Supplies,Central,Jabalpur,4,739.5,0.05,176.77,UPI,Express
+ORD-10894,2024-08-04,Pooja Mishra,Office Chair,Furniture,North,Delhi,1,9121.65,0.0,2705.81,Cash,Express
+ORD-10895,2024-09-20,Vikram Gupta,Python Programming,Books,West,Mumbai,5,3016.71,0.05,306.82,Cash,Express
+ORD-10896,2024-03-07,Deepak Yadav,Novel - Bestseller,Books,East,Guwahati,5,2785.87,0.05,763.4,UPI,Same Day
+ORD-10897,2024-04-28,Amit Sharma,Ballpoint Pen Set,Office Supplies,North,Delhi,3,506.61,0.0,131.06,Credit Card,Same Day
+ORD-10898,2024-05-10,Divya Pandey,Microwave Oven,Appliances,East,Guwahati,1,7078.31,0.1,1476.14,Debit Card,Economy
+ORD-10899,2024-11-23,Anjali Pillai,Blender,Appliances,East,Bhubaneswar,5,34838.58,0.0,6092.4,Net Banking,Economy
+ORD-10900,2024-11-19,Rohit Shah,Monitor 27inch,Technology,East,Bhubaneswar,4,106579.07,0.0,12257.55,Credit Card,Same Day
+ORD-10901,2024-11-12,Divya Pandey,T-Shirt,Clothing,North,Amritsar,4,4007.02,0.0,796.62,Debit Card,Standard
+ORD-10902,2024-12-07,Priya Singh,Monitor 27inch,Technology,South,Chennai,2,57113.93,0.15,9939.76,UPI,Standard
+ORD-10903,2025-02-05,Anita Das,Whiteboard,Office Supplies,West,Surat,4,11815.65,0.1,3006.15,Cash,Express
+ORD-10904,2025-02-07,Divya Pandey,USB-C Hub,Technology,South,Hyderabad,1,1742.34,0.15,266.54,UPI,Express
+ORD-10905,2025-03-28,Vikram Gupta,Self Help Book,Books,West,Ahmedabad,2,536.25,0.15,68.08,Credit Card,Same Day
+ORD-10906,2024-04-14,Pooja Mishra,Python Programming,Books,South,Kochi,2,1533.39,0.0,253.53,Debit Card,Express
+ORD-10907,2024-02-23,Divya Pandey,USB-C Hub,Technology,Central,Raipur,4,7377.07,0.15,1869.44,UPI,Standard
+ORD-10908,2024-05-01,Meera Iyer,Bookshelf,Furniture,West,Surat,5,33227.44,0.15,8600.86,Credit Card,Economy
+ORD-10909,2025-01-26,Rajesh Kumar,Notebook A4,Office Supplies,West,Ahmedabad,1,250.82,0.0,49.51,Net Banking,Express
+ORD-10910,2024-01-24,Rohit Shah,Formal Shirt,Clothing,Central,Gwalior,3,10670.47,0.0,2887.88,UPI,Economy
+ORD-10911,2025-05-10,Divya Pandey,Novel - Bestseller,Books,West,Ahmedabad,2,479.55,0.0,120.51,Net Banking,Express
+ORD-10912,2025-02-19,Sanjay Tiwari,Coffee Maker,Appliances,North,Jaipur,5,22119.22,0.1,4363.13,Net Banking,Standard
+ORD-10913,2024-07-31,Manoj Rao,Python Programming,Books,North,Chandigarh,2,669.55,0.05,182.2,Credit Card,Standard
+ORD-10914,2024-05-11,Amit Sharma,Formal Shirt,Clothing,South,Chennai,5,7540.56,0.2,666.6,Credit Card,Same Day
+ORD-10915,2025-01-07,Rajesh Kumar,Jeans,Clothing,South,Kochi,2,4008.77,0.1,1191.04,Cash,Economy
+ORD-10916,2024-05-23,Anjali Pillai,Formal Shirt,Clothing,West,Ahmedabad,3,6505.0,0.1,848.0,Credit Card,Standard
+ORD-10917,2024-08-30,Meera Iyer,Wireless Mouse,Technology,South,Chennai,2,2646.35,0.1,562.34,Net Banking,Same Day
+ORD-10918,2024-10-11,Amit Sharma,Monitor 27inch,Technology,Central,Jabalpur,5,131568.73,0.05,31042.92,UPI,Economy
+ORD-10919,2025-04-12,Vikram Gupta,Mechanical Keyboard,Technology,East,Guwahati,5,12356.98,0.15,3161.43,UPI,Same Day
+ORD-10920,2025-06-07,Vikram Gupta,Winter Jacket,Clothing,South,Kochi,3,18449.68,0.05,3153.9,Net Banking,Express
+ORD-10921,2024-03-20,Sunita Patel,Notebook A4,Office Supplies,North,Lucknow,5,1258.48,0.0,294.03,Cash,Same Day
+ORD-10922,2024-10-06,Rajesh Kumar,Monitor 27inch,Technology,South,Hyderabad,1,28896.13,0.0,4937.53,Credit Card,Standard
+ORD-10923,2024-06-28,Rohit Shah,T-Shirt,Clothing,East,Ranchi,1,564.81,0.15,122.74,Cash,Same Day
+ORD-10924,2024-04-11,Deepak Yadav,Wireless Mouse,Technology,South,Hyderabad,2,1770.76,0.15,429.72,Net Banking,Economy
+ORD-10925,2025-05-03,Rajesh Kumar,Formal Shirt,Clothing,South,Hyderabad,5,10921.79,0.15,1204.98,Debit Card,Same Day
+ORD-10926,2024-02-24,Manoj Rao,Cookbook,Books,East,Bhubaneswar,4,2330.86,0.0,432.03,Cash,Economy
+ORD-10927,2025-05-29,Anjali Pillai,Ballpoint Pen Set,Office Supplies,East,Guwahati,2,186.6,0.2,18.82,Cash,Economy
+ORD-10928,2024-11-16,Amit Sharma,Microwave Oven,Appliances,North,Delhi,2,32673.76,0.0,7125.36,Credit Card,Same Day
+ORD-10929,2025-05-19,Anjali Pillai,Air Fryer,Appliances,North,Jaipur,2,11121.83,0.1,2718.5,Net Banking,Standard
+ORD-10930,2025-02-19,Rajesh Kumar,Laptop Pro X,Technology,Central,Indore,4,176888.12,0.15,28799.96,Net Banking,Standard
+ORD-10931,2025-04-04,Neha Verma,Office Chair,Furniture,Central,Indore,1,10569.36,0.0,2148.58,Credit Card,Economy
+ORD-10932,2025-05-22,Sunita Patel,Running Shoes,Sports,South,Hyderabad,3,14355.34,0.0,4013.96,Credit Card,Same Day
+ORD-10933,2024-11-02,Rahul Joshi,Dumbbell Set,Sports,East,Patna,1,7664.69,0.1,1337.25,Cash,Standard
+ORD-10934,2025-04-19,Anita Das,Winter Jacket,Clothing,West,Mumbai,1,5154.36,0.0,781.42,Credit Card,Standard
+ORD-10935,2024-12-24,Anita Das,Cookbook,Books,South,Kochi,1,452.91,0.05,57.71,Net Banking,Express
+ORD-10936,2025-02-24,Vikram Gupta,USB-C Hub,Technology,West,Mumbai,3,4064.37,0.05,690.27,Cash,Economy
+ORD-10937,2024-07-05,Kiran Bose,Jeans,Clothing,East,Kolkata,4,5641.54,0.0,1462.86,Credit Card,Same Day
+ORD-10938,2024-07-22,Priya Singh,USB-C Hub,Technology,South,Hyderabad,2,2710.73,0.15,432.34,Credit Card,Express
+ORD-10939,2024-07-22,Pooja Mishra,Dumbbell Set,Sports,East,Kolkata,4,17361.39,0.2,4229.53,UPI,Same Day
+ORD-10940,2025-02-13,Sunita Patel,T-Shirt,Clothing,West,Pune,1,796.36,0.0,93.44,Net Banking,Standard
+ORD-10941,2024-08-30,Manoj Rao,Wireless Mouse,Technology,East,Guwahati,1,1104.03,0.0,163.1,Credit Card,Economy
+ORD-10942,2024-09-10,Neha Verma,Winter Jacket,Clothing,South,Coimbatore,2,7967.97,0.0,2289.99,UPI,Economy
+ORD-10943,2024-07-22,Manoj Rao,Dumbbell Set,Sports,North,Lucknow,2,6656.55,0.2,1477.0,UPI,Express
+ORD-10944,2024-05-03,Arjun Reddy,Monitor 27inch,Technology,West,Mumbai,2,46557.01,0.05,3921.9,UPI,Standard
+ORD-10945,2024-02-22,Meera Iyer,Running Shoes,Sports,West,Nagpur,2,5803.43,0.05,1131.71,Net Banking,Economy
+ORD-10946,2024-02-22,Anita Das,Ballpoint Pen Set,Office Supplies,North,Amritsar,3,492.56,0.15,88.83,Cash,Standard
+ORD-10947,2024-07-05,Suresh Menon,Wireless Mouse,Technology,North,Delhi,2,1999.44,0.0,595.9,Credit Card,Economy
+ORD-10948,2024-07-08,Suresh Menon,Notebook A4,Office Supplies,West,Ahmedabad,3,453.6,0.15,37.78,Net Banking,Express
+ORD-10949,2024-12-05,Anjali Pillai,Stapler,Office Supplies,East,Ranchi,5,2669.39,0.15,390.34,Net Banking,Economy
+ORD-10950,2024-03-30,Sunita Patel,USB-C Hub,Technology,South,Coimbatore,1,1518.58,0.15,419.4,UPI,Economy
+ORD-10951,2024-04-11,Suresh Menon,Mechanical Keyboard,Technology,Central,Gwalior,3,9481.68,0.2,1218.2,UPI,Standard
+ORD-10952,2024-05-10,Arjun Reddy,Standing Desk,Furniture,West,Nagpur,5,108756.31,0.0,20406.57,Credit Card,Economy
+ORD-10953,2024-03-10,Anjali Pillai,Dumbbell Set,Sports,West,Nagpur,1,4084.27,0.0,1009.67,UPI,Same Day
+ORD-10954,2024-02-16,Deepak Yadav,Formal Shirt,Clothing,North,Chandigarh,4,8086.53,0.2,1643.48,Credit Card,Express
+ORD-10955,2025-03-24,Sanjay Tiwari,Blender,Appliances,Central,Jabalpur,4,18008.49,0.0,2335.02,Credit Card,Express
+ORD-10956,2024-08-11,Kiran Bose,Formal Shirt,Clothing,North,Lucknow,5,11527.34,0.1,1638.27,UPI,Same Day
+ORD-10957,2024-10-01,Kavya Nair,Jeans,Clothing,North,Chandigarh,1,2651.09,0.0,236.96,UPI,Same Day
+ORD-10958,2024-05-16,Rahul Joshi,Notebook A4,Office Supplies,North,Chandigarh,5,760.95,0.15,124.33,Net Banking,Same Day
+ORD-10959,2024-11-28,Vikram Gupta,Mechanical Keyboard,Technology,Central,Raipur,4,24061.36,0.0,3799.59,Credit Card,Standard
+ORD-10960,2024-12-30,Arjun Reddy,Bookshelf,Furniture,East,Bhubaneswar,1,6887.5,0.2,1837.34,Net Banking,Standard
+ORD-10961,2025-01-26,Sanjay Tiwari,Novel - Bestseller,Books,East,Ranchi,2,1474.87,0.0,232.77,UPI,Economy
+ORD-10962,2024-06-08,Anita Das,Water Bottle,Sports,South,Kochi,2,1702.17,0.0,338.78,Debit Card,Express
+ORD-10963,2024-06-29,Neha Verma,Standing Desk,Furniture,Central,Jabalpur,3,36631.42,0.0,10713.25,Debit Card,Express
+ORD-10964,2024-03-12,Kavya Nair,Monitor 27inch,Technology,North,Jaipur,4,92582.89,0.05,9633.82,Net Banking,Express
+ORD-10965,2024-01-13,Deepak Yadav,Winter Jacket,Clothing,North,Jaipur,1,4739.17,0.0,1247.48,Credit Card,Express
+ORD-10966,2024-09-11,Vikram Gupta,Blender,Appliances,North,Amritsar,5,17668.71,0.0,5474.27,Credit Card,Same Day
+ORD-10967,2024-03-28,Divya Pandey,Standing Desk,Furniture,South,Kochi,4,80618.6,0.0,12868.46,UPI,Express
+ORD-10968,2024-02-27,Sunita Patel,Jeans,Clothing,East,Ranchi,1,2272.4,0.0,478.83,Credit Card,Economy
+ORD-10969,2024-05-25,Kavya Nair,Laptop Pro X,Technology,South,Bangalore,4,195415.32,0.0,46369.61,UPI,Economy
+ORD-10970,2024-04-25,Kavya Nair,Dumbbell Set,Sports,South,Bangalore,1,6847.63,0.0,1135.02,Net Banking,Same Day
+ORD-10971,2024-05-01,Manoj Rao,Stapler,Office Supplies,North,Delhi,2,668.21,0.1,107.16,UPI,Economy
+ORD-10972,2024-06-02,Meera Iyer,Python Programming,Books,East,Ranchi,3,2231.79,0.0,669.31,Cash,Same Day
+ORD-10973,2024-03-19,Vikram Gupta,Air Fryer,Appliances,North,Chandigarh,3,14299.11,0.05,3619.43,Debit Card,Standard
+ORD-10974,2024-04-25,Vikram Gupta,Formal Shirt,Clothing,West,Ahmedabad,1,1984.58,0.0,245.39,Debit Card,Same Day
+ORD-10975,2024-11-22,Pooja Mishra,Dumbbell Set,Sports,West,Surat,5,43940.79,0.0,4972.92,UPI,Economy
+ORD-10976,2025-03-04,Sanjay Tiwari,Jeans,Clothing,West,Nagpur,4,6055.09,0.2,818.81,Credit Card,Economy
+ORD-10977,2025-06-23,Kavya Nair,Formal Shirt,Clothing,South,Bangalore,3,3610.32,0.2,303.69,Net Banking,Economy
+ORD-10978,2024-05-16,Anita Das,USB-C Hub,Technology,North,Amritsar,2,2989.39,0.0,838.41,Net Banking,Economy
+ORD-10979,2024-09-05,Vikram Gupta,Standing Desk,Furniture,South,Bangalore,1,18377.44,0.15,2101.25,Credit Card,Economy
+ORD-10980,2025-01-15,Amit Sharma,Wireless Mouse,Technology,North,Lucknow,4,6210.2,0.2,732.56,UPI,Same Day
+ORD-10981,2024-05-24,Rajesh Kumar,Mechanical Keyboard,Technology,South,Bangalore,5,19770.15,0.05,2292.0,UPI,Economy
+ORD-10982,2024-05-23,Rohit Shah,Cookbook,Books,Central,Raipur,4,2238.29,0.05,598.82,Credit Card,Same Day
+ORD-10983,2024-04-23,Manoj Rao,Monitor 27inch,Technology,North,Delhi,2,43046.14,0.0,7538.83,Debit Card,Economy
+ORD-10984,2024-09-21,Kavya Nair,Formal Shirt,Clothing,Central,Raipur,4,11588.7,0.0,3633.63,Net Banking,Economy
+ORD-10985,2024-05-08,Manoj Rao,Cookbook,Books,South,Kochi,1,387.56,0.0,107.51,Net Banking,Standard
+ORD-10986,2025-04-24,Deepak Yadav,Dumbbell Set,Sports,East,Guwahati,2,7382.7,0.0,1736.38,UPI,Same Day
+ORD-10987,2024-04-21,Manoj Rao,USB-C Hub,Technology,North,Amritsar,3,3684.15,0.0,438.64,Credit Card,Standard
+ORD-10988,2024-08-04,Rahul Joshi,Winter Jacket,Clothing,North,Amritsar,5,18530.2,0.0,2551.25,Credit Card,Standard
+ORD-10989,2025-05-10,Amit Sharma,Wireless Mouse,Technology,North,Amritsar,3,2417.81,0.0,629.61,Debit Card,Express
+ORD-10990,2024-11-18,Vikram Gupta,Blender,Appliances,West,Ahmedabad,1,5150.67,0.15,1034.56,Net Banking,Express
+ORD-10991,2024-01-25,Divya Pandey,Formal Shirt,Clothing,West,Surat,1,2709.25,0.0,660.43,Credit Card,Standard
+ORD-10992,2024-08-25,Anjali Pillai,Standing Desk,Furniture,South,Chennai,5,98652.55,0.1,23315.03,Cash,Economy
+ORD-10993,2024-05-14,Manoj Rao,Whiteboard,Office Supplies,East,Patna,4,8772.09,0.15,2331.64,Debit Card,Express
+ORD-10994,2024-08-01,Vikram Gupta,Winter Jacket,Clothing,Central,Bhopal,5,24687.0,0.05,2552.08,Credit Card,Express
+ORD-10995,2024-11-12,Sunita Patel,Jeans,Clothing,North,Jaipur,4,9003.87,0.0,1069.24,Cash,Same Day
+ORD-10996,2024-12-27,Kiran Bose,Mechanical Keyboard,Technology,North,Chandigarh,3,18783.6,0.0,4943.0,Debit Card,Express
+ORD-10997,2024-05-06,Anita Das,Formal Shirt,Clothing,West,Mumbai,3,5043.38,0.2,1153.54,UPI,Economy
+ORD-10998,2025-01-10,Anita Das,T-Shirt,Clothing,Central,Raipur,1,933.79,0.1,175.57,Credit Card,Standard
+ORD-10999,2024-09-07,Vikram Gupta,Self Help Book,Books,Central,Bhopal,1,337.2,0.0,73.12,Credit Card,Express
+ORD-11000,2025-02-01,Anita Das,Microwave Oven,Appliances,West,Mumbai,4,31719.36,0.1,9389.89,Debit Card,Standard
+ORD-11001,2024-03-28,Pooja Mishra,Office Chair,Furniture,North,Jaipur,2,21621.29,0.0,3376.13,Net Banking,Economy
+ORD-11002,2024-08-05,Arjun Reddy,Self Help Book,Books,West,Mumbai,4,1045.94,0.0,321.78,UPI,Express
+ORD-11003,2024-11-23,Deepak Yadav,Formal Shirt,Clothing,North,Lucknow,1,4066.57,0.0,1095.92,Debit Card,Express
+ORD-11004,2024-02-25,Arjun Reddy,Standing Desk,Furniture,North,Jaipur,3,55070.62,0.0,6278.99,Cash,Economy
+ORD-11005,2024-03-24,Anjali Pillai,Ballpoint Pen Set,Office Supplies,West,Surat,2,320.71,0.0,39.83,Credit Card,Standard
+ORD-11006,2025-03-14,Rahul Joshi,Whiteboard,Office Supplies,East,Bhubaneswar,3,12494.07,0.05,2425.35,UPI,Economy
+ORD-11007,2024-12-29,Rajesh Kumar,Self Help Book,Books,Central,Jabalpur,5,3055.01,0.1,389.99,Net Banking,Express
+ORD-11008,2024-11-27,Vikram Gupta,Python Programming,Books,East,Kolkata,4,4097.56,0.05,1177.77,Credit Card,Economy
+ORD-11009,2024-09-26,Vikram Gupta,T-Shirt,Clothing,North,Jaipur,4,2590.05,0.1,267.78,UPI,Express
+ORD-11010,2025-03-06,Manoj Rao,Self Help Book,Books,Central,Indore,4,1259.36,0.0,388.6,Net Banking,Standard
+ORD-11011,2025-01-14,Meera Iyer,Coffee Maker,Appliances,East,Kolkata,3,13962.92,0.2,1535.07,Debit Card,Economy
+ORD-11012,2025-02-27,Sanjay Tiwari,Yoga Mat,Sports,East,Patna,4,4234.14,0.2,680.0,UPI,Economy
+ORD-11013,2025-03-14,Manoj Rao,Stapler,Office Supplies,South,Coimbatore,2,982.5,0.05,145.81,Debit Card,Same Day
+ORD-11014,2024-04-11,Rajesh Kumar,Mechanical Keyboard,Technology,North,Delhi,5,21824.97,0.0,4346.16,Net Banking,Standard
+ORD-11015,2025-03-30,Meera Iyer,T-Shirt,Clothing,Central,Bhopal,4,1618.99,0.2,306.17,Debit Card,Standard
+ORD-11016,2024-07-19,Anita Das,Microwave Oven,Appliances,West,Mumbai,4,27128.35,0.2,6368.82,Debit Card,Standard
+ORD-11017,2025-01-18,Meera Iyer,Air Fryer,Appliances,South,Coimbatore,3,31830.23,0.0,4894.7,Debit Card,Express
+ORD-11018,2024-01-05,Rajesh Kumar,Yoga Mat,Sports,North,Delhi,2,3562.74,0.2,983.35,Net Banking,Same Day
+ORD-11019,2024-12-09,Kavya Nair,Office Chair,Furniture,Central,Jabalpur,5,103701.03,0.0,23633.91,Debit Card,Standard
+ORD-11020,2025-03-15,Deepak Yadav,Monitor 27inch,Technology,West,Pune,3,61619.68,0.05,8345.32,UPI,Standard
+ORD-11021,2025-02-05,Neha Verma,Coffee Maker,Appliances,East,Ranchi,3,10050.48,0.0,865.89,Credit Card,Express
+ORD-11022,2024-01-29,Divya Pandey,Winter Jacket,Clothing,Central,Bhopal,4,14701.33,0.15,1636.72,Debit Card,Same Day
+ORD-11023,2024-07-10,Rahul Joshi,Bookshelf,Furniture,South,Hyderabad,5,31287.77,0.15,8360.31,Debit Card,Same Day
+ORD-11024,2024-02-22,Rajesh Kumar,Notebook A4,Office Supplies,North,Chandigarh,5,1833.67,0.0,348.75,Net Banking,Standard
+ORD-11025,2024-04-19,Neha Verma,Monitor 27inch,Technology,East,Patna,1,14833.34,0.2,2473.24,UPI,Economy
+ORD-11026,2024-04-13,Amit Sharma,Dumbbell Set,Sports,North,Jaipur,4,27429.04,0.0,3578.7,Debit Card,Economy
+ORD-11027,2024-11-17,Neha Verma,Novel - Bestseller,Books,West,Pune,3,857.04,0.0,204.25,Net Banking,Standard
+ORD-11028,2024-04-30,Manoj Rao,Whiteboard,Office Supplies,East,Guwahati,5,17964.83,0.0,3686.74,Cash,Standard
+ORD-11029,2024-07-16,Rajesh Kumar,Winter Jacket,Clothing,North,Lucknow,5,23955.53,0.0,3160.06,Cash,Standard
+ORD-11030,2024-08-10,Kavya Nair,Laptop Pro X,Technology,East,Bhubaneswar,1,52277.44,0.0,7539.54,Debit Card,Express
+ORD-11031,2024-04-04,Kiran Bose,Stapler,Office Supplies,Central,Raipur,4,1802.81,0.05,543.3,Cash,Express
+ORD-11032,2024-07-21,Sunita Patel,Python Programming,Books,East,Guwahati,5,3181.14,0.1,492.38,UPI,Economy
+ORD-11033,2025-03-19,Arjun Reddy,Water Bottle,Sports,West,Nagpur,3,1920.93,0.1,330.27,UPI,Same Day
+ORD-11034,2025-01-17,Neha Verma,Novel - Bestseller,Books,North,Jaipur,1,816.53,0.0,180.33,Cash,Same Day
+ORD-11035,2025-02-11,Suresh Menon,Laptop Pro X,Technology,North,Chandigarh,4,211635.85,0.0,29391.22,UPI,Same Day
+ORD-11036,2025-01-15,Rajesh Kumar,Monitor 27inch,Technology,East,Kolkata,3,81460.43,0.15,12946.4,Debit Card,Same Day
+ORD-11037,2024-08-26,Meera Iyer,Jeans,Clothing,North,Jaipur,5,7379.14,0.0,772.6,Cash,Standard
+ORD-11038,2025-03-07,Suresh Menon,Python Programming,Books,West,Ahmedabad,2,701.93,0.2,139.36,Credit Card,Same Day
+ORD-11039,2025-03-07,Neha Verma,USB-C Hub,Technology,North,Jaipur,5,7252.66,0.05,991.74,Credit Card,Same Day
+ORD-11040,2024-01-19,Kiran Bose,Novel - Bestseller,Books,Central,Bhopal,3,1007.17,0.05,89.52,Net Banking,Standard
+ORD-11041,2024-12-11,Rohit Shah,Novel - Bestseller,Books,North,Delhi,1,707.48,0.05,179.4,Cash,Same Day
+ORD-11042,2024-12-20,Suresh Menon,Running Shoes,Sports,North,Lucknow,4,21443.86,0.05,3251.46,Debit Card,Economy
+ORD-11043,2024-05-04,Sunita Patel,Coffee Maker,Appliances,East,Ranchi,1,2723.87,0.2,224.71,Credit Card,Same Day
+ORD-11044,2025-03-22,Rahul Joshi,Bookshelf,Furniture,South,Bangalore,3,19614.39,0.1,6227.48,Credit Card,Same Day
+ORD-11045,2024-02-14,Amit Sharma,USB-C Hub,Technology,North,Amritsar,3,4129.19,0.1,1114.84,Debit Card,Same Day
+ORD-11046,2024-06-23,Sunita Patel,Monitor 27inch,Technology,Central,Jabalpur,2,40470.66,0.0,10551.85,Debit Card,Economy
+ORD-11047,2024-05-05,Divya Pandey,T-Shirt,Clothing,Central,Indore,4,2922.54,0.0,459.59,Debit Card,Express
+ORD-11048,2024-04-04,Anita Das,Notebook A4,Office Supplies,East,Kolkata,5,1794.43,0.0,427.57,UPI,Standard
+ORD-11049,2024-03-17,Rajesh Kumar,Dumbbell Set,Sports,North,Chandigarh,2,9763.2,0.05,1221.38,Credit Card,Same Day
+ORD-11050,2024-08-01,Anjali Pillai,Coffee Maker,Appliances,Central,Gwalior,3,14559.95,0.0,3640.61,UPI,Standard
+ORD-11051,2024-05-13,Kiran Bose,Bookshelf,Furniture,East,Guwahati,5,24215.42,0.2,4263.1,Credit Card,Same Day
+ORD-11052,2025-03-09,Sunita Patel,Office Chair,Furniture,East,Ranchi,2,22453.36,0.0,5811.07,UPI,Standard
+ORD-11053,2025-04-16,Rohit Shah,Office Chair,Furniture,East,Kolkata,5,55842.43,0.0,6053.22,Net Banking,Standard
+ORD-11054,2024-12-28,Deepak Yadav,Yoga Mat,Sports,South,Chennai,5,8615.94,0.0,799.19,Cash,Same Day
+ORD-11055,2024-04-10,Rahul Joshi,Wireless Mouse,Technology,West,Surat,3,2797.84,0.0,622.72,Net Banking,Economy
+ORD-11056,2025-06-15,Kavya Nair,Yoga Mat,Sports,North,Delhi,1,1019.58,0.0,300.59,Net Banking,Same Day
+ORD-11057,2024-09-01,Arjun Reddy,Mechanical Keyboard,Technology,Central,Bhopal,2,7250.84,0.15,1825.74,Debit Card,Economy
+ORD-11058,2024-04-13,Rahul Joshi,Bookshelf,Furniture,East,Guwahati,2,14285.82,0.0,3326.54,Net Banking,Same Day
+ORD-11059,2024-01-04,Manoj Rao,USB-C Hub,Technology,South,Coimbatore,4,8687.13,0.2,2585.29,UPI,Express
+ORD-11060,2024-11-18,Neha Verma,Python Programming,Books,North,Chandigarh,3,3170.75,0.0,985.91,Debit Card,Economy
+ORD-11061,2024-12-08,Amit Sharma,Laptop Pro X,Technology,South,Hyderabad,2,116014.15,0.2,9552.16,Cash,Economy
+ORD-11062,2024-01-02,Sunita Patel,Dumbbell Set,Sports,South,Kochi,1,8021.47,0.1,1950.91,Cash,Express
+ORD-11063,2025-06-21,Sunita Patel,T-Shirt,Clothing,South,Chennai,1,469.46,0.15,75.38,Debit Card,Same Day
+ORD-11064,2024-09-20,Anita Das,Python Programming,Books,West,Ahmedabad,4,1424.41,0.0,216.9,Cash,Economy
+ORD-11065,2024-04-25,Vikram Gupta,Notebook A4,Office Supplies,Central,Bhopal,4,1237.83,0.15,394.35,Cash,Economy
+ORD-11066,2024-02-01,Anita Das,Bookshelf,Furniture,Central,Jabalpur,2,13954.92,0.0,4199.81,Debit Card,Standard
+ORD-11067,2024-10-07,Anjali Pillai,Novel - Bestseller,Books,Central,Jabalpur,2,728.57,0.15,119.28,Cash,Economy
+ORD-11068,2025-03-03,Priya Singh,Notebook A4,Office Supplies,East,Bhubaneswar,5,1400.1,0.0,392.31,Credit Card,Economy
+ORD-11069,2025-04-10,Sunita Patel,Formal Shirt,Clothing,East,Patna,1,1911.13,0.15,220.38,UPI,Same Day
+ORD-11070,2024-06-15,Amit Sharma,Ballpoint Pen Set,Office Supplies,West,Ahmedabad,3,245.61,0.0,32.46,Net Banking,Standard
+ORD-11071,2024-02-24,Pooja Mishra,Dumbbell Set,Sports,East,Kolkata,3,17432.66,0.0,1603.39,UPI,Same Day
+ORD-11072,2024-10-17,Vikram Gupta,Air Fryer,Appliances,Central,Gwalior,1,9794.67,0.0,3124.69,UPI,Economy
+ORD-11073,2024-03-23,Rohit Shah,Ballpoint Pen Set,Office Supplies,South,Bangalore,3,280.11,0.15,65.24,Debit Card,Economy
+ORD-11074,2024-04-10,Meera Iyer,Notebook A4,Office Supplies,East,Ranchi,2,494.66,0.15,143.56,Net Banking,Express
+ORD-11075,2024-07-23,Sanjay Tiwari,Notebook A4,Office Supplies,South,Kochi,2,450.53,0.0,68.19,Debit Card,Express
+ORD-11076,2025-01-19,Vikram Gupta,Air Fryer,Appliances,West,Mumbai,5,42326.58,0.0,8504.07,Cash,Economy
+ORD-11077,2024-12-28,Pooja Mishra,Yoga Mat,Sports,West,Surat,4,4171.47,0.1,360.17,Debit Card,Standard
+ORD-11078,2024-05-23,Divya Pandey,Winter Jacket,Clothing,East,Bhubaneswar,5,19376.5,0.1,4076.52,Net Banking,Same Day
+ORD-11079,2024-02-24,Deepak Yadav,Blender,Appliances,West,Pune,1,3725.62,0.2,1080.35,Debit Card,Standard
+ORD-11080,2024-03-27,Suresh Menon,Wireless Mouse,Technology,East,Kolkata,5,4340.9,0.0,936.36,Cash,Standard
+ORD-11081,2024-05-04,Priya Singh,Cookbook,Books,Central,Gwalior,2,911.71,0.1,234.95,Debit Card,Express
+ORD-11082,2024-08-16,Meera Iyer,Python Programming,Books,South,Hyderabad,1,641.27,0.1,157.15,Credit Card,Standard
+ORD-11083,2024-01-01,Anjali Pillai,Monitor 27inch,Technology,Central,Bhopal,1,27622.62,0.0,5350.45,Net Banking,Economy
+ORD-11084,2025-02-04,Deepak Yadav,Wireless Mouse,Technology,North,Amritsar,4,4761.24,0.2,649.35,Net Banking,Same Day
+ORD-11085,2025-03-25,Pooja Mishra,Microwave Oven,Appliances,Central,Bhopal,2,19634.37,0.0,2238.41,UPI,Express
+ORD-11086,2025-06-07,Rohit Shah,Cookbook,Books,Central,Indore,4,1414.45,0.15,147.11,Net Banking,Economy
+ORD-11087,2025-01-11,Deepak Yadav,Python Programming,Books,East,Guwahati,1,625.84,0.2,113.88,Credit Card,Same Day
+ORD-11088,2025-04-13,Rajesh Kumar,USB-C Hub,Technology,Central,Jabalpur,5,6386.74,0.15,1507.92,Net Banking,Economy
+ORD-11089,2024-02-13,Kiran Bose,Stapler,Office Supplies,South,Kochi,3,910.94,0.0,151.09,Net Banking,Express
+ORD-11090,2024-12-23,Anjali Pillai,Self Help Book,Books,Central,Jabalpur,1,423.29,0.0,69.61,Net Banking,Same Day
+ORD-11091,2025-04-15,Meera Iyer,Self Help Book,Books,South,Hyderabad,4,865.48,0.2,203.24,Debit Card,Economy
+ORD-11092,2024-07-03,Arjun Reddy,Formal Shirt,Clothing,Central,Gwalior,2,4583.98,0.1,1417.58,Cash,Economy
+ORD-11093,2024-03-10,Kavya Nair,Wireless Mouse,Technology,North,Chandigarh,1,1202.4,0.05,365.79,Debit Card,Same Day
+ORD-11094,2024-08-25,Neha Verma,Blender,Appliances,South,Bangalore,4,20480.23,0.05,6172.13,Credit Card,Same Day
+ORD-11095,2024-04-27,Anita Das,Wireless Mouse,Technology,North,Jaipur,5,6209.53,0.0,1873.12,Cash,Standard
+ORD-11096,2025-04-05,Sanjay Tiwari,Running Shoes,Sports,South,Coimbatore,2,5679.66,0.05,1050.76,Cash,Express
+ORD-11097,2024-07-25,Anjali Pillai,Cookbook,Books,South,Kochi,2,668.81,0.0,154.49,Credit Card,Express
+ORD-11098,2024-02-04,Anita Das,Air Fryer,Appliances,South,Bangalore,4,20764.9,0.2,2019.84,UPI,Economy
+ORD-11099,2024-07-13,Rohit Shah,Coffee Maker,Appliances,South,Coimbatore,5,16878.09,0.1,4994.93,UPI,Standard
+ORD-11100,2025-03-25,Divya Pandey,Yoga Mat,Sports,West,Mumbai,1,834.47,0.1,126.48,Credit Card,Economy
+ORD-11101,2024-08-24,Suresh Menon,Wireless Mouse,Technology,Central,Gwalior,1,956.81,0.0,288.33,Cash,Economy
+ORD-11102,2025-01-01,Amit Sharma,Mechanical Keyboard,Technology,South,Hyderabad,5,20443.99,0.2,4175.94,Net Banking,Same Day
+ORD-11103,2025-02-12,Sunita Patel,Winter Jacket,Clothing,North,Lucknow,5,23242.13,0.0,5503.17,Credit Card,Same Day
+ORD-11104,2025-03-07,Priya Singh,Notebook A4,Office Supplies,South,Hyderabad,2,321.69,0.2,82.39,Credit Card,Express
+ORD-11105,2025-05-20,Priya Singh,Mechanical Keyboard,Technology,Central,Gwalior,3,12717.02,0.05,2842.96,Net Banking,Standard
+ORD-11106,2025-05-05,Sunita Patel,Monitor 27inch,Technology,East,Kolkata,1,21476.18,0.0,5070.12,Debit Card,Economy
+ORD-11107,2024-11-06,Priya Singh,Air Fryer,Appliances,South,Bangalore,1,8072.56,0.2,1025.88,Net Banking,Economy
+ORD-11108,2024-01-19,Deepak Yadav,Jeans,Clothing,West,Mumbai,4,11193.67,0.05,2779.62,Net Banking,Express
+ORD-11109,2024-04-28,Anita Das,Water Bottle,Sports,North,Lucknow,3,1415.95,0.05,425.26,UPI,Express
+ORD-11110,2024-04-04,Pooja Mishra,Formal Shirt,Clothing,North,Chandigarh,5,9408.29,0.2,786.3,UPI,Standard
+ORD-11111,2024-03-19,Neha Verma,Wireless Mouse,Technology,South,Kochi,3,2491.81,0.0,559.61,UPI,Same Day
+ORD-11112,2024-05-12,Sunita Patel,Winter Jacket,Clothing,West,Surat,1,2940.59,0.1,380.53,Cash,Express
+ORD-11113,2025-03-30,Sanjay Tiwari,Self Help Book,Books,East,Patna,3,1532.07,0.0,316.28,Cash,Same Day
+ORD-11114,2025-05-30,Pooja Mishra,USB-C Hub,Technology,North,Amritsar,5,8431.04,0.0,1086.37,UPI,Express
+ORD-11115,2024-11-08,Sunita Patel,Cookbook,Books,Central,Indore,3,1982.28,0.2,226.12,UPI,Economy
+ORD-11116,2025-04-09,Priya Singh,USB-C Hub,Technology,North,Jaipur,3,4212.21,0.05,640.67,Credit Card,Standard
+ORD-11117,2024-10-12,Rohit Shah,Microwave Oven,Appliances,Central,Jabalpur,1,14864.93,0.05,2773.27,UPI,Express
+ORD-11118,2025-01-23,Priya Singh,Office Chair,Furniture,West,Nagpur,3,27616.32,0.2,4514.53,Credit Card,Same Day
+ORD-11119,2024-09-25,Rajesh Kumar,Air Fryer,Appliances,Central,Indore,3,19008.68,0.1,3500.99,Debit Card,Standard
+ORD-11120,2024-04-21,Sanjay Tiwari,Jeans,Clothing,West,Ahmedabad,4,5953.35,0.15,1288.26,Net Banking,Same Day
+ORD-11121,2024-06-15,Vikram Gupta,Running Shoes,Sports,West,Pune,1,2721.49,0.15,838.85,Credit Card,Express
+ORD-11122,2024-10-29,Priya Singh,Whiteboard,Office Supplies,Central,Jabalpur,5,21339.78,0.0,5083.46,Net Banking,Standard
+ORD-11123,2024-05-07,Arjun Reddy,Ballpoint Pen Set,Office Supplies,Central,Raipur,2,266.51,0.0,49.46,Debit Card,Standard
+ORD-11124,2025-01-02,Pooja Mishra,Dumbbell Set,Sports,Central,Indore,1,7739.89,0.0,1132.71,Net Banking,Same Day
+ORD-11125,2024-03-06,Arjun Reddy,Water Bottle,Sports,South,Hyderabad,3,2503.58,0.0,336.93,UPI,Express
+ORD-11126,2024-02-20,Neha Verma,Bookshelf,Furniture,North,Delhi,5,33490.26,0.1,5229.85,Net Banking,Express
+ORD-11127,2024-03-03,Rajesh Kumar,Self Help Book,Books,East,Patna,3,1236.4,0.0,277.13,Cash,Standard
+ORD-11128,2024-03-20,Anjali Pillai,T-Shirt,Clothing,West,Mumbai,1,518.49,0.0,112.45,Debit Card,Standard
+ORD-11129,2025-03-12,Suresh Menon,Ballpoint Pen Set,Office Supplies,South,Bangalore,5,872.9,0.0,274.11,Cash,Economy
+ORD-11130,2024-10-28,Anita Das,Winter Jacket,Clothing,North,Chandigarh,1,5625.28,0.0,1681.11,Credit Card,Standard
+ORD-11131,2024-08-04,Anjali Pillai,Air Fryer,Appliances,East,Ranchi,5,34974.7,0.0,5977.93,Net Banking,Standard
+ORD-11132,2024-06-02,Kavya Nair,Running Shoes,Sports,North,Delhi,5,16914.33,0.1,3911.91,Debit Card,Standard
+ORD-11133,2025-06-24,Rohit Shah,Air Fryer,Appliances,North,Lucknow,5,31605.88,0.0,4570.33,Net Banking,Same Day
+ORD-11134,2024-09-06,Kavya Nair,Whiteboard,Office Supplies,South,Hyderabad,4,12518.53,0.0,3083.78,Debit Card,Economy
+ORD-11135,2025-01-05,Anjali Pillai,Mechanical Keyboard,Technology,East,Ranchi,1,5151.83,0.15,1010.77,UPI,Economy
+ORD-11136,2025-03-04,Sanjay Tiwari,Bookshelf,Furniture,Central,Indore,2,13501.01,0.05,3264.34,UPI,Same Day
+ORD-11137,2024-10-20,Amit Sharma,Whiteboard,Office Supplies,East,Kolkata,4,18715.45,0.0,4084.51,UPI,Express
+ORD-11138,2025-04-09,Pooja Mishra,Laptop Pro X,Technology,South,Bangalore,3,134270.49,0.15,40714.85,Credit Card,Express
+ORD-11139,2024-02-04,Neha Verma,Coffee Maker,Appliances,West,Mumbai,1,2525.94,0.2,522.96,Debit Card,Economy
+ORD-11140,2024-12-28,Kavya Nair,Monitor 27inch,Technology,West,Nagpur,3,63279.58,0.2,18705.76,Net Banking,Standard
+ORD-11141,2024-02-16,Pooja Mishra,Mechanical Keyboard,Technology,East,Guwahati,4,15129.3,0.05,2260.77,Debit Card,Express
+ORD-11142,2024-07-06,Amit Sharma,Cookbook,Books,Central,Gwalior,2,1184.83,0.1,263.43,Debit Card,Economy
+ORD-11143,2024-11-24,Divya Pandey,Water Bottle,Sports,South,Coimbatore,3,3664.01,0.0,497.36,Debit Card,Same Day
+ORD-11144,2024-02-19,Divya Pandey,Formal Shirt,Clothing,Central,Gwalior,5,13138.97,0.05,1950.63,Debit Card,Same Day
+ORD-11145,2024-07-01,Pooja Mishra,Monitor 27inch,Technology,North,Chandigarh,5,89765.07,0.1,13953.82,Cash,Same Day
+ORD-11146,2024-06-18,Rohit Shah,USB-C Hub,Technology,East,Patna,4,5694.53,0.0,849.82,Cash,Standard
+ORD-11147,2024-08-25,Sunita Patel,Python Programming,Books,East,Bhubaneswar,2,1077.25,0.1,281.34,Credit Card,Standard
+ORD-11148,2024-07-18,Anita Das,Laptop Pro X,Technology,West,Mumbai,2,86073.08,0.1,15696.34,Debit Card,Express
+ORD-11149,2025-04-09,Kiran Bose,Ballpoint Pen Set,Office Supplies,North,Delhi,4,556.76,0.0,160.06,Cash,Standard
+ORD-11150,2024-12-28,Amit Sharma,Air Fryer,Appliances,North,Chandigarh,3,21203.89,0.0,3101.41,Net Banking,Standard
+ORD-11151,2024-11-18,Anjali Pillai,Wireless Mouse,Technology,West,Mumbai,3,3527.79,0.1,841.98,Credit Card,Standard
+ORD-11152,2024-09-08,Kavya Nair,Monitor 27inch,Technology,Central,Jabalpur,2,39714.0,0.0,7795.13,UPI,Economy
+ORD-11153,2024-10-16,Anjali Pillai,Monitor 27inch,Technology,South,Bangalore,2,50462.68,0.0,9979.8,Net Banking,Express
+ORD-11154,2024-07-01,Manoj Rao,Wireless Mouse,Technology,West,Ahmedabad,4,4966.87,0.0,1157.54,Debit Card,Express
+ORD-11155,2024-11-03,Rohit Shah,Coffee Maker,Appliances,South,Hyderabad,4,26340.46,0.05,5886.62,Net Banking,Economy
+ORD-11156,2024-10-29,Meera Iyer,USB-C Hub,Technology,South,Bangalore,4,12148.43,0.0,1693.19,Debit Card,Standard
+ORD-11157,2024-06-29,Anita Das,Water Bottle,Sports,East,Kolkata,4,2407.71,0.2,702.38,Debit Card,Economy
+ORD-11158,2024-08-28,Anjali Pillai,Laptop Pro X,Technology,East,Patna,2,86236.97,0.2,15364.1,Net Banking,Same Day
+ORD-11159,2024-09-24,Deepak Yadav,Python Programming,Books,East,Guwahati,4,2165.36,0.0,647.37,Cash,Economy
+ORD-11160,2024-08-12,Kiran Bose,Whiteboard,Office Supplies,North,Amritsar,4,11770.48,0.0,2455.83,Credit Card,Same Day
+ORD-11161,2024-05-12,Rajesh Kumar,Winter Jacket,Clothing,Central,Bhopal,4,11274.01,0.15,1803.72,Cash,Standard
+ORD-11162,2024-02-20,Sanjay Tiwari,T-Shirt,Clothing,South,Hyderabad,2,1428.17,0.2,297.87,UPI,Same Day
+ORD-11163,2024-06-14,Rahul Joshi,Stapler,Office Supplies,East,Guwahati,5,2966.67,0.0,263.02,Credit Card,Standard
+ORD-11164,2025-05-28,Neha Verma,Running Shoes,Sports,West,Mumbai,3,9761.0,0.0,2260.39,UPI,Standard
+ORD-11165,2024-10-05,Deepak Yadav,Cookbook,Books,North,Jaipur,2,1756.49,0.0,503.89,Credit Card,Standard
+ORD-11166,2025-05-31,Rajesh Kumar,Cookbook,Books,West,Mumbai,5,2709.74,0.0,278.92,Net Banking,Economy
+ORD-11167,2024-07-17,Suresh Menon,Coffee Maker,Appliances,Central,Raipur,4,16733.44,0.0,2552.13,Debit Card,Express
+ORD-11168,2024-04-12,Deepak Yadav,Notebook A4,Office Supplies,Central,Jabalpur,3,772.15,0.0,240.95,Net Banking,Same Day
+ORD-11169,2025-05-09,Kavya Nair,Ballpoint Pen Set,Office Supplies,Central,Gwalior,4,311.85,0.05,79.4,Cash,Standard
+ORD-11170,2025-04-08,Deepak Yadav,Bookshelf,Furniture,Central,Bhopal,2,10997.85,0.05,2366.26,Cash,Same Day
+ORD-11171,2024-05-27,Sanjay Tiwari,Air Fryer,Appliances,North,Delhi,2,9931.08,0.05,2208.85,Credit Card,Express
+ORD-11172,2025-02-16,Divya Pandey,Winter Jacket,Clothing,West,Nagpur,2,6091.9,0.05,855.82,Cash,Same Day
+ORD-11173,2024-06-03,Manoj Rao,Wireless Mouse,Technology,East,Ranchi,4,5640.0,0.0,1385.72,Net Banking,Economy
+ORD-11174,2025-05-26,Kiran Bose,Whiteboard,Office Supplies,South,Hyderabad,4,11292.36,0.2,2908.06,Credit Card,Standard
+ORD-11175,2025-03-11,Vikram Gupta,Self Help Book,Books,North,Jaipur,1,253.83,0.15,27.71,UPI,Economy
+ORD-11176,2024-04-26,Neha Verma,Wireless Mouse,Technology,West,Surat,5,4849.4,0.15,1405.41,Debit Card,Economy
+ORD-11177,2024-01-10,Meera Iyer,Ballpoint Pen Set,Office Supplies,North,Jaipur,3,539.4,0.1,158.31,Net Banking,Express
+ORD-11178,2024-05-24,Manoj Rao,Ballpoint Pen Set,Office Supplies,Central,Indore,3,426.98,0.0,82.54,UPI,Same Day
+ORD-11179,2024-05-18,Rajesh Kumar,Office Chair,Furniture,Central,Jabalpur,3,32742.36,0.0,6316.6,Credit Card,Same Day
+ORD-11180,2024-07-11,Kiran Bose,Standing Desk,Furniture,North,Lucknow,3,34957.29,0.1,6728.81,UPI,Standard
+ORD-11181,2024-12-24,Anita Das,Novel - Bestseller,Books,Central,Indore,1,799.61,0.0,118.51,Debit Card,Same Day
+ORD-11182,2025-01-11,Sanjay Tiwari,Winter Jacket,Clothing,West,Ahmedabad,5,36719.18,0.0,3620.3,UPI,Standard
+ORD-11183,2024-08-09,Divya Pandey,Notebook A4,Office Supplies,South,Hyderabad,1,163.51,0.1,36.13,Debit Card,Same Day
+ORD-11184,2024-10-10,Rahul Joshi,Air Fryer,Appliances,Central,Jabalpur,2,12626.17,0.0,4007.31,Credit Card,Express
+ORD-11185,2024-05-26,Suresh Menon,Office Chair,Furniture,West,Mumbai,1,14271.67,0.0,1610.9,Debit Card,Economy
+ORD-11186,2025-04-28,Sunita Patel,Whiteboard,Office Supplies,East,Ranchi,2,6878.55,0.05,1827.91,Debit Card,Same Day
+ORD-11187,2024-11-15,Anjali Pillai,Coffee Maker,Appliances,Central,Raipur,1,5807.06,0.2,762.68,UPI,Same Day
+ORD-11188,2024-05-26,Kiran Bose,Coffee Maker,Appliances,West,Nagpur,4,18707.08,0.0,4573.66,Net Banking,Economy
+ORD-11189,2024-12-22,Kiran Bose,Office Chair,Furniture,North,Amritsar,3,55017.65,0.0,12548.08,UPI,Economy
+ORD-11190,2025-01-18,Kiran Bose,Office Chair,Furniture,North,Chandigarh,3,49064.48,0.0,10827.81,Cash,Standard
+ORD-11191,2025-01-12,Manoj Rao,Notebook A4,Office Supplies,Central,Bhopal,3,665.2,0.0,155.66,Debit Card,Standard
+ORD-11192,2024-09-16,Rajesh Kumar,Notebook A4,Office Supplies,North,Lucknow,4,1357.65,0.15,256.7,UPI,Economy
+ORD-11193,2024-04-16,Manoj Rao,Wireless Mouse,Technology,East,Kolkata,2,2587.9,0.0,747.95,UPI,Standard
+ORD-11194,2025-03-05,Kiran Bose,Coffee Maker,Appliances,North,Delhi,1,2918.75,0.2,614.63,UPI,Standard
+ORD-11195,2024-12-06,Divya Pandey,Coffee Maker,Appliances,East,Bhubaneswar,3,14973.01,0.15,2646.65,Credit Card,Standard
+ORD-11196,2024-07-16,Arjun Reddy,Coffee Maker,Appliances,Central,Indore,1,3265.98,0.0,477.24,UPI,Economy
+ORD-11197,2024-06-26,Arjun Reddy,Novel - Bestseller,Books,North,Amritsar,5,1701.37,0.0,326.49,Credit Card,Economy
+ORD-11198,2024-03-31,Amit Sharma,USB-C Hub,Technology,North,Chandigarh,2,2579.75,0.15,804.32,UPI,Standard
+ORD-11199,2024-08-10,Amit Sharma,Novel - Bestseller,Books,East,Guwahati,2,549.29,0.15,128.62,UPI,Express
+ORD-11200,2024-11-13,Neha Verma,Wireless Mouse,Technology,West,Ahmedabad,3,3772.85,0.0,676.68,UPI,Same Day

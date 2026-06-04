@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.env/
+
+# !! IMPORTANT: Never commit real API keys !!
+.env
+config_secret.py
+
+# Generated output files (no need to track)
+data/cleaned_sales.csv
+data/sales_*.csv
+reports/dashboard.html
+reports/report.pdf
+reports/insights.json
+incoming/
+incoming/processed/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log

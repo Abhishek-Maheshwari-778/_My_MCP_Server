@@ -1,0 +1,401 @@
+Demo ke liye agar tum interview me "Power BI + AI + MCP Server + Automation" dikhana chahte ho, to main recommend karunga ki real Power BI Service integration ko skip karke local end-to-end project banao. Ye zyada practical hai aur free me ho jayega.
+
+Project Idea
+AI-Powered Automated Sales Analytics System
+
+Workflow:
+
+sales.csv
+    ↓
+Watch Folder
+    ↓
+Python MCP Server
+    ↓
+Data Validation
+    ↓
+Data Cleaning
+    ↓
+AI Insights Generation
+    ↓
+Power BI Dashboard Refresh
+    ↓
+PDF Report Export
+    ↓
+Email Report
+Isme MCP kahan use hoga?
+
+MCP Server tools expose karega:
+
+clean_data()
+generate_insights()
+refresh_powerbi()
+export_report()
+send_email()
+
+AI Agent:
+
+User:
+Analyze today's sales
+
+AI:
+
+→ clean_data()
+→ generate_insights()
+→ refresh_powerbi()
+→ export_report()
+→ send_email()
+
+Ye MCP ka actual enterprise use-case hai.
+
+Dataset
+
+Use:
+
+Superstore Sales
+Amazon Sales
+Blinkit Sales
+E-Commerce Dataset
+
+Power BI me dashboard banao:
+
+KPI Cards
+Total Sales
+Profit
+Orders
+Customers
+Charts
+Monthly Sales Trend
+Top Products
+Region Analysis
+Profit Analysis
+Tech Stack
+Data
+CSV
+Processing
+Python
+Pandas
+AI
+OpenAI API (optional)
+Local rule-based insights (free)
+Dashboard
+Microsoft Power BI Desktop
+Automation
+MCP Server
+Watchdog
+Reporting
+ReportLab PDF
+Email
+SMTP
+Project Folder Structure
+AI_PowerBI_Automation/
+
+data/
+   sales.csv
+
+dashboard/
+   SalesDashboard.pbix
+
+reports/
+
+mcp_server/
+   server.py
+
+src/
+   clean_data.py
+   insights.py
+   export_pdf.py
+   send_email.py
+
+main.py
+Resume Description
+
+AI-Powered Power BI Automation using MCP Server
+
+Built an MCP-based analytics workflow for automated CSV ingestion and reporting.
+Implemented data cleaning and business insight generation using Python.
+Automated dashboard refresh, PDF report generation, and email delivery.
+Integrated AI-agent workflow using Model Context Protocol (MCP).
+Interview Demo Script (2 Minutes)
+
+Interviewer:
+
+Explain your project.
+
+Answer:
+
+I built an AI-powered analytics automation system using Python, MCP Server, and Power BI. Whenever a new CSV file is placed in a monitored folder, the MCP server automatically triggers data cleaning, generates business insights, refreshes the Power BI dashboard, exports a PDF report, and emails the report to stakeholders. The project demonstrates agentic AI concepts where AI can invoke tools through MCP instead of just generating text.
+
+Aur bhi zyada "2026-trending" banana ho to
+
+Normal MCP + Power BI ki jagah:
+
+CSV
+ ↓
+MCP Server
+ ↓
+RAG System
+ ↓
+LLM Agent
+ ↓
+Power BI
+ ↓
+Executive Summary PDF
+ ↓
+Email
+
+Ye sunte hi interviewer ko lagega ki tumne Agentic AI + MCP + Analytics Automation par kaam kiya hai, jo abhi kaafi naya aur attention-grabbing area hai.
+
+Agar chaho, main iska complete working folder structure, code files, MCP server code, sample dataset aur Power BI dashboard design bhi de sakta hoon jise tum 1–2 din me GitHub project bana sako.
+
+step by step process to creates these things..
+
+Agar target demo project + GitHub + interview showcase hai, to isse production-level mat banao. Ek working prototype banao jo complete flow dikhaye.
+
+Phase 1: Dashboard Banao (Power BI)
+Step 1: Dataset Download Karo
+
+Kaggle se koi bhi sales dataset:
+
+Superstore Sales
+Amazon Sales
+E-commerce Sales
+
+CSV format me.
+
+Example:
+
+data/
+   sales.csv
+Step 2: Power BI Dashboard
+
+Power BI Desktop me:
+
+Get Data → CSV → sales.csv
+
+Visuals:
+
+Total Sales
+Total Profit
+Orders Count
+Monthly Sales Trend
+Top 10 Products
+Region Wise Sales
+
+Save:
+
+dashboard/
+   SalesDashboard.pbix
+
+Ab tumhare paas dashboard ready hai.
+
+Phase 2: Data Cleaning Automation
+Step 3: Python Environment
+
+Install:
+
+pip install pandas
+
+Create:
+
+src/
+   clean_data.py
+
+Flow:
+
+read csv
+remove nulls
+remove duplicates
+fix date format
+save cleaned file
+
+Output:
+
+cleaned_sales.csv
+Phase 3: AI Insights Generator
+Step 4: Insights Script
+
+Create:
+
+src/
+   insights.py
+
+Logic:
+
+Top Product
+Highest Sales Month
+Best Region
+Total Profit
+Growth Rate
+
+Output:
+
+insights.txt
+
+Example:
+
+Total Sales: 4.5M
+
+Top Region: West
+
+Best Product: Laptop
+
+Highest Sales Month: December
+Phase 4: PDF Report
+Step 5: PDF Export
+
+Install:
+
+pip install reportlab
+
+Create:
+
+src/
+   export_pdf.py
+
+Input:
+
+insights.txt
+
+Output:
+
+reports/
+   report.pdf
+Phase 5: Email Automation
+Step 6: Email Sender
+
+Create:
+
+src/
+   send_email.py
+
+Install:
+
+pip install yagmail
+
+Workflow:
+
+Attach report.pdf
+Send to email
+
+Output:
+
+Email delivered
+Phase 6: Folder Monitoring
+Step 7: Watch Folder
+
+Install:
+
+pip install watchdog
+
+Create:
+
+incoming/
+
+Whenever:
+
+sales.csv
+
+comes into folder
+
+Run automatically:
+
+clean_data.py
+insights.py
+export_pdf.py
+send_email.py
+Phase 7: MCP Server
+
+Ab project already kaam kar raha hai.
+
+MCP sirf ek AI control layer hai.
+
+Install:
+
+pip install mcp
+
+Create:
+
+mcp_server/
+   server.py
+
+Tools expose karo:
+
+clean_data()
+generate_insights()
+create_report()
+send_email()
+
+AI ko ye tools dikhenge.
+
+Phase 8: AI Agent
+
+User bolta hai:
+
+Analyze today's sales
+
+Agent:
+
+Tool 1 → clean_data()
+
+Tool 2 → generate_insights()
+
+Tool 3 → create_report()
+
+Tool 4 → send_email()
+
+Ye MCP ka real demo hai.
+
+Final Architecture
+sales.csv
+      ↓
+Folder Watcher
+      ↓
+Python MCP Server
+      ↓
+Data Cleaning
+      ↓
+Insights Generation
+      ↓
+Power BI Dashboard
+      ↓
+PDF Report
+      ↓
+Email Delivery
+GitHub Structure
+AI-PowerBI-MCP-Automation
+
+│
+├── data
+│   └── sales.csv
+│
+├── dashboard
+│   └── SalesDashboard.pbix
+│
+├── reports
+│
+├── incoming
+│
+├── src
+│   ├── clean_data.py
+│   ├── insights.py
+│   ├── export_pdf.py
+│   ├── send_email.py
+│
+├── mcp_server
+│   └── server.py
+│
+├── main.py
+│
+├── requirements.txt
+│
+└── README.md
+Interview me kya impressive lagega?
+MCP Server (naya concept)
+Agentic AI workflow
+Automation
+Power BI Dashboard
+PDF Reporting
+Email Automation
+End-to-End Pipeline
+
+Ye project ek fresher ke GitHub par kaafi strong lag sakta hai kyunki isme Data Analytics + Python + AI Automation + MCP sab combine ho jata hai.
