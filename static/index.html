@@ -140,33 +140,60 @@
 
   <!-- ABOUT VIEW -->
   <main class="container about-container" id="aboutView" style="display:none;">
-    <section class="card">
+    
+    <section class="card" style="grid-column: 1 / -1;">
       <div class="card-header">
-        <h2>ℹ️ About This Project</h2>
-        <p>Zero-Touch AI Analytics Automation</p>
+        <h2>⚡ AI Analytics MCP Pipeline</h2>
+        <p>Zero-Touch Analytics Automation — No Power BI Login Required</p>
       </div>
       <div class="about-content">
-        <h3>How It Works</h3>
-        <p>This system replaces manual Power BI work. By simply dropping a CSV or Excel file into the directory (or uploading via the UI), the pipeline is triggered:</p>
+        <h3>🔧 How It Works — Step by Step</h3>
+        <p>This system fully automates what Power BI developers normally do manually. You give it data, it does everything else:</p>
         <ol>
-          <li><strong>Data Cleaning:</strong> Automatically standardizes columns based on your selected domain, removes nulls, and fixes formats.</li>
-          <li><strong>AI Insights:</strong> Sends the aggregated data to Llama 3 (via NVIDIA/Groq) or DeepSeek to generate human-readable business insights.</li>
-          <li><strong>Interactive Dashboard:</strong> Generates a completely standalone, zero-login interactive HTML dashboard with Slicers, Drill-down, and Multi-page capabilities.</li>
-          <li><strong>PBI Integration:</strong> Creates an optimized `.pbids` file so you can instantly open the cleaned data in Power BI if needed.</li>
-          <li><strong>Delivery:</strong> Automatically generates a PDF report and emails it to the stakeholders.</li>
+          <li><strong>Step 1 — Data Upload:</strong> Drop a CSV or Excel file into the <code>incoming/</code> folder (or upload via this UI). The watcher instantly detects it.</li>
+          <li><strong>Step 2 — Data Cleaning:</strong> Automatically normalizes column names based on the domain (Sales, Health, Trading), removes duplicates, fixes dates, handles nulls, and standardizes numeric formats.</li>
+          <li><strong>Step 3 — AI Insights (Multi-Model Fallback):</strong> The cleaned KPIs are sent to an AI engine that tries providers in order:
+            <ul>
+              <li>🟢 <strong>NVIDIA NIM</strong> (Llama 3.3 70B) → Free 1000 credits</li>
+              <li>🟢 <strong>Groq</strong> (Llama 3.3 70B Versatile) → Free, no credit card</li>
+              <li>🟡 <strong>DeepSeek</strong> (DeepSeek Chat) → Near-free</li>
+              <li>🔵 <strong>Rule-Based</strong> → 100% offline fallback, always works</li>
+            </ul>
+            If one fails or has no key, it automatically tries the next. Real AI insights, not templates!
+          </li>
+          <li><strong>Step 4 — Interactive Dashboard:</strong> Generates a premium HTML dashboard with cross-filtering slicers, drill-down charts, and a data explorer. Opens in any browser — no login.</li>
+          <li><strong>Step 5 — Power BI Integration:</strong> Creates a <code>.pbids</code> file. Double-click it and Power BI opens pre-connected to the cleaned data — zero Power Query setup needed.</li>
+          <li><strong>Step 6 — PDF Report & Email:</strong> Generates a professional PDF and emails it via Gmail SMTP to any recipient.</li>
         </ol>
 
-        <h3>What is an MCP Server?</h3>
-        <p>This project doubles as a Model Context Protocol (MCP) server. MCP allows AI Assistants (like Claude Desktop) to connect directly to this pipeline. You can literally ask your AI: <em>"Analyze today's sales data and email the boss"</em>, and the AI will trigger the tools defined in this system to perform the action natively on your PC.</p>
+        <h3>🔌 What is an MCP Server?</h3>
+        <p><strong>MCP (Model Context Protocol)</strong> is a standard that allows AI assistants (like Claude Desktop) to connect to local tools and software running on your PC.</p>
+        <p>This project exposes the entire analytics pipeline as <strong>MCP Tools</strong>. That means you can literally type in Claude:</p>
+        <blockquote style="background:rgba(99,102,241,0.08);border-left:3px solid var(--accent-1);padding:12px 16px;border-radius:0 8px 8px 0;margin:12px 0;color:var(--text-secondary);font-style:italic;">
+          "Analyze today's sales data and email the report to the boss"
+        </blockquote>
+        <p>And Claude will call the MCP tools (<code>clean_data</code>, <code>generate_insights</code>, <code>create_dashboard</code>, <code>export_pdf</code>, <code>send_email</code>) to do it all natively on your machine.</p>
+        <p>Inspired by the architecture demonstrated by <a href="https://www.youtube.com/@AnalyticalGuy" target="_blank" style="color:var(--accent-1)">Analytical Guy (Atikant Jain)</a> and <a href="https://www.youtube.com/@DataTutorials" target="_blank" style="color:var(--accent-1)">Data Tutorials</a>.</p>
 
-        <h3>Developer & Mentor</h3>
+        <h3>🛠️ Tech Stack</h3>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px;">
+          <div class="dev-card"><h4>Backend</h4><p>Python, Pandas, FastAPI, Plotly</p></div>
+          <div class="dev-card"><h4>AI Models</h4><p>NVIDIA NIM, Groq, DeepSeek, Rule-Based</p></div>
+          <div class="dev-card"><h4>Dashboard</h4><p>HTML5 + Plotly.js (Interactive Charts)</p></div>
+          <div class="dev-card"><h4>Reports</h4><p>ReportLab PDF, Gmail SMTP</p></div>
+          <div class="dev-card"><h4>Automation</h4><p>Watchdog (file watcher), MCP Server</p></div>
+          <div class="dev-card"><h4>Data Formats</h4><p>CSV, Excel (.xlsx), Power BI (.pbids)</p></div>
+        </div>
+
+        <h3>👨‍💻 Developer & Mentor</h3>
         <div class="dev-card">
           <h4>Abhishek Maheshwari (Developer)</h4>
-          <p>This pipeline was engineered to showcase advanced AI agentic workflows, combining Multi-Model LLMs, Python Data Engineering, and Premium Frontend Design into a single, cohesive Local-First architecture.</p>
+          <p>Built this end-to-end AI agentic pipeline combining Multi-Model LLMs, Python Data Engineering, and Premium Frontend Design into a single, cohesive Local-First automation system.</p>
+          <p><a href="https://github.com/Abhishek-Maheshwari-778" target="_blank" style="color:var(--accent-1);">GitHub Profile</a></p>
         </div>
         <div class="dev-card" style="margin-top: 10px;">
           <h4>Harshit Varshney (Mentor)</h4>
-          <p>Google, IBM, and HubSpot Certified.</p>
+          <p>Google, IBM, and HubSpot Certified Professional.</p>
           <p><a href="https://www.linkedin.com/in/harshit-varshney-google-ibm-and-hubspot-certified-28b78818b/" target="_blank" style="color: var(--accent-1);">LinkedIn Profile</a></p>
         </div>
       </div>

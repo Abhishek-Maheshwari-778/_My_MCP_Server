@@ -1,0 +1,535 @@
+info = Based on the flowchart in the image you provided, here is a detailed, step-by-step visual breakdown of the architecture being explained. The diagram illustrates how an AI agent interacts with local software to build a Power BI project automatically.
+
+Here is the exact structure shown in the diagram:
+
+1. The Starting Point (Blue Box)
+
+You / User: The process begins on the far left with the user.
+
+Action: The user sends a text "brief" (an instruction or prompt) directly to the AI agent.
+
+2. The AI Agent (Large Yellow Box with Red Outline)
+
+Claude Code: This is the core AI engine handling the task.
+
+Skills (Slash Commands): Inside this box, there is a list of specific commands the AI is programmed to understand and execute:
+
+/powerbi-scaffold: Sets up the base structure.
+
+/powerbi-connect: Establishes the connection.
+
+/powerbi-datamodelling: Handles the backend data relationships.
+
+/powerbi-reporting: Creates the actual report elements.
+
+/powerbi-beautify: Formats and styles the report.
+
+Master Command: At the bottom of this box is /powerbi-pipeline. The diagram notes this is the "full orchestrator" that automatically runs all the above commands in the correct order with specific "gates" (checks).
+
+3. The Server/Bridge (Top Green Box)
+
+powerbi-modeling-mcp: This acts as an MCP Server or Bridge.
+
+Action: Claude Code sends "MCP tool calls" to this bridge. The bridge then communicates directly with the local software using "Analysis Services".
+
+4. The Local Application (Middle Yellow Box)
+
+Power BI Desktop (running locally): This is the Power BI software open on the user's computer.
+
+State: It currently holds the "Live Semantic Model in memory" (meaning the raw data is actively loaded and ready to be manipulated).
+
+5. The Output File Structure (Purple Box)
+
+PBIP Project (on disk): Instead of manually clicking around in Power BI, Claude Code bypasses the UI and directly "writes JSON + TMDL files" to your hard drive.
+
+Folder Hierarchy: The diagram explicitly shows the code structure it generates:
+
+<Name>.pbip (The main project file)
+
+<Name>.Report/ (A folder containing pages.json and visuals.json for the frontend)
+
+<Name>.SemanticModel/ (A folder containing tables/*.tmdl and expressions.tmdl for the backend data logic)
+
+6. The Final Step (Bottom Green Box)
+
+Action: An arrow labeled "open .pbip" points from the purple box to this final step.
+
+Result: By simply opening the generated .pbip file in Power BI Desktop, you get the "Final Report Ready".
+Is diagram mein aur video mein (lagbhag [01:48] se [05:00] ke beech), creator ne ek poora architecture samjhaya hai ki kaise aap bina Power BI ko manually design kiye, sirf AI (Claude Code) ki madad se ek complete Power BI report bana sakte hain.
+
+Chaliye is diagram ke structure aur workflow ko step-by-step detail mein samajhte hain:
+
+Diagram Ke Main Components Kya Hain:
+
+You / User (Blue Box): Yeh aap hain, jo AI (Claude Code) ko ek "brief" ya text prompt ke through instructions dete hain.
+
+Claude Code (Red Box): Yeh main AI agent hai jiske andar custom "Skills" ya "Slash Commands" banaye gaye hain. In commands ki madad se AI alag-alag tasks perform karta hai:
+
+/powerbi-connect: Power BI se judne ke liye.
+
+/powerbi-datamodelling: Tables ko jodne (relationships) aur DAX logic banane ke liye.
+
+/powerbi-reporting & /powerbi-beautify: Visuals aur charts banane aur unhe sundar dikhane ke liye.
+
+/powerbi-pipeline: Yeh ek master orchestrator hai jo in sabhi commands ko ek ke baad ek sahi order mein run karta hai.
+
+powerbi-modeling-mcp (Green Box - MCP Server / Bridge): AI direct Power BI se baat nahi kar sakta. Isliye yeh MCP server ek "Bridge" ya API ki tarah kaam karta hai jo Claude Code ki commands ko Power BI tak pahunchata hai ("Analysis Services" ke through).
+
+Power BI Desktop (Yellow Box): Yeh aapke local computer par khula hua Power BI software hai jisme aapka data pehle se loaded hai (jise Live Semantic Model in memory kaha gaya hai).
+
+PBIP Project (Purple Box): Claude Code background mein saari details ko code (JSON aur TMDL files) mein convert karta hai aur aapke system par ek .pbip (Power BI Project) folder structure bana deta hai. Isme aapki report ke pages, visuals aur tables ki code-based details hoti hain.
+
+Open .pbip in Desktop (Green Box): Yeh final stage hai jahan aap us banayi hui .pbip file ko open karte hain.
+
+Step-by-Step Workflow (Kaam Kaise Hota Hai):
+
+Step 1: AI ko Command Dena: Aap Claude Code chat interface mein type karte hain ki aapko is data par ek 4-page ya 5-page ki Power BI report banani hai (Briefing).
+
+Step 2: Connection Establish Karna [02:22]: Claude Code MCP Server ka use karke aapke system mein locally khule hue Power BI Desktop ke 'Semantic Model' (aapke loaded data) se connect karta hai.
+
+Step 3: Data Modeling & Coding [03:09]: AI aapke data structure ko samajhta hai. Phir woh apne skills (/powerbi-datamodelling, /powerbi-reporting) ka use karke calculations, relationships aur visual layouts design karta hai.
+
+Step 4: Files Create Karna (PBIP Generation) [03:39]: AI apne aap code likhta hai (JSON aur TMDL files) aur aapke hard disk par ek "PBIP Project" naam ka folder bana deta hai. Is folder mein report banane ka saara backend code likha hota hai.
+
+Step 5: Final Report Open Karna [04:43]: Jab folder ban jata hai, toh user ko bas us .pbip file par double click karke usko Power BI Desktop mein open karna hota hai. Aur boom! Aapke saamne poori dashboard aur visuals automatically ban kar aa jate hain, bina manually drag-and-drop kiye.
+
+sourse = https://www.youtube.com/watch?v=Neb1fCDS5cw&t=446s
+
+I Built a Full Power BI Report Using AI (Without Opening Power BI) | Claude Code Tutorial
+Analytical Guy
+Analytical Guy
+17.6K subscribers
+
+Subscribe
+
+503
+
+
+Share
+
+Ask
+
+Save
+
+25,605 views  30 Mar 2026  #powerbi #agenticai #Futureofpowerbi
+What if you could build a complete Power BI report… without even opening Power BI? 🤯
+
+In this video, I’ll show you how I used Agentic AI with Claude to generate an entire Power BI solution — from defining requirements to building the semantic model and visuals — all through simple prompts.
+
+No manual dragging. No complex setup. Just AI doing the heavy lifting.
+
+This isn’t just a demo… it’s a glimpse into the future of BI development.
+
+⌚Time Stamp:
+00:00 – Introduction: What You’ll Build in This Video
+00:30 – Final Power BI Report Walkthrough (Output Preview)
+01:42 – End-to-End AI Architecture for Full Automation
+06:30 – Getting Started with Claude Code
+08:24 – Creating a Custom Claude Skill (Step-by-Step)
+15:20 – Launching the Agentic AI Workflow
+23:00 – Debugging & Error Handling in the Process
+25:00 – Opening & Exploring the PBIP File
+28:00 – Key Takeaways & Outro
+
+🔥 What You’ll Learn
+How to use Claude Code for Agentic AI workflows
+Convert plain English requirements into a full Power BI report
+Automate semantic model + report creation
+How AI is reshaping the role of a Power BI Developer
+
+🛠️ Tools & Resources
+🤩 Claude: https://claude.com/download
+🚀 Prompts & Resources: https://bit.ly/ClaudeCoworkResources
+📊 Power BI
+
+🎓 Mentoring
+Want to learn this step-by-step or apply it in your work?
+👉 https://topmate.io/analyticalguy
+
+If you found this useful:
+Like 👍 | Share 🔁 | Subscribe 🔔
+
+🔗 Follow My Work
+YouTube: Analytical Guy
+Website: https://analyticalguy.tech
+
+#agenticai #powerbi #Futureofpowerbi
+AI-generated video summary 
+Quality and accuracy may vary. 
+
+Analytical Guy demonstrates an automated workflow integrating Claude Code with Power BI to generate complex reports in minutes. This tutorial covers the necessary architecture, including setting up custom MCP server connections and skills to facilitate seamless data modeling, report scaffolding, and version control using PBIP files directly from a local development environment.
+
+
+
+
+
+
+
+
+Analytical Guy Newsletter
+Join 1,600+ Data Professionals learning Power BI, Fabric & AI workflows
+
+By Atikant Jain · Over 1,000 subscribers
+Type your email...
+Subscribe
+By subscribing, you agree Substack's Terms of Use, and acknowledge its Information Collection Notice and Privacy Policy.
+
+Analytical Guy Newsletter
+Analytical Guy Newsletter
+
+
+How I used Claude AI to Optimize a Power BI Model in 1 Hour (That Normally Take 15 Hours)
+Power BI Performance using Claude
+Atikant Jain
+Apr 29, 2026
+
+Hey Analytical Minds,
+
+I just completed something I thought would take an entire week in just one hour.
+
+Here’s what happened: I connected a Power BI semantic model to Claude AI and ran a comprehensive audit. What I discovered was shocking. The model had critical data quality issues, performance bottlenecks, and organizational problems that would have taken me days to find manually.
+
+The Starting Point
+The “Customer Profitability Sample” model looked fine on the surface:
+
+9 tables
+
+47,646 fact rows
+
+44 measures organized in display folders
+
+8 relationships configured
+
+But underneath, there were serious problems.
+
+The Critical Issues I Found
+Issue #1: 21 Orphaned Customer Keys
+I ran a simple DAX query through Claude: “Find customer keys in the Fact table that don’t exist in the Customer dimension.”
+
+Result: 21 keys were referencing non-existent customers. This meant 1,953 fact rows were broken—they weren’t properly linked to any customer. Any report filtering by customer would give incomplete results.
+
+Traditional approach: Manually compare the two tables, identify missing keys, decide how to handle them. Maybe 3-4 hours of work.
+
+Claude approach: Identify the problem, suggest the fix, execute it. 10 minutes.
+
+Watch the Practical Video Guide Now:
+
+
+
+Issue #2: Data Type Mismatches
+I discovered that:
+
+Fact[Product Key] was String, but Product[Product Key] was Int64
+
+Customer[Industry ID] was String, but Industry[ID] was Int64
+
+These type mismatches force SQL to convert data types on every join. That’s a 15-20% performance penalty on every Product filter. Hidden but costly.
+
+Issue #3: Sparse Columns
+Three columns had 99%+ zeros:
+
+Material Costs: 99.97% zeros (47,630 empty rows out of 47,646)
+
+Taxes: 99.96% zeros
+
+Subscription Revenue: 99.78% zeros
+
+These were wasting storage space and cluttering the field picker with essentially unusable data.
+
+How Claude AI Solved This
+Instead of manually fixing each issue, I used Claude to:
+
+Audit automatically - Identify all problems in one pass
+
+Generate code - Create the fixes in TMDL (the semantic model language)
+
+Execute changes - Apply fixes to the live model
+
+Validate results - Verify 100% data integrity
+
+The Fixes
+Fix #1: Add Unknown Customers
+I asked Claude to add 21 “Unknown Customer” records for the orphaned keys. This took 5 minutes. The 1,953 broken rows now properly link to customers.
+
+Fix #2: Align Data Types
+Changed Product Key from String to Int64. Changed Industry ID from String to Int64. Both now align with their dimension tables.
+
+Impact: 15-20% faster queries on Product and Industry filters.
+
+Fix #3: Delete Sparse Columns
+Removed Material Costs, Taxes, and Subscription Revenue columns. Also deleted 3 measures that only summed zeros.
+
+Impact: 300 KB storage saved, cleaner field picker, zero functional loss.
+
+The Results
+Before optimization:
+
+Data integrity: ~96% (21 orphaned keys)
+
+Type mismatches: 2 (performance penalty)
+
+Sparse columns: 3 (wasted space)
+
+Documentation: None
+
+After optimization:
+
+Data integrity: 100% ✓
+
+Type consistency: 100% ✓
+
+Sparse data: Removed ✓
+
+Performance: +15-20% ✓
+
+Documentation: Complete ✓
+
+The Time Comparison
+Typical optimization work:
+
+Audit: 4-6 hours
+
+Data quality fixes: 3-4 hours
+
+Type corrections: 2-3 hours
+
+Documentation: 2-3 hours
+
+Total: 11-16 hours
+
+With Claude AI:
+
+Audit: 15 minutes
+
+Fixes: 20 minutes
+
+Validation: 20 minutes
+
+Documentation: 5 minutes
+
+Total: 1 hour
+
+That’s 14-15x faster.
+
+What I Learned
+AI isn’t replacing BI professionals. It’s eliminating the tedious parts so you can focus on strategy.
+
+What Claude handled:
+
+Pattern recognition (finding orphaned keys)
+
+Code generation (TMDL edits)
+
+Validation (checking all relationships)
+
+Documentation (creating reference guides)
+
+What I handled:
+
+Strategic decisions (which columns to delete)
+
+Quality judgment (validating findings)
+
+Final reviews (ensuring correctness)
+
+The Best Part
+Every change is version-controlled. The entire model is defined in TMDL (text-based), so I can see exactly what changed, when, and why. This is reproducible, auditable, and maintainable.
+
+Resources Used:
+Drive Link
+
+If You Work With Power BI
+Ask yourself:
+
+How many hours are you spending on manual audits?
+
+How many data quality issues are you missing?
+
+How long does it take to document your models?
+
+How often do you fix performance issues?
+
+Claude AI can handle all of this. Not perfectly—it still needs human judgment—but fast enough to change how you work.
+
+What’s Next
+I’m building out this workflow into a full optimization framework. Next: implementing this for larger models (500K+ rows) and exploring how to automate ongoing monitoring.
+
+If you want to try this yourself, here’s what you need:
+
+Power BI Desktop (running locally)
+
+Claude AI access (API or web interface)
+
+Basic understanding of Power BI concepts
+
+2 hours of time
+
+The ROI is immediate.
+
+Questions? Drop them in the comments. I’ll be working on advanced DAX optimization next—what topics would you like to see?
+
+Stay Updated
+Subscribe for more practical guides on data analytics, AI tools, and building a high-value analyst career.
+
+Stay analytical. Stay curious.
+
+Atikant Jain
+Your Analytical Guy
+admin@analyticalguy.tech
+
+Subscribe to Analytical Guy Newsletter
+By Atikant Jain · Launched 2 years ago
+Join 1,600+ Data Professionals learning Power BI, Fabric & AI workflows
+Type your email...
+Subscribe
+By subscribing, you agree Substack's Terms of Use, and acknowledge its Information Collection Notice and Privacy Policy.
+1 Like
+Discussion about this post
+Write a comment...
+
+Fully Automating Power BI Development Using Claude
+Step into the future of BI: full report automation using AI
+Mar 30 • Atikant Jain
+
+3
+
+5
+
+
+
+Mastering the Art of Matrix Visuals in Microsoft Power BI
+Data Visualization Series
+Dec 8, 2024 • Atikant Jain
+
+2
+
+
+
+
+The 5 Levels of AI Users (Which One Are You?)
+Become AI Ready
+Feb 4 • Atikant Jain
+
+3
+
+
+1
+
+Ready for more?
+Type your email...
+Subscribe
+© 2026 Atikant Jain · Privacy ∙ Terms ∙ Collection notice
+Start your Substack
+Get the app
+Substack is the home for great culture
+Contents
+The Starting Point
+The Critical Issues I Found
+Issue #1: 21 Orphaned Customer Keys
+Issue #2: Data Type Mismatches
+Issue #3: Sparse Columns
+How Claude AI Solved This
+The Fixes
+Fix #1: Add Unknown Customers
+Fix #2: Align Data Types
+Fix #3: Delete Sparse Columns
+The Results
+The Time Comparison
+What I Learned
+The Best Part
+Resources Used:
+If You Work With Power BI
+What’s Next
+Stay Updated
+
+2nd = https://www.youtube.com/watch?v=30gwRfbvqhU
+
+Claude AI in Power BI 🚀 | Full Setup + Real-Time Use Case | Stop Using Power BI Alone! #powerbi
+Data Tutorials
+Data Tutorials
+2.31 lakh subscribers
+
+Join
+
+
+436
+
+
+Share
+
+Ask
+
+Save
+
+17,213 views  31 Mar 2026  Power BI Dashboard | Various Domains | Start to End | Power BI Project Start to End 2025 Edition
+#powerbi #claude #aivideo #fabric
+
+Packages Course-
+⭐ SQL Complete Course - https://topmate.io/data_tutorials/197...
+⭐ SQL + 3 SQL Projects + Power BI + Power BI DAX + 21 Power BI Projects + All Materials - https://topmate.io/data_tutorials/198...
+⭐ Power BI Course + DAX Course + 20 Power BI Projects Video Course - https://topmate.io/data_tutorials/185...
+Individual Courses-
+⭐ Power BI Complete Video Course - Basic to Advanced - https://topmate.io/data_tutorials/185...
+⭐ Power BI DAX - Complete Video Course - https://topmate.io/data_tutorials/184...
+⭐ Power BI Project Video Course - 21 Projects - https://topmate.io/data_tutorials/182...
+⭐ Tableau Projects Video Course - 10 Unique Projects - https://topmate.io/data_tutorials/183...
+More Courses on other Data Aanlyst Tools-
+⭐ For Important Data Analyst Materials and Projects in Power BI, Tableau, Excel, SQL visit my website - https://topmate.io/data_tutorials/
+
+💻 Download Data & Notepad file - https://drive.google.com/drive/folder...
+
+Want to take your Power BI dashboards to the next level with AI? In this video, you’ll learn how to integrate Claude AI with Power BI and use it in real-world scenarios to enhance your data analysis and decision-making.
+
+This is a step-by-step practical guide where we not only set up Claude AI but also apply it on a real-time use case so you can understand how it works in actual business scenarios.
+
+💡 What You’ll Learn:
+✔️ How to set up Claude AI with Power BI
+✔️ Connecting AI with your data model
+✔️ Real-time application using live data
+✔️ Practical use cases for data analysts
+✔️ Tips to improve insights using AI
+
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+Checkout my other videos on dashboards design in Tableau, Power BI and Excel below-
+
+✅Data Analyst Portfolio Projects -    • SQL & Excel Portfolio Project | Data Analy...  
+
+✅Power BI Projects -    • Power BI Dashboard from Start to End (Part...  
+
+✅Power BI Tutorial -    • Data Modeling in Power BI | Power BI Tutor...  
+
+✅Python Projects -    • Data Analysis Python Project | Real Time S...  
+
+✅Tableau Projects -    • Tableau Dashboard from Start to End (Part ...  
+
+✅Excel Projects -    • Dynamic Excel Dashboard from Start to End ...  
+
+✅SQL Projects -    • Data Analysis SQL Project | Complete SQL p...  
+
+✅Power BI Interview Questions with Answers -    • Power BI Scenario based interview question...  
+
+✅Tableau Interview Questions with Answers -    • Tableau Scenario Based Interview Questions...  
+=
+
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+Reach out to me for any personal or Business related Dashboard/ Report development on my email- swapnjeet555@gmail.com
+WhatsApp - +91 9579005495
+
+
+
+
+
+
+Related keywords:
+power bi,claude ai,power bi ai integration,claude ai power bi,power bi tutorial,ai in power bi,power bi dashboard,business intelligence,data analytics,power bi for beginners,power bi 2026,ai tools for data analysts,generative ai power bi,claude ai tutorial,power bi project,real time power bi project,data analyst skills,power bi dax,microsoft power bi,power bi tips,data science,automation in power bi,power bi use cases,ai dashboards,ai,fabric,sql
+microsoft fabric, microsoft fabric tutorial, microsoft fabric project, power bi project, sql project, microsoft fabric power bi, fabric capstone project, data analyst project, power bi portfolio project, microsoft fabric for beginners, fabric data warehouse, fabric lakehouse tutorial, end to end data analytics project, data analytics project 2026, power bi dashboard project, sql for data analysis, fabric semantic model, power bi report tutorial, real world data analyst project, microsoft fabric full project, data analyst portfolio project
+power bi complete course,complete power bi course,complete course power bi,complete power bi course for data analyst,complete power bi project,power bi dax functions with examples,dax in power bi with examples,complete power bi tutorial for beginners,power bi projects,power bi course for beginners,power bi service,microsoft power bi course,power bi complete tutorial,power bi full course playlist,how to use power bi dax,power bi desktop course,swapnjeet,power bi
+power bi dax interview questions freshers
+fabric,microsoft fabric,power bi,sql project,data analytics,data engineering,business intelligence,capstone project,data analysis,power bi dashboard,sql tutorial,data visualization,etl,data modeling,dax,power query,azure fabric,analytics project,data science,dashboard design,data warehouse,real world project,swapnjeet,data tutorials,sql,ms sql server,power bi project,data analyst project,dashboard project,excel,data factory,data engineeri
+AI-generated video summary 
+Quality and accuracy may vary. 
+
+Data Tutorials guides viewers through the entire setup process for integrating Anthropic's Claude AI into Power BI using the Model Context Protocol (MCP) server. The tutorial covers installing the necessary software, configuring Visual Studio Code extensions, and demonstrates creating complex data models and DAX calculations using natural language prompts.
+
+
+
