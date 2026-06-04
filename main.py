@@ -43,20 +43,20 @@ def run_pipeline(csv_path: str = None, send_mail: bool = True) -> dict:
         return {"error": "CSV not found"}
 
     # -- Step 1: Clean Data
-    print("\n[STEP 1/5] DATA CLEANING")
+    print("\n[STEP 1/6] DATA CLEANING")
     from src.clean_data import clean_data
     clean_result = clean_data(input_path=csv_path, output_path=CLEANED_CSV)
     results["cleaned_csv"] = clean_result.get("output_path")
 
     # -- Step 2: Generate Insights
-    print("\n[STEP 2/5] AI INSIGHTS GENERATION")
+    print("\n[STEP 2/6] AI INSIGHTS GENERATION")
     from src.insights import generate_insights
     insights = generate_insights(input_path=CLEANED_CSV, output_path=INSIGHTS_JSON)
     results["insights_json"] = str(INSIGHTS_JSON)
     results["ai_source"]     = insights.get("ai_insights_source", "Unknown")
 
     # -- Step 3: Create Dashboard
-    print("\n[STEP 3/5] DASHBOARD CREATION")
+    print("\n[STEP 3/6] DASHBOARD CREATION")
     from src.dashboard import create_dashboard
     dash_path = create_dashboard(insights_path=INSIGHTS_JSON, output_path=DASHBOARD_HTML)
     results["dashboard_html"] = dash_path

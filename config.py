@@ -3,6 +3,10 @@ AI-Powered Sales Analytics -- Configuration File
 """
 import os
 import pathlib
+from dotenv import load_dotenv
+
+# Load .env file (so API keys are read automatically)
+load_dotenv(pathlib.Path(__file__).parent / ".env")
 
 # ─────────────────────────────────────────────
 #  API KEYS

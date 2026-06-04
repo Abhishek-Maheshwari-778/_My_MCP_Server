@@ -1,0 +1,15 @@
+{
+    "version": "0.1",
+    "connections": [
+        {
+            "details": {
+                "protocol": "file",
+                "address": {
+                    "path": "C:\\Users\\princ\\Downloads\\mcp server pbi\\data\\cleaned_sales.csv"
+                }
+            },
+            "options": {},
+            "mode": "Import"
+        }
+    ]
+}
