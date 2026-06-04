@@ -5,6 +5,7 @@ Insights Generator
 - Saves insights.json
 """
 import sys
+import os
 import json
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -104,10 +105,28 @@ def generate_insights(input_path=None, output_path=None) -> dict:
     print(f"  Top Region    : {top_region}")
     print(f"  Best Month    : {best_month}")
 
-    print(f"\n  Calling AI engine (multi-model fallback)...")
-    ai_result = generate_ai_insights(data_summary)
+    domain = os.environ.get("DATA_DOMAIN", "Sales")
+    
+    # Custom prompt based on domain
+    prompt = f"""You are a senior {domain} data analyst. Analyze this {domain} data and give 6-8 specific, actionable bullet-point insights:
+
+Data Summary:
+- Total Value 1 (Sales/Volume/Cost): Rs.{total_sales:,.2f}
+- Total Value 2 (Profit/PnL/Recovery): Rs.{total_profit:,.2f}
+- Margin/Rate: {profit_margin}%
+- Total Records: {total_orders:,}
+- Top Item/Condition/Ticker: {top_product}
+- Top Region/Hospital/Exchange: {top_region}
+- Best Month: {best_month}
+- Top Category: {top_category}
+
+Give actionable bullet-point insights tailored to the {domain} industry. Be specific and reference the numbers."""
+
+    print(f"\n  Calling AI engine (multi-model fallback) for {domain}...")
+    ai_result = generate_ai_insights(data_summary, prompt=prompt)
     data_summary["ai_insights"]        = ai_result["text"]
     data_summary["ai_insights_source"] = ai_result["source"]
+    data_summary["domain"]             = domain
 
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(data_summary, f, indent=2, ensure_ascii=False)

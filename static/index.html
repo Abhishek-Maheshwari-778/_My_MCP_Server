@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Analytics Platform</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">
+      <span class="icon">⚡</span>
+      <h1>AI Data Analytics</h1>
+    </div>
+    <nav class="nav-links">
+      <button class="nav-link active" id="navAppBtn">Application</button>
+      <button class="nav-link" id="navAboutBtn">About</button>
+    </nav>
+    <div class="domain-selector">
+      <label>Domain:</label>
+      <select id="domainSelect">
+        <option value="Sales">📈 Sales</option>
+        <option value="Health">🏥 Health</option>
+        <option value="Trading">💹 Trading</option>
+      </select>
+    </div>
+  </header>
+
+  <!-- APP VIEW -->
+  <main class="container" id="appView">
+    
+    <!-- Upload Section -->
+    <section class="card upload-section">
+      <div class="card-header">
+        <h2>1. Upload Data</h2>
+        <p>Drop your CSV or Excel file here</p>
+      </div>
+      <div class="drop-zone" id="dropZone">
+        <div class="drop-icon">📁</div>
+        <p>Drag & Drop or <span class="browse-link" id="browseBtn">Browse</span></p>
+        <input type="file" id="fileInput" accept=".csv, .xlsx, .xls" hidden />
+        <div class="file-name" id="fileName">No file selected</div>
+      </div>
+    </section>
+
+    <!-- Configuration Section -->
+    <section class="card config-section">
+      <div class="card-header">
+        <h2>2. Configuration</h2>
+        <p>Set your AI and Email settings</p>
+      </div>
+      <form id="configForm">
+        <div class="form-group">
+          <label>NVIDIA NIM API Key</label>
+          <input type="password" id="nvidiaKey" placeholder="nvapi-..." />
+        </div>
+        <div class="form-group">
+          <label>Groq API Key</label>
+          <input type="password" id="groqKey" placeholder="gsk_..." />
+        </div>
+        <div class="form-group">
+          <label>DeepSeek API Key</label>
+          <input type="password" id="deepseekKey" placeholder="sk-..." />
+        </div>
+        <div class="form-group">
+          <label>Email Sender (Gmail)</label>
+          <input type="email" id="emailSender" placeholder="you@gmail.com" />
+        </div>
+        <div class="form-group">
+          <label>Email App Password</label>
+          <input type="password" id="emailPassword" placeholder="16 chars" />
+        </div>
+        <div class="form-group">
+          <label>Email Receiver</label>
+          <input type="email" id="emailReceiver" placeholder="receiver@email.com" />
+        </div>
+        <button type="submit" class="btn btn-secondary">Save Settings</button>
+      </form>
+    </section>
+
+    <!-- Run Pipeline Section -->
+    <section class="card run-section">
+      <div class="card-header">
+        <h2>3. Run Analytics</h2>
+        <p>Process data, generate insights, and dashboard</p>
+      </div>
+      
+      <div class="options">
+        <label class="checkbox-container">
+          <input type="checkbox" id="sendEmailCheck" />
+          <span class="checkmark"></span>
+          Send Email Report when done
+        </label>
+      </div>
+      
+      <button id="runBtn" class="btn btn-primary btn-large">
+        <span class="btn-text">Run Pipeline 🚀</span>
+        <span class="loader" style="display:none;"></span>
+      </button>
+
+      <div class="status-box" id="statusBox" style="display:none;">
+        <p id="statusText">Processing...</p>
+        <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+      </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="card results-section" id="resultsSection" style="display:none;">
+      <div class="card-header">
+        <h2>🎉 Results Ready!</h2>
+        <p>Your pipeline completed successfully.</p>
+      </div>
+      <div class="action-grid">
+        <a href="/api/download/dashboard" target="_blank" class="action-card">
+          <div class="action-icon">📊</div>
+          <h3>Open Dashboard</h3>
+          <p>View interactive HTML dashboard</p>
+        </a>
+        <a href="/api/download/report" target="_blank" class="action-card">
+          <div class="action-icon">📄</div>
+          <h3>Download PDF</h3>
+          <p>Get the AI generated report</p>
+        </a>
+        <a href="/api/download/csv" target="_blank" class="action-card">
+          <div class="action-icon">🧹</div>
+          <h3>Cleaned Data</h3>
+          <p>Download the cleaned dataset</p>
+        </a>
+        <a href="/api/download/pbids" target="_blank" class="action-card">
+          <div class="action-icon">🟡</div>
+          <h3>Power BI</h3>
+          <p>Instant PBI Connection</p>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ABOUT VIEW -->
+  <main class="container about-container" id="aboutView" style="display:none;">
+    <section class="card">
+      <div class="card-header">
+        <h2>ℹ️ About This Project</h2>
+        <p>Zero-Touch AI Analytics Automation</p>
+      </div>
+      <div class="about-content">
+        <h3>How It Works</h3>
+        <p>This system replaces manual Power BI work. By simply dropping a CSV or Excel file into the directory (or uploading via the UI), the pipeline is triggered:</p>
+        <ol>
+          <li><strong>Data Cleaning:</strong> Automatically standardizes columns based on your selected domain, removes nulls, and fixes formats.</li>
+          <li><strong>AI Insights:</strong> Sends the aggregated data to Llama 3 (via NVIDIA/Groq) or DeepSeek to generate human-readable business insights.</li>
+          <li><strong>Interactive Dashboard:</strong> Generates a completely standalone, zero-login interactive HTML dashboard with Slicers, Drill-down, and Multi-page capabilities.</li>
+          <li><strong>PBI Integration:</strong> Creates an optimized `.pbids` file so you can instantly open the cleaned data in Power BI if needed.</li>
+          <li><strong>Delivery:</strong> Automatically generates a PDF report and emails it to the stakeholders.</li>
+        </ol>
+
+        <h3>What is an MCP Server?</h3>
+        <p>This project doubles as a Model Context Protocol (MCP) server. MCP allows AI Assistants (like Claude Desktop) to connect directly to this pipeline. You can literally ask your AI: <em>"Analyze today's sales data and email the boss"</em>, and the AI will trigger the tools defined in this system to perform the action natively on your PC.</p>
+
+        <h3>Developer & Mentor</h3>
+        <div class="dev-card">
+          <h4>Abhishek Maheshwari (Developer)</h4>
+          <p>This pipeline was engineered to showcase advanced AI agentic workflows, combining Multi-Model LLMs, Python Data Engineering, and Premium Frontend Design into a single, cohesive Local-First architecture.</p>
+        </div>
+        <div class="dev-card" style="margin-top: 10px;">
+          <h4>Harshit Varshney (Mentor)</h4>
+          <p>Google, IBM, and HubSpot Certified.</p>
+          <p><a href="https://www.linkedin.com/in/harshit-varshney-google-ibm-and-hubspot-certified-28b78818b/" target="_blank" style="color: var(--accent-1);">LinkedIn Profile</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

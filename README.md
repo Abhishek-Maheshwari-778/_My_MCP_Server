@@ -244,3 +244,26 @@ AI-Powered Sales Analytics Automation using MCP Server
 ---
 
 *Built with ❤️ — No Power BI login required. Works 100% locally.*
+
+---
+
+## 🌐 Web Interface (Addon)
+
+A new interactive web interface is available!
+
+1. Run python app.py
+2. Open http://localhost:8000
+3. Enjoy **Drag & Drop** uploads, **Multi-Domain** support (Sales, Health, Trading), and automatic saving of API keys.
+
+---
+
+## 🟡 Power BI Integration (.pbids)
+
+The pipeline now automatically generates an optimized .pbids file. Double-clicking this file opens Power BI instantly connected to your clean data, allowing you to bypass Power Query entirely.
+
+---
+
+## 👨‍💻 About the Developers
+
+- **Abhishek Maheshwari (Developer)**: Engineered this pipeline to showcase advanced AI agentic workflows, multi-model LLMs, and Python data engineering.
+- **Harshit Varshney (Mentor)**: Google, IBM, and HubSpot Certified. [LinkedIn Profile](https://www.linkedin.com/in/harshit-varshney-google-ibm-and-hubspot-certified-28b78818b/)

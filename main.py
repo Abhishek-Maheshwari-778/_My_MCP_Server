@@ -62,13 +62,19 @@ def run_pipeline(csv_path: str = None, send_mail: bool = True) -> dict:
     results["dashboard_html"] = dash_path
 
     # -- Step 4: Export PDF
-    print("\n[STEP 4/5] PDF REPORT EXPORT")
+    print("\n[STEP 4/6] PDF REPORT EXPORT")
     from src.export_pdf import export_pdf
     pdf_path = export_pdf(insights_path=INSIGHTS_JSON, output_path=REPORT_PDF)
     results["report_pdf"] = pdf_path
 
-    # -- Step 5: Send Email (optional)
-    print("\n[STEP 5/5] EMAIL DELIVERY")
+    # -- Step 5: Export PBI Connector
+    print("\n[STEP 5/6] POWER BI CONNECTOR")
+    from src.pbi_export import generate_pbi_export
+    pbids_path = generate_pbi_export()
+    results["pbids"] = pbids_path
+
+    # -- Step 6: Send Email (optional)
+    print("\n[STEP 6/6] EMAIL DELIVERY")
     if send_mail:
         from src.send_email import send_email
         results["email_sent"] = send_email(pdf_path=pdf_path)
